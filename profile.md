@@ -1,38 +1,24 @@
-# Antoine Lecouturier — Sales Profile
+# Antoine Lecouturier — Agent Context
 
-## 👤 Name
-Antoine Lecouturier
+## Role
+Account Executive @ CUBE.AI (Apex platform — money mule detection)
+Territory: France, Belgium, Luxembourg, Switzerland, Italy
 
----
+## Active Accounts
+BNP Paribas (BCEF), Bunq, Dukascopy, Treezor, La Banque Postale, LCL/B4Bank, Belfius, Lydia/Sumeria, Swissquote, BetClick
 
-## 🌍 Territory
-- France
-- Belgium
-- Luxembourg
-- Switzerland
-- Italy
+## Core Product
+Apex detects active mule accounts 50+ days before internal bank signals, 90–150 days before IBAN appearance in MISP/FNC-RF registries. Key proof point: 61% mule hit rate, 70% no-internal-alarm benchmark.
 
----
+## Sales Style
+Yellow/Influencer profile. Indirect, question-driven framing. Zero tolerance for filler. Prefers to be challenged before execution.
 
-## 🏦 Top 5 Accounts
-1. BNP Paribas
-2. Crédit Agricole
-3. Société Générale
-4. Groupe BPCE (Natixis / Banque Populaire / Caisse d'Épargne)
-5. Crédit Mutuel
+## Claude Desktop — Logging Instructions
+After any session where a skill, output, or workflow produced a notable result (success or failure), write a log entry to /logs/claude-observations.md using this format:
 
----
+[OBSERVE] date: YYYY-MM-DD | task: <description> | outcome: success/partial/failure | detail: <one sentence>
 
-## 🎨 Sales Style — Yellow Profile
-Antoine is a **"Yellow"** personality (Insights Discovery / DISC Influencer type):
-- 😄 Naturally optimistic and in a **great mood** — energy is contagious
-- 🤝 Builds strong **relationships** quickly; people-first approach
-- 💬 Communicates with **enthusiasm and warmth**; great at storytelling
-- 🚀 Motivated by **new opportunities**, challenges, and recognition
-- 🎯 Sells through **trust and connection** rather than hard pitch
-- ⚡ Thrives in dynamic environments; adapts fast
-- 💡 Brings creativity and positivity into every client interaction
+Do not log routine conversational exchanges. Log only when something is worth Tasklet agents knowing.
 
----
-
-*Last updated: March 2026*
+## Last updated
+March 2026
