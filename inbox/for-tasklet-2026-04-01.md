@@ -1,4 +1,4 @@
-# Test Inbox — Claude → Tasklet
+[DONE] # Test Inbox — Claude → Tasklet
 date: 2026-04-01
 
 ## Instruction de test
