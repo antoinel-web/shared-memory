@@ -27,6 +27,7 @@ Go to the field (Gmail, Granola, Calendar, Slack, LinkedIn...), extract relevant
 - **Pipeline Scan** — Scans Gmail + Granola + Calendar + Slack weekly, scores MEDDPICC, proposes Salesforce updates. Writes: Salesforce (after validation).
 - **Meeting Echo** — Transforms Granola meeting transcripts into follow-up email drafts. Writes: Gmail drafts. **Must log every draft produced** in `logs/drafts/meeting-echo-YYYY-MM-DD.md` for Feedback Collector consumption.
 - **Feedback Collector** — Compares agent proposals (logged drafts) with Antoine's actual actions (Gmail sent). Categorizes deltas and writes structured feedback. Phase 1: emails only (Forge v2 + Meeting Echo). Phase 2 auto-detected: presentations + Deal Pulse corrections. Reads: `logs/drafts/` (GitHub), Gmail sent. Writes: `state/feedback-log-latest.md` (14-day sliding window), `logs/feedback-trends.md` (append-only trend aggregation). Schedule: daily, evening.
+- **Daily Data Logger** — Reads Gmail + Granola daily, classifies emails and calls by client/domain, writes structured contact files to Drive, sends classification request emails to Antoine for unrecognized domains. Schedule: daily.
 
 **Rules for collecteurs:**
 - Always cite the source (permalink, message-id, event-id) for every piece of data written.
@@ -189,6 +190,7 @@ Architecture ref: https://github.com/antoinel-web/shared-memory/blob/main/contex
 | Pipeline Scan | Collecteur | Active | Gmail, Granola, Calendar, Slack, Salesforce | Salesforce (after validation) |
 | Meeting Echo | Collecteur | Active | Granola | Gmail drafts, logs/drafts/meeting-echo-YYYY-MM-DD.md |
 | Feedback Collector | Collecteur | Active (Phase 1) | logs/drafts/ (GitHub), Gmail sent, [Phase 2: presentations logs, inbox/deal-pulse/] | state/feedback-log-latest.md, logs/feedback-trends.md |
+| Daily Data Logger | Collecteur | Active | Gmail, Granola | Drive files, classification emails to Antoine |
 | Deal Pulse | Panneau | Active | Salesforce | state/pipeline-state-latest.md |
 | Follow-Up Forge v2 | Exécutant | Active | state/pipeline-state-latest.md, state/feedback-log-latest.md, Gmail, Granola, Calendar | Gmail drafts, logs/drafts/forge-v2-YYYY-MM-DD.md |
 | AE Salesforce Operator | Exécutant | Active | Slack, Gmail, Granola, Calendar, Salesforce | Salesforce (opps + tasks), Slack (#sales-inbox) |
