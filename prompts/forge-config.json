@@ -1,0 +1,69 @@
+{
+  "_comment": "Follow-Up Forge v2 runtime config. Edit flags here to adjust behavior without touching subagents.",
+  "version": "2.0",
+  "owner": "antoinel@cube3.ai",
+
+  "run": {
+    "draft_cap_per_run": 10,
+    "timezone": "Europe/Paris",
+    "dry_run": false,
+    "skip_ooo_check": false,
+    "skip_holiday_check": false,
+    "skip_learning_loop": false
+  },
+
+  "deal_pulse": {
+    "mechanism": "github",
+    "github_repo_owner": "antoinel-web",
+    "github_repo": "shared-memory",
+    "github_path": "state/pipeline-state-latest.md",
+    "staleness_hours": 24
+  },
+
+  "meeting_echo": {
+    "wait_business_days": 5,
+    "detection_method": "check_agent_output_by_deal_name"
+  },
+
+  "notifications": {
+    "alert_email": "antoinel@cube3.ai",
+    "send_divergence_email": true,
+    "send_error_email": true,
+    "send_deal_pulse_stale_email": true
+  },
+
+  "style_profile": {
+    "cache_path": "/agent/home/follow-up-forge-v2/style_profile.json",
+    "refresh_after_days": 7,
+    "emails_to_scan": 20
+  },
+
+  "connections": {
+    "gmail": "conn_k0t1758ymakkc329yyvp",
+    "granola": "conn_a6kdbz33vpd2ed5np1g9",
+    "salesforce": "conn_gezqj3ebq09rrpzsmey8",
+    "slack": "conn_3c0rm7dd5dh7864y39jd",
+    "google_calendar": "conn_tpfxd4qqwq1f23rsxzqt",
+    "google_drive": "conn_v1mbff73hy3vh3f013he",
+    "bigquery": "conn_3n3cpcawq8wtjcevtnw6",
+    "github": "conn_dpcxmh9hg0wppated7kq"
+  },
+
+  "bigquery": {
+    "project_id": "production-20230612",
+    "dataset": "apex_for_statistics",
+    "table": "actual_financial_institutions"
+  },
+
+  "slack": {
+    "channel_patterns": ["#internal-*", "#customer-*"],
+    "note": "Same convention as Pipeline Scan. Internal context only — never quoted in emails."
+  },
+  "cc_logic": {
+    "method": "calendar_dynamic",
+    "domain": "@cube3.ai",
+    "exclude": ["antoinel@cube3.ai"],
+    "fallback_emails": ["jonathana@cube3.ai", "slayh@cube3.ai", "ugol@cube3.ai"],
+    "note": "CC = @cube3.ai attendees in the deal's Calendar invite, excluding Antoine. Fallback to Jonathan/Slay/Ugo only if no Calendar invite found for the deal."
+  }
+}
