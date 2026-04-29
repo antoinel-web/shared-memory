@@ -1,6 +1,6 @@
 # Agent Architecture — Reference Document
 *Canonical source of truth for the multi-agent system. All agents read this.*
-*Last updated: 2026-04-24*
+*Last updated: 2026-04-29*
 
 ---
 
@@ -25,8 +25,8 @@ Go to the field (Gmail, Granola, Calendar, Slack, LinkedIn...), extract relevant
 
 **Current agents:**
 - **Pipeline Scan** — Scans Gmail + Granola + Calendar + Slack weekly, scores MEDDPICC, proposes Salesforce updates. Writes: Salesforce (after validation).
-- **Meeting Echo** — Transforms Granola meeting transcripts into follow-up email drafts. Writes: Gmail drafts.
-- **Feedback Collector** *(to build)* — Compares agent proposals with Antoine's actual actions. Reads: Gmail sent, Salesforce audit trail, agent outputs. Writes: `state/feedback-log-latest.md`.
+- **Meeting Echo** — Transforms Granola meeting transcripts into follow-up email drafts. Writes: Gmail drafts. **Must log every draft produced** in `logs/drafts/meeting-echo-YYYY-MM-DD.md` for Feedback Collector consumption.
+- **Feedback Collector** — Compares agent proposals (logged drafts) with Antoine's actual actions (Gmail sent). Categorizes deltas and writes structured feedback. Phase 1: emails only (Forge v2 + Meeting Echo). Phase 2 auto-detected: presentations + Deal Pulse corrections. Reads: `logs/drafts/` (GitHub), Gmail sent. Writes: `state/feedback-log-latest.md` (14-day sliding window), `logs/feedback-trends.md` (append-only trend aggregation). Schedule: daily, evening.
 
 **Rules for collecteurs:**
 - Always cite the source (permalink, message-id, event-id) for every piece of data written.
@@ -40,7 +40,7 @@ Long-term memory. Three stores, each with a distinct scope:
 |---|---|---|
 | Salesforce | Structured client data (MEDDPICC, stages, amounts, contacts) | Active |
 | Client database | Unstructured context (transcripts, emails, meeting notes) | Future |
-| Feedback log | Deltas between agent proposals and Antoine's real actions | To build |
+| Feedback log | Deltas between agent proposals and Antoine's real actions (14-day sliding window) | Active |
 
 ### Panneau de signalisation
 Reads bases de vérité, publishes a consolidated view of pipeline state. Does NOT give orders — agents downstream decide autonomously what to act on.
@@ -57,14 +57,15 @@ Reads bases de vérité, publishes a consolidated view of pipeline state. Does N
 Read the panneau, enrich with primary sources, produce a deliverable. Each exécutant decides autonomously which deals to act on based on the panneau + its own rules.
 
 **Current agents:**
-- **Follow-Up Forge v2** — Reads Deal Pulse, enriches via Gmail/Granola/Calendar, produces contextual follow-up email drafts. Writes: Gmail drafts.
+- **Follow-Up Forge v2** — Reads Deal Pulse + `state/feedback-log-latest.md` (to learn from past deltas), enriches via Gmail/Granola/Calendar, produces contextual follow-up email drafts. Writes: Gmail drafts. **Must log every draft produced** in `logs/drafts/forge-v2-YYYY-MM-DD.md` for Feedback Collector consumption.
 
 **Future agents (reserved slots):**
-- **Coach** — Pre-meeting briefs with compiled context.
+- **Coach** — Pre-meeting briefs with compiled context + call analysis.
 - **Débloqueur** — Reactivation strategies for stalled deals.
 
 **Rules for exécutants:**
 - Always read `state/pipeline-state-latest.md` as primary input.
+- Always read `state/feedback-log-latest.md` before producing output, to learn from recent deltas.
 - Check `published_at` in the header. Apply your own staleness tolerance (e.g. Forge v2: reject if > 24h).
 - Enrich with primary sources (Gmail, Granola, Calendar) for the details needed to produce your deliverable. The panneau carries what's needed to DECIDE. You carry what's needed to ACT.
 - Never write to Salesforce. Never write to `state/`. Errors found go to `inbox/for-deal-pulse-YYYY-MM-DD.md`.
@@ -100,7 +101,8 @@ Reads everything (state, inbox, feedback log, logs), produces improvement propos
 ```
 state/
 ├── pipeline-state-latest.md        (Deal Pulse publishes, everyone reads)
-├── feedback-log-latest.md          (Feedback Collector publishes, Enhancer reads)
+├── feedback-log-latest.md          (Feedback Collector publishes, 14-day sliding window)
+│                                    (Forge v2 + Meeting Echo read before each run)
 ├── current/                        (dated daily copies, audit only)
 │   ├── pipeline-state-YYYY-MM-DD.md
 │   └── feedback-log-YYYY-MM-DD.md
@@ -132,16 +134,33 @@ inbox/
 ├── for-antoine-YYYY-MM-DD.md       (escalations, proposals, alerts)
 ├── for-deal-pulse-YYYY-MM-DD.md    (error reports from consumers)
 ├── for-feedback-collector-YYYY-MM-DD.md  (signals from exécutants)
-└── for-enhancer-YYYY-MM-DD.md      (breaking changes, anomalies)
+├── for-enhancer-YYYY-MM-DD.md      (breaking changes, anomalies)
+└── deal-pulse/                     (Antoine's explicit corrections on Deal Pulse output)
 ```
 
 **Rules:**
 - Use only for exceptions, escalations, and error reports.
 - Never use for regular data flow (that goes through `state/`).
 - Any agent can write. Only the named recipient reads.
+- `inbox/deal-pulse/` is a special folder: Antoine writes corrections, Feedback Collector reads (Phase 2).
 
 ### logs/ — Historical record
 Observations, digests, execution traces. Append-only. No agent depends on logs for its core workflow — logs are for debugging and for the Enhancer.
+
+```
+logs/
+├── drafts/                          (agent output logging for Feedback Collector)
+│   ├── forge-v2-YYYY-MM-DD.md      (Forge v2 logs each draft produced)
+│   ├── meeting-echo-YYYY-MM-DD.md  (Meeting Echo logs each draft produced)
+│   └── presentations/              (Phase 2: Claude project logs presentation iterations)
+│       └── [client]-YYYY-MM-DD.md
+├── feedback-trends.md              (append-only trend aggregation from Feedback Collector)
+├── activity-[agent]-YYYY-MM-DD.md  (execution reports, one per agent per day)
+└── ...
+```
+
+**Draft log format** (for Forge v2 and Meeting Echo):
+Each draft logged must include: agent name, timestamp, recipient(s), subject, content summary. No verbatim client data — summaries only. These logs are the "proposed" side of the Feedback Collector's comparison.
 
 ---
 
@@ -167,11 +186,11 @@ Architecture ref: https://github.com/antoinel-web/shared-memory/blob/main/contex
 | Agent | Role | Status | Reads | Writes |
 |---|---|---|---|---|
 | Pipeline Scan | Collecteur | Active | Gmail, Granola, Calendar, Slack, Salesforce | Salesforce (after validation) |
-| Meeting Echo | Collecteur | Active | Granola | Gmail drafts |
-| Feedback Collector | Collecteur | To build | Gmail sent, SF audit, agent outputs | state/feedback-log-latest.md |
+| Meeting Echo | Collecteur | Active | Granola | Gmail drafts, logs/drafts/meeting-echo-YYYY-MM-DD.md |
+| Feedback Collector | Collecteur | Active (Phase 1) | logs/drafts/ (GitHub), Gmail sent, [Phase 2: presentations logs, inbox/deal-pulse/] | state/feedback-log-latest.md, logs/feedback-trends.md |
 | Deal Pulse | Panneau | Active | Salesforce | state/pipeline-state-latest.md |
-| Follow-Up Forge v2 | Exécutant | Active | state/pipeline-state-latest.md, Gmail, Granola, Calendar | Gmail drafts |
-| Coach | Exécutant | Future | state/pipeline-state-latest.md, Granola, Calendar | Slack or Gmail |
+| Follow-Up Forge v2 | Exécutant | Active | state/pipeline-state-latest.md, state/feedback-log-latest.md, Gmail, Granola, Calendar | Gmail drafts, logs/drafts/forge-v2-YYYY-MM-DD.md |
+| Coach | Exécutant | Future | state/pipeline-state-latest.md, Granola, Calendar, logs/feedback-trends.md | Slack or Gmail |
 | Débloqueur | Exécutant | Future | state/pipeline-state-latest.md, Salesforce history | Gmail drafts |
 | State Janitor | Gardien | To build | state/current/, state/archive/ | state/archive/ |
 | Enhancer | Observateur | Future | state/, inbox/, logs/, feedback-log | inbox/for-antoine |
