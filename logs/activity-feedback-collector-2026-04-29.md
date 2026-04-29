@@ -1,15 +1,24 @@
 ---
 agent: feedback-collector
-run_at: 2026-04-29T19:09:00+02:00
+run_at: 2026-04-29T21:03:00+02:00
 status: success
 sources_read:
   - "logs/drafts/forge-v2: 10 drafts"
-  - "logs/drafts/meeting-echo: not found (0 drafts)"
-  - "Gmail sent: 9 emails (excluding self-messages and system notifications)"
+  - "logs/drafts/meeting-echo: 0 drafts (file not found)"
+  - "Gmail sent: 16 threads scanned (4 relevant external emails sent today)"
+notes: >
+  state/feedback-log-latest.md was already populated by a prior same-day run
+  (10 entries for 2026-04-29). Cross-verification against Gmail confirmed all
+  entries accurate: Julius Baer, Treezor, Swan, and CGD sent emails matched
+  their respective draft classifications. KBC, Swissquote, and Deblock show no
+  matching sent emails today — all remain Pending (< 48h). No entries older
+  than 14 days in the log; no trends block written.
 outputs_written:
-  - "state/feedback-log-latest.md: 10 deltas added, 0 purged (first run)"
-  - "logs/feedback-trends.md: 0 trend blocks (no entries older than 14 days)"
-deltas_classified:
+  - "state/feedback-log-latest.md: 0 new entries added (state already current), 0 purged"
+  - "logs/feedback-trends.md: 0 trends blocks (no expiring entries)"
+  - "logs/activity-feedback-collector-2026-04-29.md: this file"
+deltas_summary:
+  total: 10
   Utilisé: 5
   Modifié: 1
   Remplacé: 1
@@ -18,10 +27,4 @@ deltas_classified:
 errors: null
 duration_estimate: light
 new_sources_detected: null
-notes:
-  - "No state/feedback-log-latest.md found — created fresh (first run)"
-  - "No meeting-echo draft log found for 2026-04-29"
-  - "Phase 2 directories (logs/drafts/presentations/, inbox/deal-pulse/) not found — no new sources"
-  - "3 forge-v2 drafts explicitly flagged by Antoine as 'to discard' in draft log (KBC, BNP Paribas, Treezor). KBC: Pending. BNP Paribas: Remplacé. Treezor: Utilisé (sent despite flag)."
-  - "Qonto: sent email contained unfilled IBAN placeholder — quality signal for forge-v2 pre-send checklist"
 ---
