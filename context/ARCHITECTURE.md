@@ -58,6 +58,7 @@ Read the panneau, enrich with primary sources, produce a deliverable. Each exéc
 
 **Current agents:**
 - **Follow-Up Forge v2** — Reads Deal Pulse + `state/feedback-log-latest.md` (to learn from past deltas), enriches via Gmail/Granola/Calendar, produces contextual follow-up email drafts. Writes: Gmail drafts. **Must log every draft produced** in `logs/drafts/forge-v2-YYYY-MM-DD.md` for Feedback Collector consumption.
+- **AE Salesforce Operator** — Triggered by Pipeline Scan. Reads Slack, Gmail, Granola, Calendar, Salesforce. Updates Salesforce opportunities and activity tasks, posts Slack nudges. Writes: Salesforce (opps + tasks), Slack (#sales-inbox).
 
 **Future agents (reserved slots):**
 - **Coach** — Pre-meeting briefs with compiled context + call analysis.
@@ -75,7 +76,7 @@ Read the panneau, enrich with primary sources, produce a deliverable. Each exéc
 Maintains system hygiene. No business logic, no client-facing output.
 
 **Current agent:**
-- **State Janitor** *(to build)* — Consolidates daily state files into weekly summaries, weekly into monthly, cleans archives older than 90 days.
+- **State Janitor** — Consolidates daily state files into weekly summaries, weekly into monthly, cleans archives older than 90 days. Scans agent registry for discrepancies. Runs weekly (Sunday 23h) and monthly (1st of month).
 
 **Rules for gardiens:**
 - Operate only on `state/` and `logs/`.
@@ -190,9 +191,10 @@ Architecture ref: https://github.com/antoinel-web/shared-memory/blob/main/contex
 | Feedback Collector | Collecteur | Active (Phase 1) | logs/drafts/ (GitHub), Gmail sent, [Phase 2: presentations logs, inbox/deal-pulse/] | state/feedback-log-latest.md, logs/feedback-trends.md |
 | Deal Pulse | Panneau | Active | Salesforce | state/pipeline-state-latest.md |
 | Follow-Up Forge v2 | Exécutant | Active | state/pipeline-state-latest.md, state/feedback-log-latest.md, Gmail, Granola, Calendar | Gmail drafts, logs/drafts/forge-v2-YYYY-MM-DD.md |
+| AE Salesforce Operator | Exécutant | Active | Slack, Gmail, Granola, Calendar, Salesforce | Salesforce (opps + tasks), Slack (#sales-inbox) |
 | Coach | Exécutant | Future | state/pipeline-state-latest.md, Granola, Calendar, logs/feedback-trends.md | Slack or Gmail |
 | Débloqueur | Exécutant | Future | state/pipeline-state-latest.md, Salesforce history | Gmail drafts |
-| State Janitor | Gardien | To build | state/current/, state/archive/ | state/archive/ |
+| State Janitor | Gardien | Active | state/current/, state/archive/, logs/ | state/archive/, logs/ |
 | Enhancer | Observateur | Future | state/, inbox/, logs/, feedback-log | inbox/for-antoine |
 
 ---
