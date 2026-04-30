@@ -23,3 +23,16 @@ content_summary: >-
   ~10 account sample this week; Fortis to evaluate sample and run internal
   legal/compliance review. Next call Wednesday 13 May 2026 at 17h00 CEST.
 ---
+---
+agent: meeting-echo
+timestamp: 2026-04-30T16:05:00+02:00
+recipient: kalves@bunq.com
+subject: RE: Cube <> Bunq — Friday 3pm
+meeting_source: Cube <> Bunq — Apr 30, 2026 15:00 CEST
+content_summary: >-
+  Draft replies to Kaue's post-call intro of Stephanie Rios (new Bunq contact
+  following Kaue's internal transition to sanctions). Recaps POC results (70%
+  detection, 270+ accounts/month, 3,600+/year), Revolut 62% auto-closure
+  benchmark, and CSV-only integration. Three next steps: Stephanie provides
+  schedule slots, Cube reviews and returns NDA, Cube prepares updated pricing.
+---

@@ -30,3 +30,19 @@ outputs_written:
 errors: null
 duration_estimate: medium
 ---
+---
+agent: meeting-echo
+run_at: 2026-04-30T16:05:00+02:00
+status: partial
+sources_read:
+  - granola: 1
+  - gmail: 18 messages (main commercial thread)
+  - slack: 0 (no client channel found)
+  - drive: 6 files
+  - calendar: 1 event
+  - bigquery: FAILED (table not found)
+outputs_written:
+  - gmail_draft: RE: Cube <> Bunq — Friday 3pm
+errors: BigQuery table actual_financial_institutions not found in dataset apex_for_statistics
+duration_estimate: medium
+---
