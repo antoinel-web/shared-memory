@@ -14,3 +14,19 @@ outputs_written:
 errors: null
 duration_estimate: medium
 ---
+---
+agent: meeting-echo
+run_at: 2026-04-30T15:58:00+02:00
+status: success
+sources_read:
+  - granola: 1
+  - gmail: 5 threads (calendar invites only)
+  - slack: 0 (no client channel found)
+  - drive: 0
+  - calendar: 1 event
+  - bigquery: NOT_USED
+outputs_written:
+  - gmail_draft: BNP Paribas Fortis — Intro & next steps
+errors: null
+duration_estimate: medium
+---
