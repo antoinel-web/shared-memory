@@ -417,7 +417,7 @@ Nudge sent: yes/no
 Errors: none / list
 ```
 
-## Step 15 — Activity Report (GitHub)
+## Step 17 — Activity Report (GitHub)
 
 **Run LAST, after all other steps. Non-blocking — if this fails, the run is still successful.**
 
@@ -428,7 +428,7 @@ If a file for today already exists (e.g. from an earlier run), read it first and
 Format (YAML front-matter style):
 ```
 ---
-agent: ae-salesforce-operator
+agent: pipeline-scan
 run_at: [ISO-8601 with timezone]
 trigger: pipeline-scan
 status: success | partial | failure
