@@ -112,8 +112,8 @@ status: Pending
 confidence: high
 categories: []
 delta_summary: >-
-  No sent email found matching the Swissquote recipient today. Draft is < 48h
-  old and will be re-evaluated on the next run.
+  No sent email found matching the Swissquote recipient today or the following
+  day. Draft is < 48h old and will be re-evaluated on the next run.
 ---
 
 ---
@@ -159,6 +159,56 @@ status: Pending
 confidence: high
 categories: []
 delta_summary: >-
-  No sent email found matching the Deblock recipient today. Draft is < 48h old
-  and will be re-evaluated on the next run.
+  No sent email found matching the Deblock recipient today or the following
+  day. Draft is < 48h old and will be re-evaluated on the next run.
+---
+
+---
+date: 2026-04-30
+agent: meeting-echo
+client: CGD
+draft_subject: "RE: CUBE AI - Prevenção de fraude precoce com IA"
+status: Utilisé
+confidence: high
+categories:
+  - Contenu supprimé
+  - Contexte client ajouté
+delta_summary: >-
+  The meeting recap structure was preserved faithfully: session outcome, two
+  EOD deliverables (account sample + revised proposal), and both milestone
+  dates (CRO/Board presentation Monday, debrief call May 6 at 3PM CET) matched
+  exactly. The Santander reference confirmed in the meeting and noted in the
+  draft was absent from the sent email. Antoine added specific external bank
+  names as a Portuguese competitive reference, which was not in the draft
+  summary.
+---
+
+---
+date: 2026-04-30
+agent: meeting-echo
+client: BNP Paribas Fortis
+draft_subject: "BNP Paribas Fortis — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  No sent email found for this draft. A matching Gmail draft was detected
+  (same recipient set, same subject, high content similarity with Meeting Echo
+  output) but has not yet been dispatched. Draft is < 48h old — will be
+  re-evaluated on the next run.
+---
+
+---
+date: 2026-04-30
+agent: meeting-echo
+client: Bunq
+draft_subject: "RE: Cube <> Bunq — Friday 3pm"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  No sent email found. A matching Gmail draft was detected (recipients include
+  Kaue + newly introduced contact, content closely mirrors POC recap, detection
+  stats, and three-step next actions). Draft is < 48h old — will be
+  re-evaluated on the next run.
 ---
