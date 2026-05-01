@@ -40,14 +40,17 @@ date: 2026-04-29
 agent: forge-v2
 client: KBC
 draft_subject: "Re: Mule Account Detection for KBC"
-status: Pending
-confidence: high
-categories: []
+status: Ignoré
+confidence: medium
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found matching this draft's recipient. Draft is < 48h old and
-  will be re-evaluated on the next run. Note: draft log explicitly flagged by
-  Antoine as the wrong approach — a breakup-style email was preferred. If no
-  match found on next run, likely an intentional discard.
+  No sent email found matching this draft's recipient across Apr 29, Apr 30,
+  and May 1 searches. Draft is > 48h old — classified as Ignoré. Note: the
+  original draft log explicitly flagged this approach as wrong by Antoine; a
+  breakup-style email was preferred. No breakup email to KBC was found either,
+  suggesting the decision was to disengage silently or handle via other means.
+  Confidence is medium due to partial search result truncation.
 ---
 
 ---
@@ -108,12 +111,15 @@ date: 2026-04-29
 agent: forge-v2
 client: Swissquote
 draft_subject: "Cube × Swissquote — second sample 27 mars, point d'attention"
-status: Pending
-confidence: high
-categories: []
+status: Ignoré
+confidence: medium
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found matching the Swissquote recipient today or the following
-  day. Draft is < 48h old and will be re-evaluated on the next run.
+  No sent email found matching the Swissquote recipient across Apr 29, Apr 30,
+  and May 1 searches. Draft is > 48h old — classified as Ignoré. Draft was
+  never dispatched; the Swissquote follow-up appears to have been deferred or
+  abandoned. Confidence is medium due to partial search result truncation.
 ---
 
 ---
@@ -155,12 +161,15 @@ date: 2026-04-29
 agent: forge-v2
 client: Deblock
 draft_subject: "Re: Deblock — Intro & next steps"
-status: Pending
-confidence: high
-categories: []
+status: Ignoré
+confidence: medium
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found matching the Deblock recipient today or the following
-  day. Draft is < 48h old and will be re-evaluated on the next run.
+  No sent email found matching the Deblock recipient across Apr 29, Apr 30,
+  and May 1 searches. Draft is > 48h old — classified as Ignoré. The Deblock
+  follow-up appears to have been deferred or abandoned without any outreach
+  being sent. Confidence is medium due to partial search result truncation.
 ---
 
 ---
@@ -192,10 +201,11 @@ status: Pending
 confidence: high
 categories: []
 delta_summary: >-
-  No sent email found for this draft. A matching Gmail draft was detected
-  (same recipient set, same subject, high content similarity with Meeting Echo
-  output) but has not yet been dispatched. Draft is < 48h old — will be
-  re-evaluated on the next run.
+  No sent email found. A matching Gmail draft was detected on Apr 30 and
+  confirmed still in draft state on May 1 (not dispatched). Draft is < 48h
+  old (created Apr 30, evaluated May 1) — will be re-evaluated on the next
+  run. High content match between Meeting Echo output and draft exists;
+  pending only dispatch confirmation.
 ---
 
 ---
@@ -203,12 +213,18 @@ date: 2026-04-30
 agent: meeting-echo
 client: Bunq
 draft_subject: "RE: Cube <> Bunq — Friday 3pm"
-status: Pending
+status: Modifié
 confidence: high
-categories: []
+categories:
+  - Contexte client ajouté
+  - Contenu supprimé
 delta_summary: >-
-  No sent email found. A matching Gmail draft was detected (recipients include
-  Kaue + newly introduced contact, content closely mirrors POC recap, detection
-  stats, and three-step next actions). Draft is < 48h old — will be
-  re-evaluated on the next run.
+  Match found: Antoine sent a POC recap and intro email on May 1 to Kaue +
+  newly introduced Stephanie. Core structure preserved: POC stats (70%
+  detection rate, monthly and annual volumes), integration options, and next
+  steps. Key deltas: the draft's three-step next actions were condensed to
+  two (NDA review + demo to Stephanie); Stephanie's new role was acknowledged
+  with a congratulatory note (not in draft); a leading European neobank
+  reference was added to reinforce credibility. One planned next step appears
+  to have been merged or dropped. Overall content similarity estimated ~65%.
 ---
