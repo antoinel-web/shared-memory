@@ -14,3 +14,19 @@ outputs_written:
 errors: BigQuery table not found (apex_for_statistics.actual_financial_institutions) — not needed for this draft
 duration_estimate: medium
 ---
+---
+agent: meeting-echo
+run_at: 2026-05-04T17:33:00+02:00
+status: success
+sources_read:
+  - granola: 2 meetings
+  - gmail: 5 threads
+  - slack: FAILED (no dedicated channel found)
+  - drive: 1 document (swan_call_plan)
+  - calendar: 1 event
+  - bigquery: NOT_USED
+outputs_written:
+  - gmail_draft: RE: Swan — Intro & next steps
+errors: null
+duration_estimate: medium
+---
