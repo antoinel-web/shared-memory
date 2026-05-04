@@ -197,15 +197,20 @@ date: 2026-04-30
 agent: meeting-echo
 client: BNP Paribas Fortis
 draft_subject: "BNP Paribas Fortis — Intro & next steps"
-status: Pending
+status: Modifié
 confidence: high
-categories: []
+categories:
+  - Contexte client ajouté
+  - Structure modifiée
 delta_summary: >-
-  No sent email found. A matching Gmail draft was detected on Apr 30 and
-  confirmed still in draft state on May 1 (not dispatched). Draft is < 48h
-  old (created Apr 30, evaluated May 1) — will be re-evaluated on the next
-  run. High content match between Meeting Echo output and draft exists;
-  pending only dispatch confirmation.
+  The draft's core next-steps structure was preserved faithfully: legal note,
+  API documentation, ~10-account sample, internal legal/compliance review, and
+  the May 13 call at 17h00 CEST all matched exactly. Antoine added a substantial
+  "What we covered" recap section with specific performance metrics (lead time
+  ~50 days, ~50% accounts undetected, integration options) and a detailed
+  breakdown of the sample review criteria — none of which was present in the
+  draft summary. Overall content similarity estimated ~50%. Sent on May 4,
+  four days after the meeting.
 ---
 
 ---
@@ -227,4 +232,36 @@ delta_summary: >-
   with a congratulatory note (not in draft); a leading European neobank
   reference was added to reinforce credibility. One planned next step appears
   to have been merged or dropped. Overall content similarity estimated ~65%.
+---
+
+---
+date: 2026-05-04
+agent: meeting-echo
+client: UniCredit
+draft_subject: "RE: UniCredit — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Meeting Echo draft generated at 17:29 CEST following the May 4 POC results
+  review (20-IBAN sample, ~50% confirmed suspicious, ~50% pre-fraud). The
+  corresponding follow-up email was identified as a Gmail draft (not yet
+  dispatched) as of this run. Draft is < 48h old — will be re-evaluated on
+  the next run.
+---
+
+---
+date: 2026-05-04
+agent: meeting-echo
+client: Swan
+draft_subject: "RE: Swan — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Meeting Echo draft generated at 17:33 CEST following the May 4 first POC
+  restitution (20k EU IBANs, three detection tiers, 14 PSD3-scope accounts).
+  The corresponding follow-up email was identified as a Gmail draft (not yet
+  dispatched) as of this run. Draft is < 48h old — will be re-evaluated on
+  the next run.
 ---
