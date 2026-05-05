@@ -239,15 +239,20 @@ date: 2026-05-04
 agent: meeting-echo
 client: UniCredit
 draft_subject: "RE: UniCredit — Intro & next steps"
-status: Pending
+status: Modifié
 confidence: high
-categories: []
+categories:
+  - Contexte client ajouté
+  - Structure modifiée
 delta_summary: >-
-  Meeting Echo draft generated at 17:29 CEST following the May 4 POC results
-  review (20-IBAN sample, ~50% confirmed suspicious, ~50% pre-fraud). The
-  corresponding follow-up email was identified as a Gmail draft (not yet
-  dispatched) as of this run. Draft is < 48h old — will be re-evaluated on
-  the next run.
+  The Meeting Echo draft captured the May 4 POC results review (20-IBAN sample,
+  ~50% confirmed suspicious, ~50% pre-fraud signals). The sent email (dispatched
+  May 5 at 19:58 CEST) preserved the core POC results but incorporated two
+  elements absent from the draft: DPO scheduling options in response to Giuseppe
+  Sollazzo's May 5 request (three specific date windows), and a platform
+  walkthrough section covering cross-IBAN network view and duplicate-count risk
+  signals. The delay in sending (following the inbound DPO request on May 5)
+  drove both additions.
 ---
 
 ---
@@ -261,7 +266,182 @@ categories: []
 delta_summary: >-
   Meeting Echo draft generated at 17:33 CEST following the May 4 first POC
   restitution (20k EU IBANs, three detection tiers, 14 PSD3-scope accounts).
-  The corresponding follow-up email was identified as a Gmail draft (not yet
-  dispatched) as of this run. Draft is < 48h old — will be re-evaluated on
-  the next run.
+  May 5 check: the corresponding follow-up email was found as a Gmail draft
+  (not dispatched) as of this run. Draft is now ~27h old — still < 48h. Will
+  be re-evaluated on the next run. Note: a Forge v2 draft for the same
+  recipient was also generated on May 5; Meeting Echo takes priority per
+  conflict resolution rules if an email is sent before the next run.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: KBC
+draft_subject: "Re: Mule Account Detection for KBC"
+status: Utilisé
+confidence: high
+categories:
+  - Ton ajusté
+delta_summary: >-
+  Breakup email executed faithfully: silence acknowledgment, easy-out/close-file
+  option, and KBC Netherlands via Transform Finance re-entry hook — all present
+  in the sent email. Tone maintained as direct and non-pushy as specified.
+  Minor stylistic adjustment in phrasing only; core structure and all key
+  angles preserved.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: CGD
+draft_subject: "Re: CUBE AI - Prevenção de fraude precoce com IA"
+status: Utilisé
+confidence: high
+categories:
+  - Ton ajusté
+delta_summary: >-
+  The draft was staged for May 6 morning (post-board debrief warm-up), but
+  Antoine sent it on May 5 at 10:52 — one day earlier than planned, while still
+  referencing "yesterday's" board discussion (confirming the board meeting was
+  May 4/Monday, not May 5 as noted in the draft metadata). Core framing
+  preserved: neutral tone, no assumption on board outcome, both procurement path
+  and commercial alignment offered as options for the May 6 debrief. The draft's
+  "calibrated question" format was replaced with an open offer ("if there's
+  anything we can do"), slightly warmer in register.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: Dukascopy
+draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
+status: Modifié
+confidence: high
+categories:
+  - Structure modifiée
+  - Contexte client ajouté
+  - CTA changé
+  - Ton ajusté
+delta_summary: >-
+  The draft proposed bypassing Victor Ekimetskiy (who sent the rejection) and
+  directing the response to Claude Favre (CRO/champion) with a revised scope
+  offer (onbank-only data) as a price lever. Antoine instead engaged Victor
+  directly with two rhetorical questions challenging the pricing decision
+  process, and introduced a new ROI argument (volume of IBANs detected ×
+  estimated cost per account yielding a ~€700k annual exposure figure) not
+  present in the draft. The CTA shifted from a targeted "30-min call with Claude
+  on price range before closing the file" to a general "speak again at your
+  convenience." The approach taken was more confrontational/inquisitive than the
+  draft's bypass strategy.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: Banca Sella
+draft_subject: "CUBE.AI <> Banca Sella"
+status: Modifié
+confidence: high
+categories:
+  - CTA changé
+  - Contenu supprimé
+delta_summary: >-
+  Core elements preserved: offer to join the legal team call directly, 30-minute
+  framing, Revolut/Barclays/Caixabank approval references, and POC dataset
+  readiness. The draft's Voss-style open question closing ("what does Roberto
+  need on his end to get GDPR clearance") was replaced with a declarative
+  statement ("can go out immediately once you have the green light"). The
+  "third outreach" framing and follow-up timeline context (26 days since legal
+  note, 14 days since prior follow-up) were absent from the sent email.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: Swan
+draft_subject: "Restitution comptes mules × CUBE — suite & dataset"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft generated at 08:22 CEST as post-meeting follow-up for the May 4
+  first POC restitution (martin.miguel@swan.io). Email found in Gmail as a draft
+  (not dispatched) as of this run. Draft is < 48h old — will be re-evaluated on
+  the next run. Note: a Meeting Echo Pending entry for the same client/meeting
+  exists; Meeting Echo takes priority if an email is dispatched before the next
+  run.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: Nickel
+draft_subject: "Re: Compte-rendu — Cube3 × Nickel — réunion du 13 mars"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft generated at 08:26 CEST for Barbara Delecourt's return from
+  OOO (back May 4). Email found in Gmail as a draft (not dispatched) as of this
+  run. Draft is < 48h old — will be re-evaluated on the next run.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: OuiTrust
+draft_subject: "OuiTrust × CUBE — encore d'actualité ?"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft generated at 08:31 CEST for Jaime Gaffud (63 days dark since
+  March 2 cancellation). Email found in Gmail as a draft (not dispatched) as of
+  this run. Draft is < 48h old — will be re-evaluated on the next run.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: Belfius
+draft_subject: "Belfius × CUBE — EU detection update, May 2026"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft generated at 08:39 CEST targeting François Franssen (53 days
+  dark). Email found in Gmail as a draft (not dispatched) as of this run.
+  Draft is < 48h old — will be re-evaluated on the next run.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: BNL
+draft_subject: "Re: BNL — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft generated at 08:43 CEST targeting Piermario Cecchini (BNL POC
+  kickoff nudge, 11 days unanswered). Email found in Gmail as a draft (not
+  dispatched) as of this run. Draft is < 48h old — will be re-evaluated on the
+  next run.
+---
+
+---
+date: 2026-05-05
+agent: forge-v2
+client: UniCredit
+draft_subject: "Re: UniCredit — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft generated at 08:19 CEST targeting pamela.teli@unicredit.eu
+  (post-May 4 AVT review follow-up). The corresponding sent email for this
+  meeting was matched to the Meeting Echo Pending entry (Meeting Echo takes
+  priority per conflict resolution rules). This forge-v2 draft is treated
+  independently; no additional sent email found for this entry. Draft is < 48h
+  old — will be re-evaluated on the next run.
 ---
