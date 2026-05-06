@@ -260,17 +260,22 @@ date: 2026-05-04
 agent: meeting-echo
 client: Swan
 draft_subject: "RE: Swan — Intro & next steps"
-status: Pending
+status: Modifié
 confidence: high
-categories: []
+categories:
+  - Contexte client ajouté
+  - Structure modifiée
 delta_summary: >-
   Meeting Echo draft generated at 17:33 CEST following the May 4 first POC
   restitution (20k EU IBANs, three detection tiers, 14 PSD3-scope accounts).
-  May 5 check: the corresponding follow-up email was found as a Gmail draft
-  (not dispatched) as of this run. Draft is now ~27h old — still < 48h. Will
-  be re-evaluated on the next run. Note: a Forge v2 draft for the same
-  recipient was also generated on May 5; Meeting Echo takes priority per
-  conflict resolution rules if an email is sent before the next run.
+  Email dispatched May 6 at 13:37 CEST — two days after the draft, following
+  an intermediate email exchange. The sent email preserved the core agreed
+  next-steps structure (CUBE AI dataset delivery, Swan second-pass analysis)
+  but incorporated context from Martin's Apr 30 email about omnibus-type
+  accounts (Wise IBANs creating false positive risk), not present in the draft.
+  The second-pass scope was expanded into two explicit tracks — Swan internal
+  accounts and external IBANs — each with distinct metrics to measure.
+  Next meeting date (May 22 at 15:00) was confirmed and added.
 ---
 
 ---
@@ -365,11 +370,11 @@ confidence: high
 categories: []
 delta_summary: >-
   Forge v2 draft generated at 08:22 CEST as post-meeting follow-up for the May 4
-  first POC restitution (martin.miguel@swan.io). Email found in Gmail as a draft
-  (not dispatched) as of this run. Draft is < 48h old — will be re-evaluated on
-  the next run. Note: a Meeting Echo Pending entry for the same client/meeting
-  exists; Meeting Echo takes priority if an email is dispatched before the next
-  run.
+  first POC restitution (martin.miguel@swan.io). Meeting Echo draft for the same
+  recipient/meeting (date: 2026-05-04) has been resolved as Modifié — Meeting
+  Echo takes priority per conflict resolution rules. No separate sent email
+  found for this Forge v2 entry. Draft is ~37h old as of May 6 run — still
+  < 48h. Will be re-evaluated on the next run.
 ---
 
 ---
@@ -382,8 +387,8 @@ confidence: high
 categories: []
 delta_summary: >-
   Forge v2 draft generated at 08:26 CEST for Barbara Delecourt's return from
-  OOO (back May 4). Email found in Gmail as a draft (not dispatched) as of this
-  run. Draft is < 48h old — will be re-evaluated on the next run.
+  OOO (back May 4). No matching sent email found on May 5 or May 6. Draft is
+  ~37h old as of May 6 run — still < 48h. Will be re-evaluated on the next run.
 ---
 
 ---
@@ -396,8 +401,9 @@ confidence: high
 categories: []
 delta_summary: >-
   Forge v2 draft generated at 08:31 CEST for Jaime Gaffud (63 days dark since
-  March 2 cancellation). Email found in Gmail as a draft (not dispatched) as of
-  this run. Draft is < 48h old — will be re-evaluated on the next run.
+  March 2 cancellation). No matching sent email found on May 5 or May 6. Draft
+  is ~37h old as of May 6 run — still < 48h. Will be re-evaluated on the next
+  run.
 ---
 
 ---
@@ -410,8 +416,8 @@ confidence: high
 categories: []
 delta_summary: >-
   Forge v2 draft generated at 08:39 CEST targeting François Franssen (53 days
-  dark). Email found in Gmail as a draft (not dispatched) as of this run.
-  Draft is < 48h old — will be re-evaluated on the next run.
+  dark). No matching sent email found on May 5 or May 6. Draft is ~37h old as
+  of May 6 run — still < 48h. Will be re-evaluated on the next run.
 ---
 
 ---
@@ -424,9 +430,9 @@ confidence: high
 categories: []
 delta_summary: >-
   Forge v2 draft generated at 08:43 CEST targeting Piermario Cecchini (BNL POC
-  kickoff nudge, 11 days unanswered). Email found in Gmail as a draft (not
-  dispatched) as of this run. Draft is < 48h old — will be re-evaluated on the
-  next run.
+  kickoff nudge, 11 days unanswered). No matching sent email found on May 5 or
+  May 6. Draft is ~37h old as of May 6 run — still < 48h. Will be re-evaluated
+  on the next run.
 ---
 
 ---
@@ -439,9 +445,9 @@ confidence: high
 categories: []
 delta_summary: >-
   Forge v2 draft generated at 08:19 CEST targeting pamela.teli@unicredit.eu
-  (post-May 4 AVT review follow-up). The corresponding sent email for this
-  meeting was matched to the Meeting Echo Pending entry (Meeting Echo takes
-  priority per conflict resolution rules). This forge-v2 draft is treated
-  independently; no additional sent email found for this entry. Draft is < 48h
-  old — will be re-evaluated on the next run.
+  (post-May 4 AVT review follow-up). Meeting Echo for the same client/meeting
+  was already resolved as Modifié (matched to May 5 sent email). The brief
+  UniCredit acknowledgment sent May 6 at 10:31 (to Giuseppe, re: DPO slot) is
+  unrelated to this draft's scope and recipient. Draft is ~37h old as of May 6
+  run — still < 48h. Will be re-evaluated on the next run.
 ---
