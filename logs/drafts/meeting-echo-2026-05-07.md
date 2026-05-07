@@ -38,3 +38,17 @@ content_summary: >-
   20-30k IBANs externes pour croisement, et analyse par l'équipe BPCE sous 2-3 semaines. CTA :
   réunion déjà planifiée le 20 mai à 16h pour restitution des résultats.
 ---
+---
+agent: meeting-echo
+timestamp: 2026-05-07T11:31:00+02:00
+recipient: davide.belloni@bper.it
+subject: BPER — Intro & next steps
+meeting_source: Cube AI for BPER - Introduction to Apex AML and fraud prevention on credit transfer — May 6, 2026
+content_summary: >-
+  Email de suivi d'une première réunion de présentation. Reprend les données de détection partagées
+  en live (81+ comptes BPER depuis début 2026, ~700 IBANs italiens en avril), les deux cas d'usage
+  (AML + prévention fraude victimes), et la performance vs solution comparable (50 jours d'avance,
+  50% de couverture additionnelle). Next steps : envoi immédiat par Antoine de 20 comptes BPER +
+  dataset européen, guide de test KPIs, présentation et note légale RGPD. Analyse côté BPER sous
+  1 mois. CTA : prochaine réunion fixée au mercredi 3 juin 2026 à 9h pour revue des résultats.
+---

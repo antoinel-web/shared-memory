@@ -46,3 +46,19 @@ outputs_written:
 errors: null
 duration_estimate: heavy
 ---
+---
+agent: meeting-echo
+run_at: 2026-05-07T11:31:00+02:00
+status: partial
+sources_read:
+  - granola: 1
+  - gmail: 20 threads
+  - slack: FAILED (no client channel found)
+  - drive: 0
+  - calendar: 1
+  - bigquery: FAILED (table not found)
+outputs_written:
+  - gmail_draft: "BPER — Intro & next steps"
+errors: BigQuery table production-20230612:apex_for_statistics.actual_financial_institutions not found — numbers from live demo transcript used as-is
+duration_estimate: medium
+---
