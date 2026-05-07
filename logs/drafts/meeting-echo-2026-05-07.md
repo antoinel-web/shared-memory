@@ -25,3 +25,16 @@ content_summary: >-
   bi-directionnelle par Bunq, mise à jour proposition commerciale par Antoine, business case interne
   pour approbation CEO. CTA : signature NDA pour démarrer dans la semaine.
 ---
+---
+agent: meeting-echo
+timestamp: 2026-05-07T10:18:00+02:00
+recipient: sarah.guigny@bpce.fr
+subject: RE: Analyse comptes mules BPCE
+meeting_source: CUBE <> BPCE — Demo comptes mules + test données — May 6, 2026
+content_summary: >-
+  Email de suivi post-revue des résultats sur 20 comptes internes BPCE. Résume les 3 détections
+  pertinentes (signal Cube AI en avance de 3 à 5 mois), les 4 détections tardives, et les ~60%
+  de comptes sans alerte à date. Confirme les deux prochaines étapes : envoi par Antoine d'un fichier
+  20-30k IBANs externes pour croisement, et analyse par l'équipe BPCE sous 2-3 semaines. CTA :
+  réunion déjà planifiée le 20 mai à 16h pour restitution des résultats.
+---

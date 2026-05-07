@@ -30,3 +30,19 @@ outputs_written:
 errors: null
 duration_estimate: medium
 ---
+---
+agent: meeting-echo
+run_at: 2026-05-07T10:18:00+02:00
+status: success
+sources_read:
+  - granola: 2 meetings
+  - gmail: 20 threads
+  - slack: FAILED (no client channel found)
+  - drive: 9 files
+  - calendar: 1
+  - bigquery: NOT_USED
+outputs_written:
+  - gmail_draft: "RE: Analyse comptes mules BPCE"
+errors: null
+duration_estimate: heavy
+---
