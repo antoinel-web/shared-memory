@@ -1,240 +1,4 @@
 ---
-date: 2026-04-29
-agent: forge-v2
-client: Banca Profilo
-draft_subject: "Re: Banca Profilo — Intro & next steps"
-status: Modifié
-confidence: high
-categories:
-  - Contexte client ajouté
-  - Structure modifiée
-  - CTA changé
-delta_summary: >-
-  The draft anticipated a same-day onboarding session proceeding as planned.
-  Antoine instead acknowledged a client-side postponement and restructured the
-  email entirely around a next-week session. The CTA shifted from implicit
-  meeting confirmation to setting up a future walkthrough. New client context
-  (postponement) drove most of the content change.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: CGD
-draft_subject: "Re: CUBE AI - Prevenção de fraude precoce com IA"
-status: Utilisé
-confidence: high
-categories:
-  - Contexte client ajouté
-  - Ton ajusté
-delta_summary: >-
-  The agenda structure was preserved closely (business case walkthrough +
-  commercial term alignment ahead of an internal exec session). Antoine added
-  a brief mention of reference availability, which was not in the draft. The
-  meeting time in the sent email differed slightly from the draft's stated
-  timing. Overall tone slightly warmer and more direct.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: KBC
-draft_subject: "Re: Mule Account Detection for KBC"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found matching this draft's recipient across Apr 29, Apr 30,
-  and May 1 searches. Draft is > 48h old — classified as Ignoré. Note: the
-  original draft log explicitly flagged this approach as wrong by Antoine; a
-  breakup-style email was preferred. No breakup email to KBC was found either,
-  suggesting the decision was to disengage silently or handle via other means.
-  Confidence is medium due to partial search result truncation.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: Swan
-draft_subject: "Re: Swan — Intro & next steps"
-status: Utilisé
-confidence: high
-categories:
-  - CTA changé
-delta_summary: >-
-  The three-point agenda for the upcoming restitution call was preserved
-  faithfully. Antoine added a closing check-in question asking whether the
-  analysis had been launched and whether there were any blockers — this
-  practical follow-up element was not present in the draft. Core structure
-  and meeting logistics unchanged.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: BNP Paribas
-draft_subject: "Re: RE: Chère équipe BNP — next steps & business case"
-status: Remplacé
-confidence: medium
-categories:
-  - Structure modifiée
-  - Contenu supprimé
-  - Contexte client ajouté
-delta_summary: >-
-  The bridge handoff draft targeting the flagged contact was not sent. Instead,
-  Antoine sent an outreach to different team members within the same
-  organization, leveraging an internal referral. The Voss-style closing question
-  and May 5 dual-track session agenda were abandoned. The email sent served a
-  different relationship-building purpose within the same deal.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: Treezor
-draft_subject: "Re: Cube3 <> Treezor: 1ere revue d'analyse"
-status: Utilisé
-confidence: high
-categories:
-  - Ton ajusté
-delta_summary: >-
-  Draft sent despite the explicit "last email too close" discard flag in the
-  log. Content matched the draft's minimal status-update framing closely —
-  asking about IT/Product alignment progress for off-bank account analysis.
-  The closing was slightly softened to reduce pressure. Antoine's decision to
-  send overrides the agent's discard recommendation.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: Swissquote
-draft_subject: "Cube × Swissquote — second sample 27 mars, point d'attention"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found matching the Swissquote recipient across Apr 29, Apr 30,
-  and May 1 searches. Draft is > 48h old — classified as Ignoré. Draft was
-  never dispatched; the Swissquote follow-up appears to have been deferred or
-  abandoned. Confidence is medium due to partial search result truncation.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: Julius Baer
-draft_subject: "Re: Julius Baer — Intro & next steps"
-status: Utilisé
-confidence: high
-categories:
-  - Ton ajusté
-delta_summary: >-
-  The pre-call check-in and data access question were preserved from the draft.
-  Antoine used a slightly more conversational tone in the sent email compared
-  to the more formal framing in the draft. The offer to adapt the file format
-  around IT protocol constraints matched the draft's CTA closely.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: Qonto
-draft_subject: "CUBE × Qonto — pilote mai : 5 comptes + critère d'évaluation"
-status: Utilisé
-confidence: medium
-categories:
-  - Contenu supprimé
-delta_summary: >-
-  The pilot kickoff framing and reference to the prior agreement were preserved.
-  The draft contained an explicit placeholder for IBANs to be completed before
-  sending. The sent email was dispatched with this placeholder still unfilled,
-  meaning the core IBAN data was absent from the actual email sent. This is a
-  notable execution gap — the draft flagged it as a pre-send action item that
-  was not completed.
----
-
----
-date: 2026-04-29
-agent: forge-v2
-client: Deblock
-draft_subject: "Re: Deblock — Intro & next steps"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found matching the Deblock recipient across Apr 29, Apr 30,
-  and May 1 searches. Draft is > 48h old — classified as Ignoré. The Deblock
-  follow-up appears to have been deferred or abandoned without any outreach
-  being sent. Confidence is medium due to partial search result truncation.
----
-
----
-date: 2026-04-30
-agent: meeting-echo
-client: CGD
-draft_subject: "RE: CUBE AI - Prevenção de fraude precoce com IA"
-status: Utilisé
-confidence: high
-categories:
-  - Contenu supprimé
-  - Contexte client ajouté
-delta_summary: >-
-  The meeting recap structure was preserved faithfully: session outcome, two
-  EOD deliverables (account sample + revised proposal), and both milestone
-  dates (CRO/Board presentation Monday, debrief call May 6 at 3PM CET) matched
-  exactly. The Santander reference confirmed in the meeting and noted in the
-  draft was absent from the sent email. Antoine added specific external bank
-  names as a Portuguese competitive reference, which was not in the draft
-  summary.
----
-
----
-date: 2026-04-30
-agent: meeting-echo
-client: BNP Paribas Fortis
-draft_subject: "BNP Paribas Fortis — Intro & next steps"
-status: Modifié
-confidence: high
-categories:
-  - Contexte client ajouté
-  - Structure modifiée
-delta_summary: >-
-  The draft's core next-steps structure was preserved faithfully: legal note,
-  API documentation, ~10-account sample, internal legal/compliance review, and
-  the May 13 call at 17h00 CEST all matched exactly. Antoine added a substantial
-  "What we covered" recap section with specific performance metrics (lead time
-  ~50 days, ~50% accounts undetected, integration options) and a detailed
-  breakdown of the sample review criteria — none of which was present in the
-  draft summary. Overall content similarity estimated ~50%. Sent on May 4,
-  four days after the meeting.
----
-
----
-date: 2026-04-30
-agent: meeting-echo
-client: Bunq
-draft_subject: "RE: Cube <> Bunq — Friday 3pm"
-status: Modifié
-confidence: high
-categories:
-  - Contexte client ajouté
-  - Contenu supprimé
-delta_summary: >-
-  Match found: Antoine sent a POC recap and intro email on May 1 to Kaue +
-  newly introduced Stephanie. Core structure preserved: POC stats (70%
-  detection rate, monthly and annual volumes), integration options, and next
-  steps. Key deltas: the draft's three-step next actions were condensed to
-  two (NDA review + demo to Stephanie); Stephanie's new role was acknowledged
-  with a congratulatory note (not in draft); a leading European neobank
-  reference was added to reinforce credibility. One planned next step appears
-  to have been merged or dropped. Overall content similarity estimated ~65%.
----
-
----
 date: 2026-05-04
 agent: meeting-echo
 client: UniCredit
@@ -409,7 +173,8 @@ delta_summary: >-
   Gmail search confirmed the OuiTrust email (to jaime.gaffud@ouitrust.com)
   exists as a Gmail draft ("draft": true metadata confirmed) — it was never
   sent. Draft is now > 48h old — classified as Ignoré. Antoine wrote the
-  re-engagement email but did not dispatch it.
+  re-engagement email but did not dispatch it. Note: the same email was
+  subsequently sent on 2026-05-15, ten days later.
 ---
 
 ---
@@ -565,4 +330,158 @@ delta_summary: >-
   said 20) + 1,500 IT IBANs + 15,000 EU IBANs + KPI guide + company deck +
   legal note. Next meeting date (June 3 at 9:00 AM) and CTA matched.
   Content similarity estimated ~82%.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: Cube <> Bunq — Friday 3pm"
+status: Remplacé
+confidence: high
+categories:
+  - CTA changé
+  - Contexte client ajouté
+  - Contenu supprimé
+  - Structure modifiée
+delta_summary: >-
+  The draft anticipated an outbound nudge to chase NDA counter-signature, with
+  a calibrated priority question (IBAN sample vs pre-filled COO business case
+  first). An inbound from Stephanie (signed NDA + transparency about CEO direct
+  outreach attempt) made the draft content obsolete before it could be sent.
+  Antoine responded reactively: acknowledged Stephanie's ownership of the
+  process, delivered the 20k EU IBAN dataset, and reframed analysis parameters
+  (two outflow/inflow dimensions). The calibrated priority question was dropped
+  entirely; the COO business case one-pager was not mentioned; CTA shifted from
+  sequencing deliverables to scheduling a debrief call.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: Deblock
+draft_subject: "Re: Deblock — Intro & next steps"
+status: Remplacé
+confidence: high
+categories:
+  - Structure modifiée
+  - Contenu supprimé
+  - CTA changé
+delta_summary: >-
+  The draft's structured re-engagement approach — peer fintech benchmarks,
+  specific scheduling dates (May 27/28), escalation offer to Head of Financial
+  Crime (Sipei Yang) — was replaced by a single-account live insight nudge.
+  The sent email featured one specific Deblock IBAN tracked across 15 separate
+  fraudster conversations over 5+ months, last seen less than one hour before
+  sending. No scheduling CTA or peer reference in the sent email. Antoine
+  appears to have chosen a live-signal-first sequencing strategy over the
+  draft's direct meeting-request approach.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: BGL BNP Paribas
+draft_subject: "Re: CUBE AI <> BGL BNP Paribas - Comptes Mules"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to BGL contact on 2026-05-15. Draft confirmed as Gmail
+  draft (not dispatched). Created at 08:17 CEST — less than 48h old. Content:
+  pre-kickoff methodological pre-read (three-layer detection, peer benchmark,
+  agenda question for May 22 session). Pending re-evaluation next run.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: Swan
+draft_subject: "RE: Swan — Intro & next steps"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to Swan contact on 2026-05-15. Draft confirmed as Gmail
+  draft (not dispatched). Created at 08:24 CEST — less than 48h old. Content:
+  pre-meeting bridge checking Swan's deliverables and reframing financial
+  impact angle ahead of May 22 restitution. Pending re-evaluation next run.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: Intesa Sanpaolo
+draft_subject: "Intesa Sanpaolo × CUBE AI — ahead of 20 May"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to Intesa Sanpaolo contact on 2026-05-15. Draft confirmed
+  as Gmail draft (not dispatched). Created at 08:29 CEST — less than 48h old.
+  Content: pre-meeting bridge with 170+ flagged Intesa accounts data point,
+  agenda proposal for May 20 intro call. Pending re-evaluation next run.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: BPCE
+draft_subject: "RE: Analyse comptes mules BPCE"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to BPCE contacts on 2026-05-15. Draft confirmed as Gmail
+  draft (not dispatched). Created at 08:33 CEST — less than 48h old. Content:
+  pre-meeting guidance on date-level granularity for external IBAN cross-
+  referencing ahead of May 20 session. Pending re-evaluation next run.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: BNP Paribas Fortis
+draft_subject: "RE: [EXTERNAL] BNP Paribas Fortis — Intro & next steps"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to BNP Paribas Fortis contacts on 2026-05-15. Draft
+  confirmed as Gmail draft (not dispatched). Created at 08:37 CEST — less than
+  48h old. Content: nine-day follow-up on David Massart's fraud typology
+  document request, committing to pre-May-20 delivery. Pending re-evaluation
+  next run.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: BNL
+draft_subject: "Re: BNL — Intro & next steps"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to BNL contacts on 2026-05-15. Draft confirmed as Gmail
+  draft (not dispatched). Created at 08:46 CEST — less than 48h old. Content:
+  pattern-match follow-up with peer benchmark (97% flagged pre-execution,
+  55-day median, 80%+ unknown to internal systems), offering 20-account sample
+  and 30-minute session before end of May. Pending re-evaluation next run.
+---
+
+---
+date: 2026-05-15
+agent: forge-v2
+client: Swissquote
+draft_subject: "2e échantillon Swissquote — analyse en attente"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  No sent email found to Swissquote contact on 2026-05-15. Draft confirmed as
+  Gmail draft (not dispatched). Created at 08:58 CEST — less than 48h old.
+  Content: next-step chasing directly to Pierre Gauffeny on 2nd mule account
+  sample shared March 27, asking about progress or blockers. Pending
+  re-evaluation next run.
 ---
