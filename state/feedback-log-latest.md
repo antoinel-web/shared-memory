@@ -383,14 +383,17 @@ date: 2026-05-15
 agent: forge-v2
 client: BGL BNP Paribas
 draft_subject: "Re: CUBE AI <> BGL BNP Paribas - Comptes Mules"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to BGL contact on 2026-05-15. Draft confirmed as Gmail
-  draft (not dispatched). Created at 08:17 CEST — less than 48h old. Content:
-  pre-kickoff methodological pre-read (three-layer detection, peer benchmark,
-  agenda question for May 22 session). Pending re-evaluation next run.
+  No sent email found to BGL BNP Paribas contacts (damien.chaffotte@bgl.lu,
+  ignacio.alonso@bgl.lu, fernand.lepage@bgl.lu) between May 15-18. Gmail
+  search confirmed the draft was never dispatched. Content: pre-kickoff
+  methodological pre-read (three-layer detection, peer benchmark, agenda
+  question for the May 22 session). Previously Pending; now >72h old →
+  Ignoré. The May 22 session proceeds without Antoine's pre-read framing email.
 ---
 
 ---
@@ -398,14 +401,18 @@ date: 2026-05-15
 agent: forge-v2
 client: Swan
 draft_subject: "RE: Swan — Intro & next steps"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to Swan contact on 2026-05-15. Draft confirmed as Gmail
-  draft (not dispatched). Created at 08:24 CEST — less than 48h old. Content:
-  pre-meeting bridge checking Swan's deliverables and reframing financial
-  impact angle ahead of May 22 restitution. Pending re-evaluation next run.
+  No sent email found to Swan contacts (martin.miguel@swan.io, luc.drye@swan.io)
+  between May 15-18. Gmail confirmed the draft was marked as unsent (draft flag
+  true). Content: pre-meeting bridge checking Swan's deliverables and reframing
+  financial impact angle (€14 average per compromised account, broader IBAN
+  exposure) ahead of May 22 restitution. Previously Pending; now >72h old →
+  Ignoré. Antoine was on OOO until May 17; the draft was not dispatched upon
+  return.
 ---
 
 ---
@@ -413,14 +420,16 @@ date: 2026-05-15
 agent: forge-v2
 client: Intesa Sanpaolo
 draft_subject: "Intesa Sanpaolo × CUBE AI — ahead of 20 May"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to Intesa Sanpaolo contact on 2026-05-15. Draft confirmed
-  as Gmail draft (not dispatched). Created at 08:29 CEST — less than 48h old.
-  Content: pre-meeting bridge with 170+ flagged Intesa accounts data point,
-  agenda proposal for May 20 intro call. Pending re-evaluation next run.
+  No sent email found to Intesa Sanpaolo contact (gianluca.chiusano@intesasanpaolo.com)
+  between May 15-18. Gmail confirmed the draft was never dispatched (draft flag
+  true). Content: pre-meeting bridge with 170+ flagged Intesa accounts data
+  point and agenda proposal for May 20 intro call. Previously Pending; now >72h
+  old → Ignoré. The May 20 intro call proceeds without this pre-read being sent.
 ---
 
 ---
@@ -428,14 +437,17 @@ date: 2026-05-15
 agent: forge-v2
 client: BPCE
 draft_subject: "RE: Analyse comptes mules BPCE"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to BPCE contacts on 2026-05-15. Draft confirmed as Gmail
-  draft (not dispatched). Created at 08:33 CEST — less than 48h old. Content:
-  pre-meeting guidance on date-level granularity for external IBAN cross-
-  referencing ahead of May 20 session. Pending re-evaluation next run.
+  No matching email found to BPCE contacts on May 15-18. Gmail confirmed the
+  draft was never dispatched (draft flag true). Content: pre-meeting guidance
+  on date-level granularity for external IBAN cross-referencing ahead of May 20
+  session. The only BPCE email sent in this window (May 18, 09:12 CEST) was an
+  unrelated scheduling response to Sarah's request to reschedule to June 19 —
+  no methodological content. Previously Pending; now >72h old → Ignoré.
 ---
 
 ---
@@ -443,15 +455,17 @@ date: 2026-05-15
 agent: forge-v2
 client: BNP Paribas Fortis
 draft_subject: "RE: [EXTERNAL] BNP Paribas Fortis — Intro & next steps"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to BNP Paribas Fortis contacts on 2026-05-15. Draft
-  confirmed as Gmail draft (not dispatched). Created at 08:37 CEST — less than
-  48h old. Content: nine-day follow-up on David Massart's fraud typology
-  document request, committing to pre-May-20 delivery. Pending re-evaluation
-  next run.
+  No sent email found to BNP Paribas Fortis contacts between May 15-18. Gmail
+  confirmed the draft was never dispatched (draft flag true). Content: nine-day
+  follow-up on David Massart's fraud typology document request, committing to
+  pre-May-20 delivery with a scoping question about BNP Fortis' focus (inbound
+  mules vs outbound APP vs both). Previously Pending; now >72h old → Ignoré.
+  The fraud typology document was not delivered ahead of the May 20 meeting.
 ---
 
 ---
@@ -459,15 +473,17 @@ date: 2026-05-15
 agent: forge-v2
 client: BNL
 draft_subject: "Re: BNL — Intro & next steps"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to BNL contacts on 2026-05-15. Draft confirmed as Gmail
-  draft (not dispatched). Created at 08:46 CEST — less than 48h old. Content:
-  pattern-match follow-up with peer benchmark (97% flagged pre-execution,
-  55-day median, 80%+ unknown to internal systems), offering 20-account sample
-  and 30-minute session before end of May. Pending re-evaluation next run.
+  No sent email found to BNL contacts (piermario.cecchini@bnpparibas.com,
+  gianandrea.bertello@bnpparibas.com) between May 15-18. Gmail confirmed the
+  draft was never dispatched (draft flag true). Content: pattern-match follow-up
+  with peer benchmark (97% flagged pre-execution, 55-day median, 80%+ unknown
+  to internal systems), offering 20-account sample and 30-minute session before
+  end of May. Previously Pending; now >72h old → Ignoré.
 ---
 
 ---
@@ -475,13 +491,14 @@ date: 2026-05-15
 agent: forge-v2
 client: Swissquote
 draft_subject: "2e échantillon Swissquote — analyse en attente"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  No sent email found to Swissquote contact on 2026-05-15. Draft confirmed as
-  Gmail draft (not dispatched). Created at 08:58 CEST — less than 48h old.
-  Content: next-step chasing directly to Pierre Gauffeny on 2nd mule account
-  sample shared March 27, asking about progress or blockers. Pending
-  re-evaluation next run.
+  No sent email found to Swissquote contact (pierre.gauffeny@swissquote.ch)
+  between May 15-18. Gmail confirmed the draft was never dispatched (draft flag
+  true). Content: direct follow-up to Pierre Gauffeny on 2nd mule account
+  sample shared March 27, asking about progress or blockers. Previously Pending;
+  now >72h old → Ignoré. The Swissquote second-sample review remains stalled.
 ---
