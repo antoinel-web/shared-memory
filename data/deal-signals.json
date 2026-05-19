@@ -1,37 +1,127 @@
 {
-  "generated_at": "2026-05-15T09:06:00+02:00",
+  "generated_at": "2026-05-19T09:06:01.132932+02:00",
   "agent": "pipeline-scan",
   "schema_version": "1.0",
   "deals": {
-    "006VT00000nNpjzYAC": {
-      "account_name": "BNP Paribas",
-      "opportunity_name": "BNP Paribas FRANCE - Apex - 2026",
-      "stage": "Navigating / MAP",
-      "ai_health_score": 6.4,
+    "006VT00000nO4HZYA0": {
+      "account_name": "Treezor",
+      "opportunity_name": "Treezor - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 2.0,
       "meddpicc_scores": {
-        "metrics": 8.7,
-        "economic_buyer": 2.0,
-        "decision_criteria": 6.7,
+        "metrics": 3.0,
+        "economic_buyer": 0,
+        "decision_criteria": 3.0,
         "decision_process": 4.0,
-        "paper_process": 0.0,
-        "pain": 8.7,
-        "champion": 7.5,
+        "paper_process": 0,
+        "pain": 1.0,
+        "champion": 2.0,
+        "competition": 3.0
+      },
+      "signals": {
+        "deal_velocity": "Stalled",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Pending \u2014 Follow-up sent Apr 27. Awaiting Cedric Cassini/Valerie Duclos response on off-bank analysis next steps.",
+      "next_step_date": "",
+      "red_flags": "Stalled since Apr 3 call \u00b7 Follow-up emails unanswered \u00b7 Need to quantify off-bank value"
+    },
+    "006VT00000nO329YAC": {
+      "account_name": "Belfius",
+      "opportunity_name": "Belfius - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 0.6,
+      "meddpicc_scores": {
+        "metrics": 1.0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 1.0,
+        "paper_process": 0,
+        "pain": 1.0,
+        "champion": 1.0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Stalled",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"May 28 Isabel Belgium anti-fraud initiative\" (last scan notes)",
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 28 \u2014 CUBE AI <> Isabel Belgium anti-fraud initiative (Dylan Crokaert, Marc Pagnoul from Belfius)",
+      "next_step_date": "2026-05-28",
+      "red_flags": "Stale since April \u00b7 Via Isabel Group industry initiative \u00b7 Francois Franssen declined"
+    },
+    "006VT00000nNrU2YAK": {
+      "account_name": "Lydia",
+      "opportunity_name": "Lydia - Apex - 2026",
+      "stage": "Technical Validation / POC \u00b7 POV",
+      "ai_health_score": 3.3,
+      "meddpicc_scores": {
+        "metrics": 6.0,
+        "economic_buyer": 3.0,
+        "decision_criteria": 2.0,
+        "decision_process": 3.0,
+        "paper_process": 0,
+        "pain": 5.0,
+        "champion": 2.0,
         "competition": 5.0
       },
       "signals": {
-        "deal_velocity": "Accelerating",
-        "champion_engagement": "Active",
+        "deal_velocity": "Dark",
+        "champion_engagement": "None",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "Full_Analysis",
+        "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"May 18 BNP Group CyberMonitoring + May 19 weekly\" (Calendar, 2026-05-15)",
-        "engagement_7d": 4,
-        "engagement_30d": 15,
-        "score_wow_delta": 0.0
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": -0.6
       },
-      "next_step": "May 18 \u2014 BNP Group CyberMonitoring mtg (Escoffre, Tedeschi, Fangouse)",
-      "next_step_date": "2026-05-18",
-      "red_flags": "EB not confirmed \u00b7 Paper process never discussed \u00b7 Procurement heavy"
+      "next_step": "URGENT: Broker Cyril Chiche \u2192 Daphne (CFO) intro. Propose free parallel data share vs MISP benchmark.",
+      "next_step_date": "",
+      "red_flags": "Alexandre Meyran dark since Mar 27 \u00b7 William Brulin pushing 3-4 month MISP benchmark \u00b7 No Paper Process \u00b7 Champion lost"
+    },
+    "006VT00000nO4e9YAC": {
+      "account_name": "Dukascopy Bank SA",
+      "opportunity_name": "Dukascopy - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 2.6,
+      "meddpicc_scores": {
+        "metrics": 5.0,
+        "economic_buyer": 5.0,
+        "decision_criteria": 5.0,
+        "decision_process": 3.0,
+        "paper_process": 0,
+        "pain": 5.0,
+        "champion": 4.0,
+        "competition": 6.0
+      },
+      "signals": {
+        "deal_velocity": "Stalled",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Next week \u2014 Call with Claude (Dukascopy) when his committee is done. Antoine + Jonathan + Ugo to clarify confusing email.",
+      "next_step_date": "2026-05-05",
+      "red_flags": "Deeper analysis scoping call with Victor not scheduled \u00b7 No activity since AVT results"
     },
     "006VT00000o6Ul2YAE": {
       "account_name": "CaixaGeral de Depositos",
@@ -39,59 +129,29 @@
       "stage": "Negotiating",
       "ai_health_score": 4.9,
       "meddpicc_scores": {
-        "metrics": 6.7,
-        "economic_buyer": 4.0,
-        "decision_criteria": 5.3,
-        "decision_process": 5.3,
-        "paper_process": 3.3,
-        "pain": 6.7,
-        "champion": 5.0,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Slowing",
-        "champion_engagement": "Passive",
-        "economic_buyer_status": "Identified",
-        "metrics_validation": "Full_Analysis",
-        "procurement_status": "Discussed",
-        "client_timeline": "\"50/50 per Manuel. Board approved. Procurement pending.\" (Gmail, 2026-05-13)",
-        "engagement_7d": 1,
-        "engagement_30d": 8,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "Follow up procurement + GASS invite",
-      "next_step_date": "2026-05-19",
-      "red_flags": "Procurement stalled \u00b7 Price objection \u00b7 Manuel traveling"
-    },
-    "006VT00000nO53xYAC": {
-      "account_name": "Bunq",
-      "opportunity_name": "Bunq - Apex - 2026",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 4.5,
-      "meddpicc_scores": {
         "metrics": 6.0,
         "economic_buyer": 3.3,
-        "decision_criteria": 4.0,
-        "decision_process": 3.3,
-        "paper_process": 3.3,
+        "decision_criteria": 4.7,
+        "decision_process": 4.7,
+        "paper_process": 4.4,
         "pain": 6.0,
-        "champion": 5.0,
-        "competition": 3.3
+        "champion": 6.7,
+        "competition": 4.4
       },
       "signals": {
         "deal_velocity": "Slowing",
         "champion_engagement": "Active",
         "economic_buyer_status": "Identified",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": "\"1-2 month timeline POV-to-contract\" (Granola, 2026-05-06)",
-        "engagement_7d": 5,
-        "engagement_30d": 18,
-        "score_wow_delta": -0.2
+        "metrics_validation": "Full_Analysis",
+        "procurement_status": "Discussed",
+        "client_timeline": "\"Procurement portal not yet received, Manuel traveling Mozambique\" (Gmail, 2026-05-13)",
+        "engagement_7d": 0,
+        "engagement_30d": 5,
+        "score_wow_delta": 0
       },
-      "next_step": "Send 20k EU IBANs to Stephanie + identify competitors",
+      "next_step": "Follow up procurement portal registration + GASS 2026 invite confirmation with Manuel (traveling)",
       "next_step_date": "2026-05-19",
-      "red_flags": "CEO skeptical \u00b7 No COO alignment \u00b7 Competition unknown"
+      "red_flags": "Procurement portal stalled \u00b7 Manuel traveling \u00b7 Price objection active \u00b7 References requested"
     },
     "006VT00000obYKTYA2": {
       "account_name": "Groupe BPCE",
@@ -99,13 +159,253 @@
       "stage": "Account Validation Test (AVT)",
       "ai_health_score": 3.4,
       "meddpicc_scores": {
-        "metrics": 4.0,
+        "metrics": 5.3,
         "economic_buyer": 2.0,
         "decision_criteria": 3.3,
+        "decision_process": 2.7,
+        "paper_process": 1.1,
+        "pain": 4.7,
+        "champion": 4.2,
+        "competition": 3.3
+      },
+      "signals": {
+        "deal_velocity": "Slowing",
+        "champion_engagement": "Passive",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"Sarah Guigny proposed moving from May 20 to June 19\" (Gmail, 2026-05-18)",
+        "engagement_7d": 2,
+        "engagement_30d": 6,
+        "score_wow_delta": 0
+      },
+      "next_step": "Jun 19 \u2014 BPCE analysis readout with Sarah Guigny (rescheduled from May 20)",
+      "next_step_date": "2026-06-19",
+      "red_flags": "Meeting slipped 4 weeks (May 20\u2192Jun 19) \u00b7 No EB identified \u00b7 No budget owner named \u00b7 Paper process never discussed"
+    },
+    "006VT00000nO53xYAC": {
+      "account_name": "bunq",
+      "opportunity_name": "Bunq - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 4.5,
+      "meddpicc_scores": {
+        "metrics": 5.3,
+        "economic_buyer": 3.3,
+        "decision_criteria": 4.0,
         "decision_process": 4.0,
-        "paper_process": 0.0,
+        "paper_process": 3.3,
         "pain": 6.0,
-        "champion": 4.0,
+        "champion": 5.8,
+        "competition": 3.3
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"NDA signed, running analysis with Stephanie to build CEO biz case\" (Slack, 2026-05-15)",
+        "engagement_7d": 3,
+        "engagement_30d": 12,
+        "score_wow_delta": 0
+      },
+      "next_step": "Deliver EU IBAN list to Stephanie Rios, agree success criteria for formal mule test",
+      "next_step_date": "2026-05-23",
+      "red_flags": "CEO contacted directly by CUBE AI CEO (friction) \u00b7 CEO skeptical \"already has vendors\" \u00b7 No COO meeting scheduled"
+    },
+    "006VT00000oNKakYAG": {
+      "account_name": "Incore",
+      "opportunity_name": "Incore - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 0.3,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 1.0,
+        "champion": 1.0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 29 \u2014 Catch-up with Thomas Glaus",
+      "next_step_date": "2026-05-29",
+      "red_flags": "Multiple MEDDPICC gaps below stage minimum (M, EB, DC, DP, Pain, Ch, Co)"
+    },
+    "006VT00000nO5dRYAS": {
+      "account_name": "Credit Agricole",
+      "opportunity_name": "Credit Agricole - Apex - 2026",
+      "stage": "Qualifying",
+      "ai_health_score": 1.3,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 2.0,
+        "paper_process": 0,
+        "pain": 2.0,
+        "champion": 3.0,
+        "competition": 2.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"May 18 review with Sebastien Gonidec completed, Bluedot recap available\" (Calendar+Bluedot, 2026-05-18)",
+        "engagement_7d": 2,
+        "engagement_30d": 3,
+        "score_wow_delta": 0.5
+      },
+      "next_step": "Follow up on May 18 results review with Sebastien Gonidec \u2014 await feedback",
+      "next_step_date": "2026-05-22",
+      "red_flags": "First meeting in weeks \u00b7 No EB identified \u00b7 Deal re-awakening needs momentum"
+    },
+    "006VT00000pmi1OYAQ": {
+      "account_name": "Banca Profilo",
+      "opportunity_name": "Banca Profilo - Apex - NB 27",
+      "stage": "Qualifying",
+      "ai_health_score": 2.5,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Identified_Only",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"May 20 1st analysis readout with Antonio Gravetti\" (Calendar)",
+        "engagement_7d": 1,
+        "engagement_30d": 3,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 20 \u2014 1st analysis readout with Antonio Gravetti",
+      "next_step_date": "2026-05-20",
+      "red_flags": "Early stage \u00b7 Single contact \u00b7 Small Italian bank"
+    },
+    "006VT00000pcfuPYAQ": {
+      "account_name": "Intesa Sanpaolo",
+      "opportunity_name": "Intesa Sanpaolo - Apex - NB 2026",
+      "stage": "Qualifying",
+      "ai_health_score": 2.0,
+      "meddpicc_scores": {
+        "metrics": 1.0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 1.0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Identified_Only",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"May 20 intro with Gianluca Chiusano\" (Calendar)",
+        "engagement_7d": 1,
+        "engagement_30d": 2,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 20 \u2014 Intro meeting with Gianluca Chiusano (new contact)",
+      "next_step_date": "2026-05-20",
+      "red_flags": "Previous contact declined \u00b7 New entry point untested \u00b7 170+ mule accounts as leverage \u00b7 All MEDDPICC scores low"
+    },
+    "006VT00000pmk6PYAQ": {
+      "account_name": "BGL BNP Paribas",
+      "opportunity_name": "BGL (BNP Luxembourg) - Apex - NB27",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 3.1,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Pitch_Only",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"POC kickoff May 22, Benoit Audeyer accepted\" (Calendar, 2026-05-22)",
+        "engagement_7d": 1,
+        "engagement_30d": 6,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 22 \u2014 POC kickoff with Damien Chaffotte, Ignacio Alonso, Fernand Lepage, Benoit Audeyer",
+      "next_step_date": "2026-05-22",
+      "red_flags": "Anti-fraud head Olivier Marlot unavailable for POC kickoff \u00b7 Xavier Hoyaux also declined"
+    },
+    "006VT00000nNzg7YAC": {
+      "account_name": "Swan",
+      "opportunity_name": "Swan - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 3.0,
+      "meddpicc_scores": {
+        "metrics": 5.3,
+        "economic_buyer": 1.3,
+        "decision_criteria": 3.3,
+        "decision_process": 2.0,
+        "paper_process": 0,
+        "pain": 5.0,
+        "champion": 4.2,
+        "competition": 2.8
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"2nd restitution May 22 at 15h\" (Calendar, 2026-05-22)",
+        "engagement_7d": 1,
+        "engagement_30d": 5,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 22 \u2014 2nd data restitution with Martin Miguel & Luc Drye",
+      "next_step_date": "2026-05-22",
+      "red_flags": "No EB identified \u00b7 No budget owner named \u00b7 Omnibus account challenge (Wise IBANs)"
+    },
+    "006VT00000pCwqrYAC": {
+      "account_name": "UniCredit",
+      "opportunity_name": "UniCredit - Apex - NB 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 3.3,
+      "meddpicc_scores": {
+        "metrics": 4.7,
+        "economic_buyer": 2.0,
+        "decision_criteria": 3.3,
+        "decision_process": 2.7,
+        "paper_process": 2.2,
+        "pain": 4.0,
+        "champion": 4.2,
         "competition": 3.3
       },
       "signals": {
@@ -114,104 +414,14 @@
         "economic_buyer_status": "Unknown",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 1,
-        "engagement_30d": 6,
-        "score_wow_delta": 0.0
+        "client_timeline": "\"May 29 DPO Data Protection Q&A\" (Calendar)",
+        "engagement_7d": 0,
+        "engagement_30d": 3,
+        "score_wow_delta": 0
       },
-      "next_step": "May 20 \u2014 External IBANs analysis (Sarah Guigny + extended team)",
-      "next_step_date": "2026-05-20",
-      "red_flags": "EB unknown \u00b7 Champion passive \u00b7 No budget discussion"
-    },
-    "006VT00000pCwqrYAC": {
-      "account_name": "UniCredit",
-      "opportunity_name": "UniCredit - Apex - NB 2026",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 3.3,
-      "meddpicc_scores": {
-        "metrics": 4.0,
-        "economic_buyer": 2.0,
-        "decision_criteria": 3.3,
-        "decision_process": 4.0,
-        "paper_process": 0.0,
-        "pain": 5.3,
-        "champion": 4.0,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": "\"May 29 DPO Q&A\" (Calendar, 2026-05-15)",
-        "engagement_7d": 1,
-        "engagement_30d": 5,
-        "score_wow_delta": -2.3
-      },
-      "next_step": "May 29 \u2014 DPO Data Protection Q&A",
+      "next_step": "May 29 \u2014 DPO Data Protection Q&A with Sollazzo & Stefanello",
       "next_step_date": "2026-05-29",
-      "red_flags": "DPO gate blocking POV \u00b7 No EB identified"
-    },
-    "006VT00000nNzg7YAC": {
-      "account_name": "Swan",
-      "opportunity_name": "Swan - Apex - 2026",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 3.0,
-      "meddpicc_scores": {
-        "metrics": 4.0,
-        "economic_buyer": 1.3,
-        "decision_criteria": 3.3,
-        "decision_process": 3.3,
-        "paper_process": 0.0,
-        "pain": 5.3,
-        "champion": 4.0,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 1,
-        "engagement_30d": 4,
-        "score_wow_delta": -0.4
-      },
-      "next_step": "May 22 \u2014 2nd data restitution",
-      "next_step_date": "2026-05-22",
-      "red_flags": "EB unknown \u00b7 No budget discussion"
-    },
-    "006VT00000pmk6PYAQ": {
-      "account_name": "BGL BNP Paribas",
-      "opportunity_name": "BGL (BNP Luxembourg) - Apex - NB27",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 3.1,
-      "meddpicc_scores": {
-        "metrics": 4.0,
-        "economic_buyer": 2.0,
-        "decision_criteria": 3.3,
-        "decision_process": 3.3,
-        "paper_process": 0.0,
-        "pain": 5.3,
-        "champion": 4.0,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 8,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "May 22 \u2014 POC kickoff",
-      "next_step_date": "2026-05-22",
-      "red_flags": "Anti-fraud head unavailable \u00b7 Scheduling friction"
+      "red_flags": "DPO gate blocking expanded POV \u00b7 No EB identified \u00b7 No business case owner post-privacy gate"
     },
     "006VT00000qEkbJYAS": {
       "account_name": "BNP Paribas Fortis",
@@ -219,14 +429,14 @@
       "stage": "Qualifying",
       "ai_health_score": 2.9,
       "meddpicc_scores": {
-        "metrics": 3.3,
-        "economic_buyer": 2.0,
-        "decision_criteria": 3.3,
-        "decision_process": 2.7,
-        "paper_process": 0.0,
-        "pain": 4.0,
-        "champion": 3.3,
-        "competition": 2.7
+        "metrics": 2.7,
+        "economic_buyer": 1.3,
+        "decision_criteria": 2.0,
+        "decision_process": 2.0,
+        "paper_process": 0,
+        "pain": 2.0,
+        "champion": 1.7,
+        "competition": 1.7
       },
       "signals": {
         "deal_velocity": "Steady",
@@ -234,14 +444,434 @@
         "economic_buyer_status": "Unknown",
         "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 6,
-        "score_wow_delta": 0.0
+        "client_timeline": "\"May 20 follow-up with David Massart, fraud typology pending\" (Email+Calendar)",
+        "engagement_7d": 1,
+        "engagement_30d": 5,
+        "score_wow_delta": 0
       },
-      "next_step": "May 20 \u2014 Follow-up + fraud typology",
+      "next_step": "May 20 \u2014 Follow-up meeting with David Massart (fraud typology doc pending)",
       "next_step_date": "2026-05-20",
-      "red_flags": "Fraud typology doc delayed \u00b7 Budget authority unknown"
+      "red_flags": "Fraud typology doc still pending from May 6 \u00b7 No EB identified"
+    },
+    "006VT00000nNpjzYAC": {
+      "account_name": "BNP Paribas",
+      "opportunity_name": "BNP Paribas FRANCE - Apex - 2026",
+      "stage": "Navigating / MAP",
+      "ai_health_score": 6.4,
+      "meddpicc_scores": {
+        "metrics": 8.0,
+        "economic_buyer": 3.3,
+        "decision_criteria": 5.3,
+        "decision_process": 5.3,
+        "paper_process": 0,
+        "pain": 7.7,
+        "champion": 6.7,
+        "competition": 3.9
+      },
+      "signals": {
+        "deal_velocity": "Accelerating",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"BNP Group CyberMonitoring May 18, weekly May 19 with Jerome/Sabine\" (Calendar, 2026-05-18)",
+        "engagement_7d": 5,
+        "engagement_30d": 15,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 19 \u2014 Weekly sync with Jerome Palin & Sabine Thevelin (BNP BCEF)",
+      "next_step_date": "2026-05-19",
+      "red_flags": "EB not confirmed \u00b7 Paper process never discussed \u00b7 \u20ac4.7M ROI needs to reach budget owner"
+    },
+    "006VT00000nNuAAYA0": {
+      "account_name": "La Banque Postale",
+      "opportunity_name": "La Banque Postale - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 2.5,
+      "meddpicc_scores": {
+        "metrics": 4.0,
+        "economic_buyer": 0,
+        "decision_criteria": 2.0,
+        "decision_process": 3.0,
+        "paper_process": 0,
+        "pain": 2.7,
+        "champion": 3.3,
+        "competition": 2.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "End May \u2014 Awaiting JC Bouchez legal review (lawyers + Caisse des D\u00e9p\u00f4ts). Go/no-go by end May. If go: procurement + platform access for Lo\u00efc & Talal.",
+      "next_step_date": "2026-05-30",
+      "red_flags": "Legal blocker: fake identity approach \u00b7 No EB \u00b7 PP 0% \u00b7 Caisse des D\u00e9p\u00f4ts conservative stance"
+    },
+    "006VT00000nO7SLYA0": {
+      "account_name": "ssp",
+      "opportunity_name": "Score & Secure Payment - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 3.6,
+      "meddpicc_scores": {
+        "metrics": 7.0,
+        "economic_buyer": 0,
+        "decision_criteria": 7.0,
+        "decision_process": 3.0,
+        "paper_process": 0,
+        "pain": 5.0,
+        "champion": 4.0,
+        "competition": 4.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 18 \u2014 Review Gil's KPI analysis. Antoine to send fraud screenshots + category list before call.",
+      "next_step_date": "2026-05-18",
+      "red_flags": "No EB identified. Paper process unknown. Single-threaded on Gil. Status quo is only competitor."
+    },
+    "006VT00000nNlq2YAC": {
+      "account_name": "Qonto",
+      "opportunity_name": "Qonto - Apex - 2026",
+      "stage": "Pre-Opportunity",
+      "ai_health_score": 1.2,
+      "meddpicc_scores": {
+        "metrics": 1.0,
+        "economic_buyer": 0,
+        "decision_criteria": 2.0,
+        "decision_process": 2.0,
+        "paper_process": 0,
+        "pain": 2.0,
+        "champion": 0,
+        "competition": 2.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "No next step \u2014 reach AML team (Nicolas Gougeon, Alexis d'Avanzo) to reopen via regulatory angle",
+      "next_step_date": "",
+      "red_flags": "No champion. No EB. POC rejected by Thibault. Netcraft incumbent. Paper process unknown. No next step."
+    },
+    "006VT00000pZbSLYA0": {
+      "account_name": "BNL Gruppo BNP Paribas",
+      "opportunity_name": "BNL (BNP italia) - Apex - NB 2026",
+      "stage": "Qualifying",
+      "ai_health_score": 3.7,
+      "meddpicc_scores": {
+        "metrics": 4.0,
+        "economic_buyer": 3.0,
+        "decision_criteria": 5.0,
+        "decision_process": 7.0,
+        "paper_process": 0,
+        "pain": 9.0,
+        "champion": 8.0,
+        "competition": 9.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "2026-04-24 \u2014 BGL BNP Paribas mule accounts review + awaiting Piermario POC kickoff",
+      "next_step_date": "2026-04-24",
+      "red_flags": "Paper process not discussed \u2022 EB budget unconfirmed \u2022 POC not started \u2014 waiting on Piermario"
+    },
+    "006VT00000p0Fo5YAE": {
+      "account_name": "Banca Sella",
+      "opportunity_name": "Banca Sella - Apex - NB 2027",
+      "stage": "Qualifying",
+      "ai_health_score": 2.6,
+      "meddpicc_scores": {
+        "metrics": 3.0,
+        "economic_buyer": 0,
+        "decision_criteria": 5.0,
+        "decision_process": 4.0,
+        "paper_process": 2.0,
+        "pain": 4.0,
+        "champion": 6.0,
+        "competition": 9.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "No next step scheduled \u2014 needs outreach to Roberto on GDPR legal status",
+      "next_step_date": "",
+      "red_flags": "No EB identified \u2022 Single-threaded on Roberto \u2022 GDPR legal gate no timeline \u2022 Pain not quantified \u2022 No next step"
+    },
+    "006VT00000o6XMHYA2": {
+      "account_name": "Kbc bank & verzekering",
+      "opportunity_name": "KBC - Apex - 2026",
+      "stage": "Qualifying",
+      "ai_health_score": 0.3,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 1.0,
+        "champion": 1.0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Pending \u2014 Follow-up sent Apr 27 to Patrizia Pirro. Mentioned CSOB Prague session as leverage. New KBC NL contact via Transform Finance.",
+      "next_step_date": "",
+      "red_flags": "No response from Patrizia since Mar 16 \u00b7 Routing through Brussels colleagues may be needed \u00b7 Very early stage"
+    },
+    "006VT00000nO6mPYAS": {
+      "account_name": "Nickel",
+      "opportunity_name": "Nickel - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 1.4,
+      "meddpicc_scores": {
+        "metrics": 2.0,
+        "economic_buyer": 0,
+        "decision_criteria": 1.0,
+        "decision_process": 2.0,
+        "paper_process": 0,
+        "pain": 3.0,
+        "champion": 2.0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "May 4+ \u2014 Barbara Delecourt OOO until May 4. Follow-up sent with meeting summary from Mar 13.",
+      "next_step_date": "2026-05-04",
+      "red_flags": "Key contact OOO until May 4 \u00b7 No response to follow-up \u00b7 BNP subsidiary - may need group-level decision"
+    },
+    "006VT00000o62IVYAY": {
+      "account_name": "Swissquote",
+      "opportunity_name": "Swissquote - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 1.0,
+      "meddpicc_scores": {
+        "metrics": 1.0,
+        "economic_buyer": 0,
+        "decision_criteria": 1.0,
+        "decision_process": 1.0,
+        "paper_process": 0,
+        "pain": 2.0,
+        "champion": 2.0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Pending \u2014 Follow-up sent Apr 27 to Valerie Jossieaux. Waiting response on second sample review.",
+      "next_step_date": "",
+      "red_flags": "Stalled per Antoine \u00b7 Valerie declined Apr 10 meeting \u00b7 No response since \u00b7 Second sample sent Mar 27 unreviewed"
+    },
+    "006VT00000p5U4vYAE": {
+      "account_name": "Deblock",
+      "opportunity_name": "Deblock - Apex - NB 26",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 0.3,
+      "meddpicc_scores": {
+        "metrics": 1.0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 1.0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Pending \u2014 108 Deblock mule accounts detected in April alone (119 all of 2025). Waiting Adrien response on analysis.",
+      "next_step_date": "",
+      "red_flags": "No response to follow-ups \u00b7 Small fintech \u2014 low revenue potential"
+    },
+    "006VT00000pmjqHYAQ": {
+      "account_name": "Poste Italiane",
+      "opportunity_name": "Poste Italiane - Apex - NB27",
+      "stage": "Qualifying",
+      "ai_health_score": 0,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Pending \u2014 Poste Italiane coordinating internally (Alessandro/Francesco/Pasquale). Test POC with >20 IBAN sample pending.",
+      "next_step_date": "",
+      "red_flags": "Italian legal constraints on account blocking (police report required) \u00b7 Only 5-10% victims report \u00b7 Limited to blacklist/AML flagging"
+    },
+    "006VT00000nO3v0YAC": {
+      "account_name": "Betclic Group",
+      "opportunity_name": "Betclic - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 1.9,
+      "meddpicc_scores": {
+        "metrics": 4.0,
+        "economic_buyer": 0,
+        "decision_criteria": 2.0,
+        "decision_process": 2.0,
+        "paper_process": 0,
+        "pain": 3.0,
+        "champion": 3.0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Jul 2026 \u2014 Reconnect after World Cup. Julien on 3-week leave, then World Cup focus. Simon confirmed July restart.",
+      "next_step_date": "2026-07-01",
+      "red_flags": "Deal paused until July \u00b7 Key analyst Julien on 3-week leave \u00b7 World Cup priority \u00b7 Analysis of evidence not completed"
+    },
+    "006VT00000nNz4nYAC": {
+      "account_name": "Groupe CCF",
+      "opportunity_name": "Groupe CCF - Apex - 2026",
+      "stage": "Pre Opp",
+      "ai_health_score": 0,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Identify a contact at Groupe CCF \u2014 research fraud/compliance team and initiate cold outreach",
+      "next_step_date": "",
+      "red_flags": "Zero signal in any data source. No contact identified. May be incorrectly created or very early pipeline placeholder."
+    },
+    "006VT00000nO4W7YAK": {
+      "account_name": "OuiTrust",
+      "opportunity_name": "OuiTrust - Apex - 2026",
+      "stage": "Pre Opp",
+      "ai_health_score": 0,
+      "meddpicc_scores": {
+        "metrics": 0,
+        "economic_buyer": 0,
+        "decision_criteria": 0,
+        "decision_process": 0,
+        "paper_process": 0,
+        "pain": 0,
+        "champion": 0,
+        "competition": 0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "None",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "None",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0
+      },
+      "next_step": "Send 1-line re-engage email to Jaime \u2014 if no response within 7 days, park or close deal",
+      "next_step_date": "",
+      "red_flags": "29+ days dark. Zero engagement signal. No validated pain. Likely dead deal \u2014 consider closing."
     }
   }
 }
