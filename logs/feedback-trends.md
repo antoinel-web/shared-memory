@@ -34,3 +34,27 @@ trends:
     the email was sent anyway. Consider surfacing incomplete placeholders as
     a blocking warning rather than advisory note."
 ---
+
+---
+period: 2026-05-04 to 2026-05-04
+total_deltas: 2
+breakdown:
+  Utilisé: 0
+  Modifié: 2
+  Remplacé: 0
+  Ignoré: 0
+top_categories:
+  - Contexte client ajouté (2 occurrences)
+  - Structure modifiée (2 occurrences)
+trends:
+  - "Meeting Echo (May 4): Both UniCredit and Swan drafts required Modifié
+    classification — Antoine added real-time context not available at draft
+    generation time (DPO scheduling options requested via inbound email,
+    intermediate email exchange context around omnibus accounts). Meeting Echo
+    captures meeting outcomes well but systematically misses inbound activity
+    occurring between draft generation and final send."
+  - "Meeting Echo (May 4): Both emails were dispatched 1–2 days after draft
+    generation (UniCredit: +1 day, Swan: +2 days), with intervening events
+    materially changing scope. Consider implementing a stale-draft flag when
+    an inbound email from the same thread arrives after draft creation."
+---
