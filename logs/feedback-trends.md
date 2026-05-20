@@ -58,3 +58,39 @@ trends:
     materially changing scope. Consider implementing a stale-draft flag when
     an inbound email from the same thread arrives after draft creation."
 ---
+
+---
+period: 2026-05-05 to 2026-05-05
+total_deltas: 10
+breakdown:
+  Utilisé: 2
+  Modifié: 3
+  Remplacé: 1
+  Ignoré: 4
+top_categories:
+  - CTA changé (4 occurrences)
+  - Autre (4 occurrences)
+  - Ton ajusté (3 occurrences)
+  - Contexte client ajouté (3 occurrences)
+  - Structure modifiée (2 occurrences)
+  - Contenu supprimé (1 occurrence)
+trends:
+  - "Forge v2 (May 5): High Ignoré rate — 4 out of 10 drafts never sent (Swan,
+    Nickel, OuiTrust, UniCredit). Across the batch, Antoine appears to have
+    deprioritized several accounts, suggesting Forge v2 generates follow-up
+    drafts without adequate weighting of deal-activity recency or Antoine's
+    current sequencing priorities."
+  - "Forge v2 (May 5): CTA changé is the single most frequent delta category
+    (4 occurrences). Antoine consistently softens or replaces direct scheduling
+    and escalation CTAs with open-ended closings. Agents should default to softer
+    CTA formulations unless explicit meeting-urgency context is present."
+  - "Forge v2 (May 5): Dukascopy Modifié — the draft proposed a bypass strategy
+    (routing around the rejection contact). Antoine instead chose direct
+    confrontation with a live ROI argument (~€700k annual exposure). Indicates
+    the agent lacks visibility into Antoine's read on counterpart credibility
+    and internal decision-making power."
+  - "Forge v2 (May 5): OuiTrust email written but not dispatched (Gmail draft
+    flag confirmed) — though subsequently sent 10 days later (May 15). Suggests
+    a delayed-send pattern where Antoine prepares re-engagement emails well in
+    advance of execution. Consider tracking Gmail draft state as a signal."
+---

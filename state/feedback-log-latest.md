@@ -1,201 +1,4 @@
 ---
-date: 2026-05-05
-agent: forge-v2
-client: KBC
-draft_subject: "Re: Mule Account Detection for KBC"
-status: Utilisé
-confidence: high
-categories:
-  - Ton ajusté
-delta_summary: >-
-  Breakup email executed faithfully: silence acknowledgment, easy-out/close-file
-  option, and KBC Netherlands via Transform Finance re-entry hook — all present
-  in the sent email. Tone maintained as direct and non-pushy as specified.
-  Minor stylistic adjustment in phrasing only; core structure and all key
-  angles preserved.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: CGD
-draft_subject: "Re: CUBE AI - Prevenção de fraude precoce com IA"
-status: Utilisé
-confidence: high
-categories:
-  - Ton ajusté
-delta_summary: >-
-  The draft was staged for May 6 morning (post-board debrief warm-up), but
-  Antoine sent it on May 5 at 10:52 — one day earlier than planned, while still
-  referencing "yesterday's" board discussion (confirming the board meeting was
-  May 4/Monday, not May 5 as noted in the draft metadata). Core framing
-  preserved: neutral tone, no assumption on board outcome, both procurement path
-  and commercial alignment offered as options for the May 6 debrief. The draft's
-  "calibrated question" format was replaced with an open offer ("if there's
-  anything we can do"), slightly warmer in register.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: Dukascopy
-draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
-status: Modifié
-confidence: high
-categories:
-  - Structure modifiée
-  - Contexte client ajouté
-  - CTA changé
-  - Ton ajusté
-delta_summary: >-
-  The draft proposed bypassing Victor Ekimetskiy (who sent the rejection) and
-  directing the response to Claude Favre (CRO/champion) with a revised scope
-  offer (onbank-only data) as a price lever. Antoine instead engaged Victor
-  directly with two rhetorical questions challenging the pricing decision
-  process, and introduced a new ROI argument (volume of IBANs detected ×
-  estimated cost per account yielding a ~€700k annual exposure figure) not
-  present in the draft. The CTA shifted from a targeted "30-min call with Claude
-  on price range before closing the file" to a general "speak again at your
-  convenience." The approach taken was more confrontational/inquisitive than the
-  draft's bypass strategy.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: Banca Sella
-draft_subject: "CUBE.AI <> Banca Sella"
-status: Modifié
-confidence: high
-categories:
-  - CTA changé
-  - Contenu supprimé
-delta_summary: >-
-  Core elements preserved: offer to join the legal team call directly, 30-minute
-  framing, Revolut/Barclays/Caixabank approval references, and POC dataset
-  readiness. The draft's Voss-style open question closing ("what does Roberto
-  need on his end to get GDPR clearance") was replaced with a declarative
-  statement ("can go out immediately once you have the green light"). The
-  "third outreach" framing and follow-up timeline context (26 days since legal
-  note, 14 days since prior follow-up) were absent from the sent email.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: Swan
-draft_subject: "Restitution comptes mules × CUBE — suite & dataset"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  Forge v2 draft generated at 08:22 CEST for martin.miguel@swan.io following
-  the May 4 first POC restitution. The only sent email to Swan between May 5-7
-  (May 6 at 13:37) was already matched to the Meeting Echo May 4 draft (higher
-  priority per conflict resolution: Meeting Echo > Forge v2). No separate
-  matching email found for this Forge v2 entry. Now > 48h old — classified as
-  Ignoré.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: Nickel
-draft_subject: "Re: Compte-rendu — Cube3 × Nickel — réunion du 13 mars"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  Forge v2 draft generated at 08:26 CEST for Barbara Delecourt (back from OOO
-  May 4). Exhaustive search across May 5-7 found no sent email to Barbara
-  Delecourt or Nickel. Draft is now > 48h old — classified as Ignoré. The
-  Nickel follow-up appears to have been deferred. Note: BNP Paribas thread
-  contains a reference to prior work with Nickel used as a group-level
-  introduction, but no direct outreach was sent to Barbara.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: OuiTrust
-draft_subject: "OuiTrust × CUBE — encore d'actualité ?"
-status: Ignoré
-confidence: high
-categories:
-  - Autre
-delta_summary: >-
-  Gmail search confirmed the OuiTrust email (to jaime.gaffud@ouitrust.com)
-  exists as a Gmail draft ("draft": true metadata confirmed) — it was never
-  sent. Draft is now > 48h old — classified as Ignoré. Antoine wrote the
-  re-engagement email but did not dispatch it. Note: the same email was
-  subsequently sent on 2026-05-15, ten days later.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: Belfius
-draft_subject: "Belfius × CUBE — EU detection update, May 2026"
-status: Remplacé
-confidence: medium
-categories:
-  - Structure modifiée
-  - CTA changé
-  - Contexte client ajouté
-delta_summary: >-
-  Forge v2 draft targeted François Franssen with a direct EU detection update
-  to re-engage Belfius after 53 days dark. An inbound email from François
-  arrived May 7, introducing Tim Van der Wee (Isabel Group) — a strategic pivot
-  away from direct Belfius re-engagement. Antoine responded the same day with
-  Belgian market statistics (matching draft's EU data intent) and slots for a
-  late-May discovery call. The CTA shifted from Belfius-targeted re-engagement
-  to an Isabel joint venture 30-min intro call. Content purpose changed
-  entirely due to unexpected inbound. Note: Isabel presentation Phase 2 source
-  also tracks this email (isabel-2026-05-07.md).
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: BNL
-draft_subject: "Re: BNL — Intro & next steps"
-status: Modifié
-confidence: high
-categories:
-  - Contexte client ajouté
-  - CTA changé
-delta_summary: >-
-  Forge v2 draft generated at 08:43 CEST as a POC kickoff nudge after 11 days
-  of silence from Piermario Cecchini. Matching email sent May 7 at 13:58 CEST
-  to piermario.cecchini@bnpparibas.com. The nudge intent was preserved, but
-  Antoine enriched the email with live updated detection statistics (19 BNL +
-  36 FinDomestic accounts flagged since January) not available at draft time.
-  CTA shifted from a direct scheduling ask to a framing question ("What would
-  it take to lock in a kickoff date?") — slightly softer but still action-
-  oriented. Core POC momentum preserved.
----
-
----
-date: 2026-05-05
-agent: forge-v2
-client: UniCredit
-draft_subject: "Re: UniCredit — Intro & next steps"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  Forge v2 draft generated at 08:19 CEST targeting pamela.teli@unicredit.eu
-  (post-May 4 AVT review follow-up). No email found addressed to Pamela Teli
-  on May 5-7. The only UniCredit email sent May 7 (12:31 CEST) went to
-  Giuseppe Sollazzo only, confirming the DPO slot for May 29 — unrelated to
-  this draft's scope and recipient. Draft is now > 48h old — classified as
-  Ignoré.
----
-
----
 date: 2026-05-07
 agent: meeting-echo
 client: Credem
@@ -457,4 +260,38 @@ delta_summary: >-
   true). Content: direct follow-up to Pierre Gauffeny on 2nd mule account
   sample shared March 27, asking about progress or blockers. Previously Pending;
   now >72h old → Ignoré. The Swissquote second-sample review remains stalled.
+---
+
+---
+date: 2026-05-20
+agent: meeting-echo
+client: Crédit Agricole / LCL
+draft_subject: "RE: Cube3 <> Credit Agricole / LCL : revue premiers résultats."
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Post-meeting recap draft for the May 18 CA/LCL call, generated at 13:10 CEST.
+  A Gmail draft with highly similar content and matching recipients
+  (sgonidec@ca-ibs.com, benoit.de-beaumont@lcl.fr) exists (12:56 CEST) but was
+  not dispatched as of 21:14 CEST. Draft coverage includes CA group detection
+  figures (jan-apr 2026), two new openings (CA Savings Germany, Sofinco), and
+  next meeting set for June 18. Re-evaluate next run.
+---
+
+---
+date: 2026-05-20
+agent: meeting-echo
+client: BNP Paribas BCEF
+draft_subject: "RE: Fichiers ajoutés"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Post-call BNP Paribas BCEF follow-up draft generated at 12:57 CEST. Covers
+  two slide deliverables before Friday (fraud results + multi-entity group
+  proposal at 180k€ consolidated), CTA awaiting Jérôme's green light after his
+  Friday budget meeting, and a planned Paris in-person meeting in June with Cube
+  AI president. No sent email found to jerome.palin@bnpparibas.com as of
+  21:14 CEST. Re-evaluate next run.
 ---
