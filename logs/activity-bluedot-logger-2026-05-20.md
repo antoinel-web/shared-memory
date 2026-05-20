@@ -1,12 +1,10 @@
-# Bluedot Logger — 2026-05-20 14:44
+# Bluedot Logger — 2026-05-20 17:26
 
 ## Call processed
-- Title: (16) Intesa Sanpaolo <> CUBE AI - Mule Intelligence
-- Client: Intesa Sanpaolo
-- File: 2026-05-20_16-intesa-sanpaolo-cube-ai-mule-intelligence.txt
+- Title: (16) CUBE AI <> BNP Paribas Fortis - Mule Intelligence
+- Client: BNP Paribas Fortis
+- File: 2026-05-20_16-cube-ai-bnp-paribas-fortis-mule-intelligence.txt
 - Status: classified
-- Drive folder: Intesa Sanpaolo/calls/
-- Note: Attendees list was empty in webhook payload; client identified from meeting title
 
 ## Unknowns
-none
+none (client identified from meeting title; attendees list was empty)
