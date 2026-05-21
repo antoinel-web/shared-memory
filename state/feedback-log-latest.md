@@ -274,9 +274,9 @@ delta_summary: >-
   Post-meeting recap draft for the May 18 CA/LCL call, generated at 13:10 CEST.
   A Gmail draft with highly similar content and matching recipients
   (sgonidec@ca-ibs.com, benoit.de-beaumont@lcl.fr) exists (12:56 CEST) but was
-  not dispatched as of 21:14 CEST. Draft coverage includes CA group detection
-  figures (jan-apr 2026), two new openings (CA Savings Germany, Sofinco), and
-  next meeting set for June 18. Re-evaluate next run.
+  not dispatched as of 21:17 CEST on May 21. Draft coverage includes CA group
+  detection figures (jan-apr 2026), two new openings (CA Savings Germany,
+  Sofinco), and next meeting set for June 18. Now ~32h old — re-evaluate next run.
 ---
 
 ---
@@ -284,14 +284,66 @@ date: 2026-05-20
 agent: meeting-echo
 client: BNP Paribas BCEF
 draft_subject: "RE: Fichiers ajoutés"
+status: Modifié
+confidence: medium
+categories:
+  - Structure modifiée
+  - CTA changé
+  - Contexte client ajouté
+delta_summary: >-
+  Post-call draft (12:57 CEST May 20) anticipated a post-meeting follow-up
+  covering two slide deliverables before Friday (fraud results + multi-entity
+  group proposal at 180k€) and an explicit CTA for Jérôme's green light after
+  his Friday budget meeting, plus a Paris in-person meeting in June. Sent email
+  found May 21 at 13:04 CEST (different thread: CUBE AI <> BNPP Mule Accounts):
+  the deck was delivered as planned but the email's structure transformed into
+  an internal champion coaching document — slide-by-slide briefing notes and
+  two objection-handling scenarios for Jérôme's presentation to his manager.
+  Explicit green-light CTA replaced by implicit encouragement ("bonne
+  présentation vendredi"). Paris June meeting preserved. Content similarity
+  estimated ~35% due to structural transformation from follow-up to coaching
+  brief. Previously Pending; resolved May 21.
+---
+
+---
+date: 2026-05-21
+agent: meeting-echo
+client: Intesa Sanpaolo
+draft_subject: "Intesa Sanpaolo — Intro & next steps"
+status: Utilisé
+confidence: high
+categories:
+  - Contexte client ajouté
+  - Contenu supprimé
+delta_summary: >-
+  Meeting Echo draft (16:21 CEST) for the May 20 first Intesa Sanpaolo meeting
+  with Gianluca Chiusano. Sent 6 minutes later at 16:27 CEST to
+  gianluca.chiusano@intesasanpaolo.com (matching subject, same day). Core
+  content preserved: live IBAN demo on-call with no prior internal alert, 20
+  Intesa Sanpaolo sample accounts to be cross-checked before June 3, three KPIs
+  (lead time, confirmation rate, transaction volume), and June 3 follow-up call.
+  Antoine added specific IBAN activity timeline (9 fraud conversations,
+  Jan 26 - May 15) and global scale figure (40,000+ compromised IBANs/month,
+  10,000 EU). The outbound fraud exploration angle (Enrico Canna's team) present
+  in the draft was removed from the sent email. Italian closing preserved
+  ("Grazie mille"). Content similarity estimated ~80%.
+---
+
+---
+date: 2026-05-21
+agent: meeting-echo
+client: BNP Paribas Fortis
+draft_subject: "RE: BNP Paribas Fortis — Intro & next steps"
 status: Pending
 confidence: high
 categories: []
 delta_summary: >-
-  Post-call BNP Paribas BCEF follow-up draft generated at 12:57 CEST. Covers
-  two slide deliverables before Friday (fraud results + multi-entity group
-  proposal at 180k€ consolidated), CTA awaiting Jérôme's green light after his
-  Friday budget meeting, and a planned Paris in-person meeting in June with Cube
-  AI president. No sent email found to jerome.palin@bnpparibas.com as of
-  21:14 CEST. Re-evaluate next run.
+  Meeting Echo draft (16:26 CEST) for the May 20 BNP Paribas Fortis POC review
+  session. Draft covers 10-account analysis (5 confirmed mule/exited, 5 without
+  confirmed fraud activity), three agreed deliverables (batch +20 IBANs,
+  evidence files for 5 uncertain accounts, platform access for Siert), and an
+  update on BNP France group context. A Gmail draft with very similar content
+  and matching recipients (david.massart@bnpparibasfortis.com and 4 others)
+  exists (16:29 CEST) but was not dispatched as of 21:17 CEST. Draft is ~5h
+  old — re-evaluate next run.
 ---
