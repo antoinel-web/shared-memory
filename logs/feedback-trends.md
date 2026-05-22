@@ -94,3 +94,38 @@ trends:
     a delayed-send pattern where Antoine prepares re-engagement emails well in
     advance of execution. Consider tracking Gmail draft state as a signal."
 ---
+
+---
+period: 2026-05-07 to 2026-05-07
+total_deltas: 4
+breakdown:
+  Utilisé: 2
+  Modifié: 2
+  Remplacé: 0
+  Ignoré: 0
+top_categories:
+  - Contexte client ajouté (4 occurrences)
+  - CTA changé (2 occurrences)
+  - Structure modifiée (2 occurrences)
+  - Contenu supprimé (1 occurrence)
+  - Ton ajusté (1 occurrence)
+trends:
+  - "Meeting Echo (May 7): 50% Utilisé rate (Credem, BPER) — intro/next-steps
+    follow-up emails where core content (benchmark metrics, demo recap, agreed
+    deliverables, next meeting) was preserved faithfully. Targeted enrichments
+    only: Italian closing added, recipient list widened, dataset scope updated.
+    Meeting Echo performs reliably for standard intro-to-POC templates when
+    the meeting structure is clear and no inbound activity intervened."
+  - "Meeting Echo (May 7): Both Modifié entries (Bunq, BPCE) involved structural
+    rewrites. BPCE's factual results summary was reorganised into three strategic
+    business-value axes (internal mule reduction, client protection, cash-out
+    reduction) absent from the draft. Bunq's 4-step next-step list was condensed
+    to 2 (critical commercial steps only). Meeting Echo captures meeting data
+    accurately but misses Antoine's post-reflection strategic framing — a
+    consistent gap for results-review and competitive-context sessions."
+  - "Meeting Echo (May 7): 'Contexte client ajouté' appears in all 4 entries —
+    confirming a systematic blind spot. Real-time enrichments (updated detection
+    figures, expanded recipient scope, live data points from post-meeting
+    follow-up) consistently added by Antoine at send time. Consider a lightweight
+    signal to Antoine for post-meeting context capture before draft is finalized."
+---

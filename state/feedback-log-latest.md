@@ -1,97 +1,4 @@
 ---
-date: 2026-05-07
-agent: meeting-echo
-client: Credem
-draft_subject: "Credem — Intro & next steps"
-status: Utilisé
-confidence: high
-categories:
-  - Contexte client ajouté
-  - CTA changé
-delta_summary: >-
-  Meeting Echo draft (10:15 CEST) for the May 5 first meeting with Credem.
-  Sent May 7 at 14:58 CEST to alan.benassi@credem.it and four additional Credem
-  colleagues (not in draft). Core content preserved faithfully: 50-day lead
-  time and ~50% detection uplift, live IBAN checked on-call demo, agreed next
-  steps (10-account sample + KPIs, internal Credem review, July results meeting).
-  Antoine added an Italian closing ("Grazie mille, Alan — a presto"), widened
-  the recipient list beyond the draft's single contact, and softened the July
-  CTA from an explicit availability confirmation request to an open-ended
-  "please let me know if we can regroup ahead of July." Content similarity
-  estimated ~85%.
----
-
----
-date: 2026-05-07
-agent: meeting-echo
-client: Bunq
-draft_subject: "RE: Cube <> Bunq — Friday 3pm"
-status: Modifié
-confidence: high
-categories:
-  - Contexte client ajouté
-  - Structure modifiée
-  - Contenu supprimé
-delta_summary: >-
-  Meeting Echo draft (10:14 CEST) for the May 6 meeting with Stephanie Rios
-  (new contact taking over from Kaue). Sent May 7 at 20:19 CEST to srios@bunq.com.
-  Detection rate updated from 60% (draft) to 70% (confirmed in sent email) based
-  on latest Bunq data. Monthly volume figure (280+ accounts) added — not in draft.
-  Structure partially modified: draft proposed 4 next steps with owners; sent
-  condensed to 2 (NDA counter-sign + EU IBAN sample delivery). Steps 3 and 4
-  from draft (commercial proposal update by Antoine; CEO internal business case
-  approval) were dropped entirely. Two agreed use-case expansions (outbound +
-  inbound) preserved. Content similarity estimated ~60%.
----
-
----
-date: 2026-05-07
-agent: meeting-echo
-client: BPCE
-draft_subject: "RE: Analyse comptes mules BPCE"
-status: Modifié
-confidence: high
-categories:
-  - Structure modifiée
-  - Contexte client ajouté
-  - Ton ajusté
-delta_summary: >-
-  Meeting Echo draft (10:18 CEST) for the May 6 BPCE POC results review.
-  Sent May 7 at 12:26 CEST to sarah.guigny@bpce.fr, florent.grail@bpce.fr,
-  and sacha.bergeon@bpce.fr (Sacha not in draft). Draft captured meeting results
-  in analytical summary format (3 relevant detections 3-5 months in advance,
-  4 late detections, ~60% no alert, two next steps). Antoine restructured the
-  sent email entirely around 3 business value axes (internal mule reduction,
-  client protection, cash-out reduction) — none of which appeared in the draft
-  summary. Reference to Louis' analysis preparation (new client context) was
-  added. Recipient scope expanded. Overall framing shifted from factual results
-  recap to strategic impact narrative. Content similarity estimated ~50%.
----
-
----
-date: 2026-05-07
-agent: meeting-echo
-client: BPER
-draft_subject: "BPER — Intro & next steps"
-status: Utilisé
-confidence: high
-categories:
-  - Contexte client ajouté
-  - CTA changé
-delta_summary: >-
-  Meeting Echo draft (11:31 CEST) for the May 6 first BPER meeting (Davide
-  Belloni). Sent May 7 at 18:29 CEST to davide.belloni@bper.it and
-  Alessandro Bulgarelli (copied in because invite hadn't reached him). Core
-  content preserved closely: Cube AI collection methodology, live demo figures
-  (81+ BPER accounts, ~1,800 IT IBANs Q1 2026), two use cases (AML + victim
-  fraud prevention), 50-day/50% benchmark comparison, GDPR legal note. Dataset
-  scope in sent email is larger than draft anticipated: 40 BPER accounts (draft
-  said 20) + 1,500 IT IBANs + 15,000 EU IBANs + KPI guide + company deck +
-  legal note. Next meeting date (June 3 at 9:00 AM) and CTA matched.
-  Content similarity estimated ~82%.
----
-
----
 date: 2026-05-15
 agent: forge-v2
 client: Bunq
@@ -267,16 +174,19 @@ date: 2026-05-20
 agent: meeting-echo
 client: Crédit Agricole / LCL
 draft_subject: "RE: Cube3 <> Credit Agricole / LCL : revue premiers résultats."
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Post-meeting recap draft for the May 18 CA/LCL call, generated at 13:10 CEST.
-  A Gmail draft with highly similar content and matching recipients
-  (sgonidec@ca-ibs.com, benoit.de-beaumont@lcl.fr) exists (12:56 CEST) but was
-  not dispatched as of 21:17 CEST on May 21. Draft coverage includes CA group
-  detection figures (jan-apr 2026), two new openings (CA Savings Germany,
-  Sofinco), and next meeting set for June 18. Now ~32h old — re-evaluate next run.
+  Post-meeting recap draft for the May 18 CA/LCL call, generated at 13:10 CEST
+  on May 20. No matching sent email found through May 22 to sgonidec@ca-ibs.com
+  or benoit.de-beaumont@lcl.fr. A Gmail draft with highly similar content (12:56
+  CEST) confirmed undelivered — still at draft state as of May 22 end-of-day.
+  Draft coverage: CA group detection figures (Jan-Apr 2026), two new client
+  openings (CA Savings Germany, Sofinco), June 18 follow-up meeting. Now >56h
+  old → Ignoré. The June 18 meeting proceeds without this post-session recap
+  being dispatched.
 ---
 
 ---
@@ -334,16 +244,215 @@ date: 2026-05-21
 agent: meeting-echo
 client: BNP Paribas Fortis
 draft_subject: "RE: BNP Paribas Fortis — Intro & next steps"
+status: Modifié
+confidence: high
+categories:
+  - Contexte client ajouté
+  - Structure modifiée
+  - CTA changé
+delta_summary: >-
+  Meeting Echo draft (16:26 CEST May 21) for the May 20 BNP Paribas Fortis POC
+  review session. Matched to sent email at 11:50 CEST May 22, to all 5 expected
+  recipients (david.massart, jeffrey.claeys, bert.dobbelaere, prabhdeep.minhas,
+  roel.zoons). Core result (5 confirmed mule accounts, 5 unconfirmed) preserved.
+  Antoine enriched with a specific IBAN evidence walkthrough (fraudster
+  cross-referencing, account active since Dec 2025 across multiple fraudsters)
+  not in the draft — likely addressing Jeffrey's scepticism question during the
+  session. Deliverables partly matched: +20 accounts sent as planned; draft's
+  'evidence files for 5 uncertain accounts' became an inline IBAN analysis
+  instead. BNP group context added (BCEF strong results, 6 entities covered:
+  Nickel, Fortis, BGL, BNL, Deutschland, Polska) — not in draft. Draft's
+  'platform access for Siert' deliverable dropped; handled via Roel's
+  contact-change email in the thread. Content similarity estimated ~50%.
+  Previously Pending; resolved May 22.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: BNL Gruppo BNP Paribas
+draft_subject: "Re: BNL — Intro & next steps"
+status: Remplacé
+confidence: high
+categories:
+  - Autre
+  - CTA changé
+delta_summary: >-
+  Forge v2 draft (08:35 CEST) proposed a pure logistical micro-nudge: ask
+  Piermario what the main constraint is (timing, bandwidth, other), offer two
+  specific June dates (June 3 or 10) for a 20-minute session. The draft
+  explicitly disqualified data statistics and peer benchmarks after two
+  previously rejected attempts. Antoine instead sent at 09:12 CEST a peer
+  benchmark-led email opening with a comparable BNP group institution analysis
+  (97% of fraudulent transfers flagged pre-execution, 40+ day median lead time,
+  80%+ accounts unknown to internal systems) — precisely the approach the draft
+  had proscribed. CTA also diverged: specific June dates replaced by an
+  open-ended 'easiest way to get 30 minutes before end of May.' The draft's
+  constraint-diagnosis framing was abandoned entirely. Content similarity
+  estimated <10%.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: Banca Sella
+draft_subject: "Re: CUBE.AI <> Banca Sella"
 status: Pending
 confidence: high
 categories: []
 delta_summary: >-
-  Meeting Echo draft (16:26 CEST) for the May 20 BNP Paribas Fortis POC review
-  session. Draft covers 10-account analysis (5 confirmed mule/exited, 5 without
-  confirmed fraud activity), three agreed deliverables (batch +20 IBANs,
-  evidence files for 5 uncertain accounts, platform access for Siert), and an
-  update on BNP France group context. A Gmail draft with very similar content
-  and matching recipients (david.massart@bnpparibasfortis.com and 4 others)
-  exists (16:29 CEST) but was not dispatched as of 21:17 CEST. Draft is ~5h
-  old — re-evaluate next run.
+  Forge v2 draft (08:14 CEST) generated 7 days after sending a 20-account IBAN
+  sample on May 15. Prompts Roberto Pozzuolo to run an overlap analysis as a
+  first concrete measure of detection value, and offers to arrange a direct
+  legal-team call (Cube DPO <> Banca Sella) on June 1 or 2 to unblock the GDPR
+  gate. Closes with an open-ended calibrated question on next steps. No matching
+  sent email found as of end-of-day May 22. Draft is ~13h old — re-evaluate
+  next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: UniCredit
+draft_subject: "Re: UniCredit — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (08:19 CEST) is a pre-meeting compliance brief ahead of the
+  DPO Data Protection Q&A call on May 29 at 4pm CEST. Shares GDPR Art. 6(1)(f)
+  legitimate interest basis, data origin (synthetic agents in public criminal
+  channels), and data minimisation approach (anonymised summaries until DPA
+  signed). References the legal note previously shared May 7. Closes with a
+  calibrated question on which aspects to prioritise on the call. No matching
+  sent email to giuseppe.sollazzo@unicredit.eu found as of end-of-day May 22.
+  Draft is ~13h old — re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: Groupe BPCE
+draft_subject: "RE: Analyse comptes mules BPCE"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (08:24 CEST) follows up on the 2-3 week IBAN analysis window
+  BPCE committed to after the May 6 meeting, asking Sarah Guigny where they
+  stand on preliminary conclusions from the 20-30k external IBAN cross-check.
+  Also informs of Panorama access being prepared for BPCE ahead of June 19. A
+  Gmail draft to sarah.guigny@bpce.fr exists at 11:53 CEST (starts 'Chère
+  équipe BPCE, Puis-') but is marked draft: true — not sent. No matching
+  dispatched email found as of end-of-day May 22. Draft is ~13h old —
+  re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: La Banque Postale
+draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (08:31 CEST) is a 16-day follow-up to the May 6 email sharing
+  POC results. Anchors on active mule detection signals still present in live
+  monitoring (impersonation profiles from the April POC). Asks for an update on
+  the legal validation timeline and offers to engage directly with LBP legal to
+  unblock the paper process. Closes with an open-ended calibrated question on
+  next steps. No matching sent email to jean-christophe.bouchez@labanquepostale.fr
+  found as of end-of-day May 22. Draft is ~13h old — re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: Dukascopy Bank SA
+draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (08:41 CEST) is a 17-day follow-up to the May 5 clarification
+  email. Directly addresses Victor Ekimetskiy's committee objection ('detection
+  ability of our own system') by explaining the structural blind spot: the 193
+  mules detected were identified via off-bank network monitoring (partner
+  institution data), outside Dukascopy's AML perimeter. Closes with a single
+  calibrated question asking what it would take to bring this distinction back
+  to committee. No matching sent email to victor.ekimetskiy@dukascopy.com found
+  as of end-of-day May 22. Draft is ~12h old — re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: Incore
+draft_subject: "Re: Cube <> Incore : results review"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (08:45 CEST) is a pre-meeting agenda-setter 7 days ahead of
+  the May 29 catch-up at 14:30 CET. Previews the session format (3-4 accounts
+  from March sample, detection timeline and trigger flags). Closes with a
+  calibrated question asking Thomas Glaus whether his primary focus is on
+  validation accuracy or operational fit with the current AML workflow. No
+  matching sent email to thomas.glaus@incorebank.ch found as of end-of-day
+  May 22. Draft is ~12h old — re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: SSP
+draft_subject: "Re: SSP"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (08:50 CEST) replies to Gil Dupont's May 19 commercial proposal
+  request (unanswered for 3 days). Leads with internal mule detection rate
+  progression at SSP (40% to 75% since March) to anchor the proposal's value
+  base. Closes with a calibrated question asking who will be present on June 3
+  — specifically whether a budget decision-maker will attend. No matching sent
+  email to gil.dupont@sspayment.com found as of end-of-day May 22. Draft is
+  ~12h old — re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: Belfius (Isabel Group)
+draft_subject: "Re: Cube 3 - Isabel"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (09:00 CEST) is a pre-meeting agenda prep for the confirmed
+  May 28 16:00 CUBE AI <> Isabel meeting. Acknowledges delay (Antoine was OOO
+  until May 17). Proposes a 3-part 30-minute agenda: CUBE AI approach, Belgian
+  market detection data, possible pilot structure. Closes with a calibrated
+  question asking Tim van der Wee to confirm or adjust the agenda. No matching
+  sent email to tvanderwee@isabelgroup.eu found as of end-of-day May 22.
+  Draft is ~12h old — re-evaluate next run.
+---
+
+---
+date: 2026-05-22
+agent: forge-v2
+client: Treezor
+draft_subject: "Re: Cube3 <> Treezor: 1ere revue d'analyse"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Forge v2 draft (09:04 CEST) is a 23-day micro-nudge after the April 29
+  IT-gate follow-up. Pivots strategy: instead of asking Cédric Cassini again
+  whether he escalated to IT/Produit, directly offers to connect with IT/Produit
+  independently in a 30-minute call — removing Cédric as bottleneck. Also gives
+  Cédric a clean exit ('if not a priority, just say so') to surface intent. No
+  matching sent email to cedric.cassini@treezor.com found as of end-of-day
+  May 22. Draft is ~12h old — re-evaluate next run.
 ---
