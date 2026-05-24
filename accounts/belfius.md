@@ -1,13 +1,19 @@
 # Belfius
 
 **Opp:** Belfius - Apex - 2026
-**Stage:** Account Validation Test (AVT) | **Close:** 2027-03-31
-**Next Step:** Pending — Draft OSINT legal briefing prepared for Marc Pagnoul & Francois Franssen. Ugo reaching out to Berth.
+**Stage:** Qualifying | **Close:** 2026-12-31
+**AI Health:** 1.2
+**Next Step:** May 28 — CUBE AI <> ISABEL/Belfius anti-fraud initiative with Dylan Crokaert & Marc Pagnoul
 
 ## Timeline
 
 | Date | Event | Source |
 |------|-------|--------|
 | 2026-04-28 | NextStep, RedFlags updated | `slack:1777277918` |
+| 2026-05-22 | AI_Health_Score + NextStep updated (health: 1.2) | `pipeline-scan` |
 
-[Source: SF write log, weekly sync 2026-05-03]
+## Red Flags
+
+Stale since April · Via Isabel Group industry initiative · Francois Franssen declined
+
+[Source: SF write log, weekly sync 2026-05-24]
