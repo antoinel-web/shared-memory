@@ -297,17 +297,17 @@ date: 2026-05-22
 agent: forge-v2
 client: Banca Sella
 draft_subject: "Re: CUBE.AI <> Banca Sella"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:14 CEST) generated 7 days after sending a 20-account IBAN
-  sample on May 15. Prompts Roberto Pozzuolo to run an overlap analysis as a
-  first concrete measure of detection value, and offers to arrange a direct
-  legal-team call (Cube DPO <> Banca Sella) on June 1 or 2 to unblock the GDPR
-  gate. Closes with an open-ended calibrated question on next steps. No matching
-  sent email found as of end-of-day May 22. Draft is ~13h old — re-evaluate
-  next run.
+  Forge v2 draft (08:14 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to roberto.pozzuolo@sella.it found in the
+  May 22-25 window). Content: 7-day follow-up on the 20-account IBAN sample
+  sent May 15, prompting an overlap analysis and offering a DPO-to-DPO call
+  on June 1 or 2 to unblock the GDPR gate. Previously Pending (13h old);
+  now >72h old → Ignoré. The GDPR gate and sample analysis remain unaddressed.
 ---
 
 ---
@@ -315,18 +315,18 @@ date: 2026-05-22
 agent: forge-v2
 client: UniCredit
 draft_subject: "Re: UniCredit — Intro & next steps"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:19 CEST) is a pre-meeting compliance brief ahead of the
-  DPO Data Protection Q&A call on May 29 at 4pm CEST. Shares GDPR Art. 6(1)(f)
-  legitimate interest basis, data origin (synthetic agents in public criminal
-  channels), and data minimisation approach (anonymised summaries until DPA
-  signed). References the legal note previously shared May 7. Closes with a
-  calibrated question on which aspects to prioritise on the call. No matching
-  sent email to giuseppe.sollazzo@unicredit.eu found as of end-of-day May 22.
-  Draft is ~13h old — re-evaluate next run.
+  Forge v2 draft (08:19 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to giuseppe.sollazzo@unicredit.eu found).
+  Content: pre-meeting compliance brief ahead of the DPO Data Protection Q&A
+  call on May 29 at 4pm CEST — GDPR Art. 6(1)(f) framing, data origin
+  explanation, data minimisation approach, reference to legal note shared May 7.
+  Previously Pending (13h old); now >72h old → Ignoré. The May 29 DPO call
+  proceeds without this pre-read having been sent to the counterpart.
 ---
 
 ---
@@ -334,18 +334,19 @@ date: 2026-05-22
 agent: forge-v2
 client: Groupe BPCE
 draft_subject: "RE: Analyse comptes mules BPCE"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:24 CEST) follows up on the 2-3 week IBAN analysis window
-  BPCE committed to after the May 6 meeting, asking Sarah Guigny where they
-  stand on preliminary conclusions from the 20-30k external IBAN cross-check.
-  Also informs of Panorama access being prepared for BPCE ahead of June 19. A
-  Gmail draft to sarah.guigny@bpce.fr exists at 11:53 CEST (starts 'Chère
-  équipe BPCE, Puis-') but is marked draft: true — not sent. No matching
-  dispatched email found as of end-of-day May 22. Draft is ~13h old —
-  re-evaluate next run.
+  Forge v2 draft (08:24 CEST May 22) confirmed unsent as of May 25. A Gmail
+  draft to sarah.guigny@bpce.fr (11:53 CEST, starting 'Chère équipe BPCE,
+  Puis-') also remains at draft: true — neither version dispatched. Content:
+  follow-up on the 2-3 week IBAN analysis window BPCE committed to post-May 6
+  meeting, asking for preliminary conclusions on the 20-30k external IBAN
+  cross-check, and informing of Panorama access being prepared for June 19.
+  Previously Pending (13h old); now >72h old → Ignoré. Analysis window check-in
+  remains unsent; BPCE rescheduled session (June 19) proceeds without follow-up.
 ---
 
 ---
@@ -353,17 +354,18 @@ date: 2026-05-22
 agent: forge-v2
 client: La Banque Postale
 draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:31 CEST) is a 16-day follow-up to the May 6 email sharing
-  POC results. Anchors on active mule detection signals still present in live
-  monitoring (impersonation profiles from the April POC). Asks for an update on
-  the legal validation timeline and offers to engage directly with LBP legal to
-  unblock the paper process. Closes with an open-ended calibrated question on
-  next steps. No matching sent email to jean-christophe.bouchez@labanquepostale.fr
-  found as of end-of-day May 22. Draft is ~13h old — re-evaluate next run.
+  Forge v2 draft (08:31 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to jean-christophe.bouchez@labanquepostale.fr
+  found in the May 22-25 window). Content: 16-day follow-up anchoring on active
+  mule detection signals still present in live monitoring, with an offer to
+  engage LBP legal directly to unblock the paper process. Previously Pending
+  (13h old); now >72h old → Ignoré. Legal unblocking and follow-up on POC
+  results remain pending on Antoine's side.
 ---
 
 ---
@@ -371,18 +373,18 @@ date: 2026-05-22
 agent: forge-v2
 client: Dukascopy Bank SA
 draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:41 CEST) is a 17-day follow-up to the May 5 clarification
-  email. Directly addresses Victor Ekimetskiy's committee objection ('detection
-  ability of our own system') by explaining the structural blind spot: the 193
-  mules detected were identified via off-bank network monitoring (partner
-  institution data), outside Dukascopy's AML perimeter. Closes with a single
-  calibrated question asking what it would take to bring this distinction back
-  to committee. No matching sent email to victor.ekimetskiy@dukascopy.com found
-  as of end-of-day May 22. Draft is ~12h old — re-evaluate next run.
+  Forge v2 draft (08:41 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to victor.ekimetskiy@dukascopy.com found).
+  Content: 17-day follow-up directly addressing Victor's committee objection
+  ('detection ability of our own system') by explaining that the 193 mules were
+  detected via off-bank network monitoring outside Dukascopy's AML perimeter —
+  a structural blind spot argument. Previously Pending (12h old); now >72h old →
+  Ignoré. The committee objection remains formally unaddressed by Antoine.
 ---
 
 ---
@@ -390,17 +392,18 @@ date: 2026-05-22
 agent: forge-v2
 client: Incore
 draft_subject: "Re: Cube <> Incore : results review"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:45 CEST) is a pre-meeting agenda-setter 7 days ahead of
-  the May 29 catch-up at 14:30 CET. Previews the session format (3-4 accounts
-  from March sample, detection timeline and trigger flags). Closes with a
-  calibrated question asking Thomas Glaus whether his primary focus is on
-  validation accuracy or operational fit with the current AML workflow. No
-  matching sent email to thomas.glaus@incorebank.ch found as of end-of-day
-  May 22. Draft is ~12h old — re-evaluate next run.
+  Forge v2 draft (08:45 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to thomas.glaus@incorebank.ch found).
+  Content: pre-meeting agenda-setter for the May 29 catch-up at 14:30 CET —
+  previewing 3-4 accounts from the March sample with a calibrated question on
+  Thomas's primary focus (validation accuracy vs operational fit). Previously
+  Pending (12h old); now >72h old → Ignoré. The May 29 meeting proceeds in
+  4 days without a pre-meeting brief having been sent to Thomas Glaus.
 ---
 
 ---
@@ -408,17 +411,19 @@ date: 2026-05-22
 agent: forge-v2
 client: SSP
 draft_subject: "Re: SSP"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (08:50 CEST) replies to Gil Dupont's May 19 commercial proposal
-  request (unanswered for 3 days). Leads with internal mule detection rate
-  progression at SSP (40% to 75% since March) to anchor the proposal's value
-  base. Closes with a calibrated question asking who will be present on June 3
-  — specifically whether a budget decision-maker will attend. No matching sent
-  email to gil.dupont@sspayment.com found as of end-of-day May 22. Draft is
-  ~12h old — re-evaluate next run.
+  Forge v2 draft (08:50 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to gil.dupont@sspayment.com found). Content:
+  reply to Gil Dupont's May 19 commercial proposal request — leading with SSP
+  internal mule detection rate progression (40% to 75% since March) and a
+  calibrated question on June 3 attendee composition. Previously Pending (12h
+  old); now >72h old → Ignoré. Gil Dupont's inbound commercial proposal request
+  (May 19) remains unanswered after 6 days; the June 3 commercial presentation
+  proceeds without a pre-confirmation on attendee composition.
 ---
 
 ---
@@ -426,17 +431,18 @@ date: 2026-05-22
 agent: forge-v2
 client: Belfius (Isabel Group)
 draft_subject: "Re: Cube 3 - Isabel"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (09:00 CEST) is a pre-meeting agenda prep for the confirmed
-  May 28 16:00 CUBE AI <> Isabel meeting. Acknowledges delay (Antoine was OOO
-  until May 17). Proposes a 3-part 30-minute agenda: CUBE AI approach, Belgian
-  market detection data, possible pilot structure. Closes with a calibrated
-  question asking Tim van der Wee to confirm or adjust the agenda. No matching
-  sent email to tvanderwee@isabelgroup.eu found as of end-of-day May 22.
-  Draft is ~12h old — re-evaluate next run.
+  Forge v2 draft (09:00 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to tvanderwee@isabelgroup.eu found). Content:
+  pre-meeting agenda prep for the confirmed May 28 16:00 CUBE AI <> Isabel call
+  — 3-part agenda (CUBE AI approach, Belgian market detection data, possible
+  pilot structure), with a calibrated question for Tim Van der Wee to confirm or
+  adjust. Previously Pending (12h old); now >72h old → Ignoré. The Isabel meeting
+  on May 28 (in 3 days) proceeds without any pre-meeting agenda alignment sent.
 ---
 
 ---
@@ -444,15 +450,17 @@ date: 2026-05-22
 agent: forge-v2
 client: Treezor
 draft_subject: "Re: Cube3 <> Treezor: 1ere revue d'analyse"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Forge v2 draft (09:04 CEST) is a 23-day micro-nudge after the April 29
-  IT-gate follow-up. Pivots strategy: instead of asking Cédric Cassini again
-  whether he escalated to IT/Produit, directly offers to connect with IT/Produit
-  independently in a 30-minute call — removing Cédric as bottleneck. Also gives
-  Cédric a clean exit ('if not a priority, just say so') to surface intent. No
-  matching sent email to cedric.cassini@treezor.com found as of end-of-day
-  May 22. Draft is ~12h old — re-evaluate next run.
+  Forge v2 draft (09:04 CEST May 22) confirmed unsent as of May 25 (Gmail draft
+  flag true, no matching sent email to cedric.cassini@treezor.com found).
+  Content: 23-day micro-nudge pivoting strategy — instead of asking Cédric
+  Cassini again whether he escalated to IT/Produit, directly offering to connect
+  with IT/Produit independently in 30 minutes (removing Cédric as bottleneck)
+  while providing a clean exit option. Previously Pending (12h old); now >72h
+  old → Ignoré. The IT/Produit bypass strategy was not deployed; Treezor account
+  remains stalled at the same escalation gate.
 ---
