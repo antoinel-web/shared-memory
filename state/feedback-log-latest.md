@@ -464,3 +464,134 @@ delta_summary: >-
   old → Ignoré. The IT/Produit bypass strategy was not deployed; Treezor account
   remains stalled at the same escalation gate.
 ---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 08:09 CEST. Gmail confirms message is still in draft
+  state as of 21:01 CEST (~13h old). Draft addresses NDA execution milestone
+  (fully counter-signed) and proposes POV kickoff call to define success
+  criteria with Stephanie Rios. No matching sent email found to srios@bunq.com
+  on 2026-05-26. Will be re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Groupe BPCE
+draft_subject: "RE: Analyse comptes mules BPCE"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 08:20 CEST. No Gmail message found (sent or draft) to
+  sarah.guigny@bpce.fr on 2026-05-26 as of 21:01 CEST (~13h old). Draft
+  checks on status of BPCE internal IBAN analysis and asks what to prepare
+  ahead of the June 19 meeting. Will be re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: La Banque Postale
+draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 08:24 CEST. Gmail confirms message `19e62f7ca3766cae` is
+  still in draft state as of 21:01 CEST (~13h old). Draft transmits updated
+  compliance brief addressing LBP legal team concerns (passive collection,
+  GDPR/fraud regulation) and asks what specific legal blocker remains. No
+  matching sent email to jean-christophe.bouchez@labanquepostale.fr found.
+  Will be re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Intesa Sanpaolo
+draft_subject: "Re: Intesa Sanpaolo — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 08:28 CEST. Gmail confirms message `19e62fc4ce1ee625` is
+  still in draft state as of 21:01 CEST (~13h old). Draft addresses Gianluca's
+  return from OOO (May 21-25), confirms May 21 Excel delivery, and softly
+  proposes involving Enrico Canna. No matching sent email to
+  gianluca.chiusano@intesasanpaolo.com found today. Will be re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Dukascopy Bank SA
+draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 08:41 CEST. Gmail confirms message `19e6308281c06ee8` is
+  still in draft state as of 21:01 CEST (~13h old). Draft asks Victor a single
+  calibrated question about how many of the 193 Apex-flagged accounts were
+  already in Dukascopy's system, and proposes a 15-minute call on June 2. No
+  matching sent email to victor.ekimetskiy@dukascopy.com found today. Will be
+  re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Treezor
+draft_subject: "Re: Cube3 <> Treezor: 1ere revue d'analyse"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 08:55 CEST. Gmail confirms message `19e6313c7b56f4ed` is
+  still in draft state as of 21:01 CEST (~13h old). Draft breaks the repetitive
+  IT/Produit escalation pattern by proposing a direct 30-minute technical
+  scoping call with the IT/Produit team by June 6. No matching sent email to
+  cedric.cassini@treezor.com found today. Will be re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Lydia (Sumeria)
+draft_subject: "Sumeria — comptes rebonds, ACPR & nos détections en cours"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 09:01 CEST. Gmail confirms message `19e631a3a3dc53bb` is
+  still in draft state as of 21:01 CEST (~13h old). Draft uses ACPR regulatory
+  pressure on neobanks in transition as external trigger to re-engage after
+  42-day silence, referencing 300+ Lydia accounts detected since end of 2025.
+  No matching sent email to alexandre.meyran@lydia-app.com found today. Will be
+  re-evaluated next run.
+---
+
+---
+date: 2026-05-26
+agent: forge-v2
+client: Credem Banca
+draft_subject: "Re: Credem — Intro & next steps"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Draft generated at 09:17 CEST. Gmail confirms message `19e6328144c33322` is
+  still in draft state as of 21:01 CEST (~13h old). Draft follows up on
+  18-day silence since Alan Benassi confirmed receipt of 10-account sample on
+  May 8, anchoring on the live demo IBAN insight and asking about AVT review
+  status. No matching sent email to alan.benassi@credem.it found today. Will be
+  re-evaluated next run.
+---
