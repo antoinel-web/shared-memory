@@ -209,8 +209,8 @@ delta_summary: >-
   the deck was delivered as planned but the email's structure transformed into
   an internal champion coaching document — slide-by-slide briefing notes and
   two objection-handling scenarios for Jérôme's presentation to his manager.
-  Explicit green-light CTA replaced by implicit encouragement ("bonne
-  présentation vendredi"). Paris June meeting preserved. Content similarity
+  Explicit green-light CTA replaced by implicit encouragement (\"bonne
+  présentation vendredi\"). Paris June meeting preserved. Content similarity
   estimated ~35% due to structural transformation from follow-up to coaching
   brief. Previously Pending; resolved May 21.
 ---
@@ -468,103 +468,6 @@ delta_summary: >-
 ---
 date: 2026-05-26
 agent: forge-v2
-client: Bunq
-draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Pending
-confidence: high
-categories: []
-delta_summary: >-
-  Draft generated at 08:09 CEST. Gmail confirms message is still in draft
-  state as of 21:01 CEST (~13h old). Draft addresses NDA execution milestone
-  (fully counter-signed) and proposes POV kickoff call to define success
-  criteria with Stephanie Rios. No matching sent email found to srios@bunq.com
-  on 2026-05-26. Will be re-evaluated next run.
----
-
----
-date: 2026-05-26
-agent: forge-v2
-client: Groupe BPCE
-draft_subject: "RE: Analyse comptes mules BPCE"
-status: Pending
-confidence: high
-categories: []
-delta_summary: >-
-  Draft generated at 08:20 CEST. No Gmail message found (sent or draft) to
-  sarah.guigny@bpce.fr on 2026-05-26 as of 21:01 CEST (~13h old). Draft
-  checks on status of BPCE internal IBAN analysis and asks what to prepare
-  ahead of the June 19 meeting. Will be re-evaluated next run.
----
-
----
-date: 2026-05-26
-agent: forge-v2
-client: La Banque Postale
-draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
-status: Pending
-confidence: high
-categories: []
-delta_summary: >-
-  Draft generated at 08:24 CEST. Gmail confirms message `19e62f7ca3766cae` is
-  still in draft state as of 21:01 CEST (~13h old). Draft transmits updated
-  compliance brief addressing LBP legal team concerns (passive collection,
-  GDPR/fraud regulation) and asks what specific legal blocker remains. No
-  matching sent email to jean-christophe.bouchez@labanquepostale.fr found.
-  Will be re-evaluated next run.
----
-
----
-date: 2026-05-26
-agent: forge-v2
-client: Intesa Sanpaolo
-draft_subject: "Re: Intesa Sanpaolo — Intro & next steps"
-status: Pending
-confidence: high
-categories: []
-delta_summary: >-
-  Draft generated at 08:28 CEST. Gmail confirms message `19e62fc4ce1ee625` is
-  still in draft state as of 21:01 CEST (~13h old). Draft addresses Gianluca's
-  return from OOO (May 21-25), confirms May 21 Excel delivery, and softly
-  proposes involving Enrico Canna. No matching sent email to
-  gianluca.chiusano@intesasanpaolo.com found today. Will be re-evaluated next run.
----
-
----
-date: 2026-05-26
-agent: forge-v2
-client: Dukascopy Bank SA
-draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
-status: Pending
-confidence: high
-categories: []
-delta_summary: >-
-  Draft generated at 08:41 CEST. Gmail confirms message `19e6308281c06ee8` is
-  still in draft state as of 21:01 CEST (~13h old). Draft asks Victor a single
-  calibrated question about how many of the 193 Apex-flagged accounts were
-  already in Dukascopy's system, and proposes a 15-minute call on June 2. No
-  matching sent email to victor.ekimetskiy@dukascopy.com found today. Will be
-  re-evaluated next run.
----
-
----
-date: 2026-05-26
-agent: forge-v2
-client: Treezor
-draft_subject: "Re: Cube3 <> Treezor: 1ere revue d'analyse"
-status: Pending
-confidence: high
-categories: []
-delta_summary: >-
-  Draft generated at 08:55 CEST. Gmail confirms message `19e6313c7b56f4ed` is
-  still in draft state as of 21:01 CEST (~13h old). Draft breaks the repetitive
-  IT/Produit escalation pattern by proposing a direct 30-minute technical
-  scoping call with the IT/Produit team by June 6. No matching sent email to
-  cedric.cassini@treezor.com found today. Will be re-evaluated next run.
----
-
----
-date: 2026-05-26
-agent: forge-v2
 client: Lydia (Sumeria)
 draft_subject: "Sumeria — comptes rebonds, ACPR & nos détections en cours"
 status: Pending
@@ -594,4 +497,137 @@ delta_summary: >-
   May 8, anchoring on the live demo IBAN insight and asking about AVT review
   status. No matching sent email to alan.benassi@credem.it found today. Will be
   re-evaluated next run.
+---
+
+---
+date: 2026-05-27
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Modifié
+confidence: high
+categories:
+  - Contenu supprimé
+  - Ton ajusté
+delta_summary: >-
+  Draft (Pending from May 26) proposed acknowledging the NDA counter-signature
+  milestone and proposing a POV kickoff call to define success criteria with
+  Stephanie Rios. Antoine instead sent a brief, direct meeting-lock message
+  asking for next-week availability to review Stephanie's analysis results.
+  The NDA milestone acknowledgment, success criteria framing, and POV kickoff
+  framing were all dropped. CTA simplified from 'POV kickoff with success
+  criteria definition' to 'lock in a meeting date now.' Tone markedly more
+  concise and direct. Content similarity estimated ~33%.
+---
+
+---
+date: 2026-05-27
+agent: forge-v2
+client: Groupe BPCE
+draft_subject: "RE: Analyse comptes mules BPCE"
+status: Remplacé
+confidence: high
+categories:
+  - Structure modifiée
+  - Contenu supprimé
+  - CTA changé
+  - Contexte client ajouté
+delta_summary: >-
+  Draft (Pending from May 26) proposed checking on BPCE's internal IBAN
+  analysis status and asking what to prepare ahead of the June 19 meeting.
+  Antoine instead sent a FNC-RF complementarity positioning document, sharing
+  external reference results from a major French bank and asking if BPCE has
+  an earlier availability slot than June 19. The analysis status check-in and
+  meeting preparation question were dropped entirely. Approach shifted from
+  process follow-up to competitive urgency framing. Content similarity
+  estimated <15%.
+---
+
+---
+date: 2026-05-27
+agent: forge-v2
+client: La Banque Postale
+draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
+status: Remplacé
+confidence: high
+categories:
+  - Contenu supprimé
+  - CTA changé
+  - Structure modifiée
+delta_summary: >-
+  Draft (Pending from May 26) proposed transmitting an updated compliance brief
+  addressing LBP legal team concerns (passive collection, GDPR/fraud regulation)
+  and asking what specific legal blocker remains. Antoine instead sent the same
+  FNC-RF complementarity document used for BPCE, noted the end-of-May deadline
+  for LBP legal exchanges, and asked for a meeting the following week. The
+  compliance brief was not sent; the specific legal blocker question was replaced
+  by an open meeting request anchored on the existing legal deadline. Content
+  similarity estimated ~20%.
+---
+
+---
+date: 2026-05-27
+agent: forge-v2
+client: Intesa Sanpaolo
+draft_subject: "Re: Intesa Sanpaolo — Intro & next steps"
+status: Remplacé
+confidence: high
+categories:
+  - Contenu supprimé
+  - CTA changé
+delta_summary: >-
+  Draft (Pending from May 26) proposed welcoming Gianluca back from OOO
+  (May 21-25), confirming the May 21 Excel delivery, and softly proposing
+  to involve Enrico Canna. Antoine instead sent a brief rescheduling message
+  during Gianluca's holidays: apologizing for the interruption and moving the
+  June 3 meeting to June 4 at the same time. Entirely different topic — the
+  OOO check-in, Excel confirmation, and Enrico Canna proposal were all dropped.
+  Content similarity estimated <5%.
+---
+
+---
+date: 2026-05-27
+agent: forge-v2
+client: Dukascopy Bank SA
+draft_subject: "Re: CUBE3 <> Dukascopy - Compte Mule"
+status: Modifié
+confidence: medium
+categories:
+  - CTA changé
+  - Contexte client ajouté
+  - Contenu supprimé
+delta_summary: >-
+  Draft (Pending from May 26) proposed asking Victor a calibrated question about
+  how many of the 193 Apex-flagged accounts were already in Dukascopy's system,
+  proposing a 15-minute call on June 2. Antoine instead sent a two-pager
+  attachment to claude.favre@dukascopy.com (CC victor.ekimetskiy), leading with
+  the 2.6x average account reuse finding, and proposing an in-person meeting in
+  June. The 193 mule count and cost-anchor framing were not restated; primary
+  recipient shifted from Victor to Claude; specific June 2 call replaced by an
+  open in-person June meeting proposal. Content similarity estimated ~45%.
+  Confidence medium: CC-only match for Victor.
+---
+
+---
+date: 2026-05-27
+agent: forge-v2
+client: Treezor
+draft_subject: "Re: Cube3 <> Treezor: 1ere revue d'analyse"
+status: Modifié
+confidence: high
+categories:
+  - Ton ajusté
+  - CTA changé
+  - Contexte client ajouté
+delta_summary: >-
+  Draft (Pending from May 26) proposed breaking the repetitive IT/Produit
+  escalation pattern by directly proposing a 30-minute technical scoping call
+  with the IT/Produit team 'by June 6.' Sent version preserved the direct
+  IT/Produit call CTA and 30-minute framing but changed the opening from
+  'Plutôt que de revenir une troisième fois' to 'Une question directe plutôt
+  que de revenir sur la même,' added a concrete facilitation offer ('tu nous
+  mets juste en contact'), and added a clean-exit sentence ('Si le sujet n'est
+  pas prioritaire, dis-le moi simplement'). The specific June 6 deadline was
+  removed. Tone softened: accusatory escalation count dropped, explicit
+  permission to disengage added. Content similarity estimated ~58%.
 ---
