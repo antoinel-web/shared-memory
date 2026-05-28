@@ -470,16 +470,18 @@ date: 2026-05-26
 agent: forge-v2
 client: Lydia (Sumeria)
 draft_subject: "Sumeria — comptes rebonds, ACPR & nos détections en cours"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Draft generated at 09:01 CEST. Gmail confirms message `19e631a3a3dc53bb` is
-  still in draft state as of 21:01 CEST (~13h old). Draft uses ACPR regulatory
-  pressure on neobanks in transition as external trigger to re-engage after
-  42-day silence, referencing 300+ Lydia accounts detected since end of 2025.
-  No matching sent email to alexandre.meyran@lydia-app.com found today. Will be
-  re-evaluated next run.
+  Draft generated at 09:01 CEST May 26. Gmail confirms message
+  `19e631a3a3dc53bb` remains in draft state as of May 28 21:01 CEST (~60h after
+  creation). No matching sent email to alexandre.meyran@lydia-app.com found in
+  the May 26-28 window. Content: ACPR-triggered re-engagement after 42-day
+  silence, referencing 300+ Lydia/Sumeria accounts detected since end of 2025.
+  The regulatory pressure angle and detection figures were not deployed. Now
+  >48h old → Ignoré.
 ---
 
 ---
@@ -487,16 +489,18 @@ date: 2026-05-26
 agent: forge-v2
 client: Credem Banca
 draft_subject: "Re: Credem — Intro & next steps"
-status: Pending
+status: Ignoré
 confidence: high
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Draft generated at 09:17 CEST. Gmail confirms message `19e6328144c33322` is
-  still in draft state as of 21:01 CEST (~13h old). Draft follows up on
-  18-day silence since Alan Benassi confirmed receipt of 10-account sample on
-  May 8, anchoring on the live demo IBAN insight and asking about AVT review
-  status. No matching sent email to alan.benassi@credem.it found today. Will be
-  re-evaluated next run.
+  Draft generated at 09:17 CEST May 26. Gmail confirms message
+  `19e6328144c33322` remains in draft state as of May 28 21:01 CEST (~60h after
+  creation). No matching sent email to alan.benassi@credem.it found in the May
+  26-28 window. Content: follow-up on 18-day silence since Alan Benassi
+  confirmed receipt of 10-account sample on May 8, anchoring on the live demo
+  IBAN insight and asking about AVT review status. The review status inquiry was
+  not deployed. Now >48h old → Ignoré.
 ---
 
 ---
