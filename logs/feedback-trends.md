@@ -129,3 +129,36 @@ trends:
     follow-up) consistently added by Antoine at send time. Consider a lightweight
     signal to Antoine for post-meeting context capture before draft is finalized."
 ---
+
+---
+period: 2026-05-15 to 2026-05-15
+total_deltas: 9
+breakdown:
+  Utilisé: 0
+  Modifié: 0
+  Remplacé: 2
+  Ignoré: 7
+top_categories:
+  - Autre (7 occurrences)
+  - CTA changé (2 occurrences)
+  - Contenu supprimé (2 occurrences)
+  - Structure modifiée (2 occurrences)
+  - Contexte client ajouté (1 occurrence)
+trends:
+  - "Forge v2 (May 15): Ignoré rate of 78% (7/9 drafts never sent) — the highest
+    in any observed batch. All 7 unmatched drafts were Pending at the May 15 run
+    and confirmed unsent after 72h. Antoine was OOO until May 17; drafts generated
+    at or just before the OOO window went entirely unprocessed. Consider suppressing
+    draft generation when an OOO signal is detected on the account owner."
+  - "Forge v2 (May 15): Both Remplacé entries (Bunq, Deblock) share a common
+    pattern — inbound client activity (Bunq NDA counter-signature, Deblock live IBAN
+    signal) made the outbound draft obsolete before it could be sent. Antoine responded
+    reactively to the inbound rather than adapting the draft. Forge v2 lacks an
+    inbound-activity gate; generating outbound drafts without checking for recent
+    inbound from the same thread consistently produces obsolete content."
+  - "Forge v2 (May 15): The CTA changé and Contenu supprimé categories in the two
+    Remplacé entries confirm a recurrent pattern across all observed batches — Antoine
+    removes or replaces structured multi-step CTAs with simpler reactive responses
+    whenever an inbound signal is present. Forge v2 should weight down direct CTAs
+    when recent inbound activity is detected in the same thread."
+---

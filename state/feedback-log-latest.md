@@ -1,175 +1,4 @@
 ---
-date: 2026-05-15
-agent: forge-v2
-client: Bunq
-draft_subject: "Re: Cube <> Bunq — Friday 3pm"
-status: Remplacé
-confidence: high
-categories:
-  - CTA changé
-  - Contexte client ajouté
-  - Contenu supprimé
-  - Structure modifiée
-delta_summary: >-
-  The draft anticipated an outbound nudge to chase NDA counter-signature, with
-  a calibrated priority question (IBAN sample vs pre-filled COO business case
-  first). An inbound from Stephanie (signed NDA + transparency about CEO direct
-  outreach attempt) made the draft content obsolete before it could be sent.
-  Antoine responded reactively: acknowledged Stephanie's ownership of the
-  process, delivered the 20k EU IBAN dataset, and reframed analysis parameters
-  (two outflow/inflow dimensions). The calibrated priority question was dropped
-  entirely; the COO business case one-pager was not mentioned; CTA shifted from
-  sequencing deliverables to scheduling a debrief call.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: Deblock
-draft_subject: "Re: Deblock — Intro & next steps"
-status: Remplacé
-confidence: high
-categories:
-  - Structure modifiée
-  - Contenu supprimé
-  - CTA changé
-delta_summary: >-
-  The draft's structured re-engagement approach — peer fintech benchmarks,
-  specific scheduling dates (May 27/28), escalation offer to Head of Financial
-  Crime (Sipei Yang) — was replaced by a single-account live insight nudge.
-  The sent email featured one specific Deblock IBAN tracked across 15 separate
-  fraudster conversations over 5+ months, last seen less than one hour before
-  sending. No scheduling CTA or peer reference in the sent email. Antoine
-  appears to have chosen a live-signal-first sequencing strategy over the
-  draft's direct meeting-request approach.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: BGL BNP Paribas
-draft_subject: "Re: CUBE AI <> BGL BNP Paribas - Comptes Mules"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found to BGL BNP Paribas contacts (damien.chaffotte@bgl.lu,
-  ignacio.alonso@bgl.lu, fernand.lepage@bgl.lu) between May 15-18. Gmail
-  search confirmed the draft was never dispatched. Content: pre-kickoff
-  methodological pre-read (three-layer detection, peer benchmark, agenda
-  question for the May 22 session). Previously Pending; now >72h old →
-  Ignoré. The May 22 session proceeds without Antoine's pre-read framing email.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: Swan
-draft_subject: "RE: Swan — Intro & next steps"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found to Swan contacts (martin.miguel@swan.io, luc.drye@swan.io)
-  between May 15-18. Gmail confirmed the draft was marked as unsent (draft flag
-  true). Content: pre-meeting bridge checking Swan's deliverables and reframing
-  financial impact angle (€14 average per compromised account, broader IBAN
-  exposure) ahead of May 22 restitution. Previously Pending; now >72h old →
-  Ignoré. Antoine was on OOO until May 17; the draft was not dispatched upon
-  return.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: Intesa Sanpaolo
-draft_subject: "Intesa Sanpaolo × CUBE AI — ahead of 20 May"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found to Intesa Sanpaolo contact (gianluca.chiusano@intesasanpaolo.com)
-  between May 15-18. Gmail confirmed the draft was never dispatched (draft flag
-  true). Content: pre-meeting bridge with 170+ flagged Intesa accounts data
-  point and agenda proposal for May 20 intro call. Previously Pending; now >72h
-  old → Ignoré. The May 20 intro call proceeds without this pre-read being sent.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: BPCE
-draft_subject: "RE: Analyse comptes mules BPCE"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No matching email found to BPCE contacts on May 15-18. Gmail confirmed the
-  draft was never dispatched (draft flag true). Content: pre-meeting guidance
-  on date-level granularity for external IBAN cross-referencing ahead of May 20
-  session. The only BPCE email sent in this window (May 18, 09:12 CEST) was an
-  unrelated scheduling response to Sarah's request to reschedule to June 19 —
-  no methodological content. Previously Pending; now >72h old → Ignoré.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: BNP Paribas Fortis
-draft_subject: "RE: [EXTERNAL] BNP Paribas Fortis — Intro & next steps"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found to BNP Paribas Fortis contacts between May 15-18. Gmail
-  confirmed the draft was never dispatched (draft flag true). Content: nine-day
-  follow-up on David Massart's fraud typology document request, committing to
-  pre-May-20 delivery with a scoping question about BNP Fortis' focus (inbound
-  mules vs outbound APP vs both). Previously Pending; now >72h old → Ignoré.
-  The fraud typology document was not delivered ahead of the May 20 meeting.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: BNL
-draft_subject: "Re: BNL — Intro & next steps"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found to BNL contacts (piermario.cecchini@bnpparibas.com,
-  gianandrea.bertello@bnpparibas.com) between May 15-18. Gmail confirmed the
-  draft was never dispatched (draft flag true). Content: pattern-match follow-up
-  with peer benchmark (97% flagged pre-execution, 55-day median, 80%+ unknown
-  to internal systems), offering 20-account sample and 30-minute session before
-  end of May. Previously Pending; now >72h old → Ignoré.
----
-
----
-date: 2026-05-15
-agent: forge-v2
-client: Swissquote
-draft_subject: "2e échantillon Swissquote — analyse en attente"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  No sent email found to Swissquote contact (pierre.gauffeny@swissquote.ch)
-  between May 15-18. Gmail confirmed the draft was never dispatched (draft flag
-  true). Content: direct follow-up to Pierre Gauffeny on 2nd mule account
-  sample shared March 27, asking about progress or blockers. Previously Pending;
-  now >72h old → Ignoré. The Swissquote second-sample review remains stalled.
----
-
----
 date: 2026-05-20
 agent: meeting-echo
 client: Crédit Agricole / LCL
@@ -209,8 +38,8 @@ delta_summary: >-
   the deck was delivered as planned but the email's structure transformed into
   an internal champion coaching document — slide-by-slide briefing notes and
   two objection-handling scenarios for Jérôme's presentation to his manager.
-  Explicit green-light CTA replaced by implicit encouragement (\"bonne
-  présentation vendredi\"). Paris June meeting preserved. Content similarity
+  Explicit green-light CTA replaced by implicit encouragement ("bonne
+  présentation vendredi"). Paris June meeting preserved. Content similarity
   estimated ~35% due to structural transformation from follow-up to coaching
   brief. Previously Pending; resolved May 21.
 ---
@@ -634,4 +463,100 @@ delta_summary: >-
   pas prioritaire, dis-le moi simplement'). The specific June 6 deadline was
   removed. Tone softened: accusatory escalation count dropped, explicit
   permission to disengage added. Content similarity estimated ~58%.
+---
+---
+date: 2026-05-29
+agent: forge-v2
+client: BNP Paribas
+draft_subject: "Re: CUBE AI - BNP Paribas : Comptes mules"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft generated 08:09 CEST. Bridge-handoff to Nicolas Fangouse (Head of
+  CyberMonitoring), anchoring on BCEF POV benchmark results; scope priority
+  question ahead of Paris onsite meeting; group-level proposal to be delivered
+  before June 1. No matching sent email found as of 2026-05-29 21:00 CEST
+  (<13h old). Re-evaluate next run.
+---
+
+---
+date: 2026-05-29
+agent: forge-v2
+client: Crédit Agricole
+draft_subject: "Re: Cube3 <> Credit Agricole / LCL : revue premiers résultats."
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft generated 10:09 CEST. Bridge to Sébastien Sgonidec (CA-IBS champion),
+  timed 4 days before Money 2020 Amsterdam; anchors on CA Savings BIC and
+  Sofinco IBAN action items from May 18 meeting; CAPS readiness question and
+  Global Anti-Fraud Summit invitation CTA. No matching sent email found as of
+  2026-05-29 21:00 CEST (<11h old). Re-evaluate next run.
+---
+
+---
+date: 2026-05-29
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft generated 12:09 CEST. Next-step chaser to Stephanie Rios (bunq Fraud
+  PO); EU IBAN dataset status update (NDA signed); dual-purpose call proposal
+  for June 2 or 3 to review findings and align on decision criteria (DC score
+  4/10). No matching sent email found as of 2026-05-29 21:00 CEST (<9h old).
+  Re-evaluate next run.
+---
+
+---
+date: 2026-05-29
+agent: forge-v2
+client: Intesa Sanpaolo
+draft_subject: "Re: Intesa Sanpaolo — Intro & next steps"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft generated 14:09 CEST. Bridge to Gianluca Chiusano timed 6 days before
+  June 4 AVT review; calibrated question on early matches from the May 21
+  20-account sample; request to loop in Enrico Canna (Head of Fraud Management,
+  Group level) for June 4 meeting. No matching sent email found as of
+  2026-05-29 21:00 CEST (<7h old). Re-evaluate next run.
+---
+
+---
+date: 2026-05-29
+agent: forge-v2
+client: BPER Banca
+draft_subject: "Re: BPER — Intro & next steps"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft generated 16:09 CEST. Micro-nudge to Davide Belloni (Head of
+  Cybersecurity & Fraud) timed 7 days before June 5 discovery meeting; anchors
+  on 41 BPER accounts surfaced during AVT; calibrated question on current
+  categorisation. No matching sent email found as of 2026-05-29 21:00 CEST
+  (<5h old). Re-evaluate next run.
+---
+
+---
+date: 2026-05-29
+agent: forge-v2
+client: BGL BNP Paribas
+draft_subject: "Re: CUBE AI <> BGL BNP Paribas - Comptes Mules"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft generated 18:09 CEST. Delivery-confirmation follow-up to Xavier Hoyaux
+  (champion, BGL Anti-Fraud), back from OOO; anchors on 20k EU IBAN dataset and
+  AVT KPIs delivered May 22; material-review question; CTA to schedule formal
+  AVT kickoff week of June 2 with Olivier Marlot (Head of Anti-Fraud). No
+  matching sent email found as of 2026-05-29 21:00 CEST (<3h old).
+  Re-evaluate next run.
 ---
