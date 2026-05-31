@@ -3,8 +3,7 @@
 **Opp:** BNP Paribas FRANCE - Apex - 2026
 **Stage:** Navigating / MAP | **Close:** 2026-12-31
 **AI Health:** 6.5 | **Competitor:** MISP
-**Next Step:** May 22 — send group-level proposal to Fangouse; confirm June in-person meeting with Jerome to name contract owner
-
+**Next Step:** Jun 4-5 — In-person meeting Paris with Cizeau/Leteurtre (pending Jerome confirmation of slot)
 ## Timeline
 
 | Date | Event | Source |
@@ -19,9 +18,11 @@
 | 2026-05-08 | NextStep + AI_Health updated (health: 6.2) | `gmail:19c6722c+cal:75sr31q9` |
 | 2026-05-19 | NextStep, Next_Step_Date, Red_Flags, AI_Health updated | `calendar:75sr31q9vkq2luaacqd22tum0j` |
 | 2026-05-22 | AI_Health_Score + NextStep + Red_Flags updated (health: 6.5) | `pipeline-scan` |
+| 2026-05-26 | Full MEDDPICC + NextStep + Red_Flags + AI_Health (health: 6.5) updated | `calendar+granola+slack` |
+| 2026-05-29 | MEDDPICC(DP,EB) + NextStep + Red_Flags + AI_Health (health: 6.5) updated | `calendar+gmail+slack` |
 
 ## Red Flags
 
-No EB confirmed · Paper process 0% · Group-level buy-in unproven · Need budget owner named by June
+Group-wide spending cut stalling decision · EB Cizeau only got 5min at last meeting · Paper Process never discussed · No procurement contact identified
 
-[Source: SF write log, weekly sync 2026-05-24]
+[Source: SF write 006VT00000nNpjzYAC, run 2026-05-31]

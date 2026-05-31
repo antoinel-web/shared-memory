@@ -1,9 +1,9 @@
 # bunq
 
 **Opp:** Bunq - Apex - 2026
-**Stage:** Account Validation Test (AVT) | **Close:** 2026-09-30
-**Next Step:** NDA signed May 7. Send EU IBANs sample to Stephanie Rios post-NDA.
-
+**Stage:** Technical Validation / POC · POV | **Close:** 2026-09-30
+**AI Health:** 4.8
+**Next Step:** Send EU IBAN compromised list to Stephanie + await her CEO proposal (1-2 months)
 ## Timeline
 
 | Date | Event | Source |
@@ -14,5 +14,11 @@
 | 2026-05-01 | NextStep, MEDDPICC(PP), MEDDPICC(M), AI_Health updated | `gmail:19c95e6ff0c92f5c` |
 | 2026-05-05 | MEDDPICC(Ch,PP) + NextStep + AI_Health + RedFlags updated | `email:19c95e6ff0c92f5c` |
 | 2026-05-08 | Full MEDDPICC + NextStep + AI_Health updated (health: 4.3) | `granola:7c19cf0d+gmail:19c95e6f` |
+| 2026-05-26 | Full MEDDPICC + NextStep + Red_Flags + AI_Health (health: 4.8) updated | `calendar+gmail` |
+| 2026-05-29 | NextStep + Red_Flags + AI_Health (health: 4.8) updated | `drive` |
 
-[Source: SF write log, weekly sync 2026-05-10]
+## Red Flags
+
+CEO decision required · Long timeline (1-2 months for Stephanie proposal) · Must not bypass champion to CEO directly
+
+[Source: SF write 006VT00000nO53xYAC, run 2026-05-31]

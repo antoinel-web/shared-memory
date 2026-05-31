@@ -2,9 +2,8 @@
 
 **Opp:** CGD - Apex - 2026
 **Stage:** Negotiating | **Close:** 2026-09-30
-**AI Health:** 4.7 | **Competitor:** MISP
-**Next Step:** May 22 — chase Manuel Soares on procurement status + portal access; Panorama tenant being set up
-
+**AI Health:** 4.5 | **Competitor:** MISP
+**Next Step:** Chase Manuel Soares for procurement status + 500 PT accounts analysis update
 ## Timeline
 
 | Date | Event | Source |
@@ -15,9 +14,11 @@
 | 2026-05-05 | Full MEDDPICC + NextStep + AI_Health + RedFlags updated | `granola:f8984974,f7b3051b,email:19d444f9408b0f9c` |
 | 2026-05-08 | Full MEDDPICC + NextStep + AI_Health updated (health: 4.9) | `granola:78cd5bca+gmail:19d444f9` |
 | 2026-05-22 | AI_Health_Score + NextStep + Red_Flags updated (health: 4.7) | `pipeline-scan` |
+| 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 4.5) updated | `calendar+gmail` |
+| 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 4.5) updated | `gmail` |
 
 ## Red Flags
 
-Procurement stalled 9+ days · Manuel unresponsive since May 13 · No procurement contact established
+Manuel silent 16d+ · Procurement stalled — no contact from portal · 500 PT accounts analysis still pending · Pricing: board focused on raw 6-figure number
 
-[Source: SF write log, weekly sync 2026-05-24]
+[Source: SF write 006VT00000o6Ul2YAE, run 2026-05-31]

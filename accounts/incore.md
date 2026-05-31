@@ -3,8 +3,7 @@
 **Opp:** Incore - Apex - 2026
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
 **AI Health:** 0.5
-**Next Step:** May 29 — catch-up with Thomas Glaus
-
+**Next Step:** May 29 — catch-up with Thomas Glaus (14:30 CEST)
 ## Timeline
 
 | Date | Event | Source |
@@ -13,9 +12,10 @@
 | 2026-05-01 | NextStep updated | `calendar:7suqriiv` |
 | 2026-05-05 | NextStep updated | `calendar:7suqriivcqfl8m1j50dvmunv89` |
 | 2026-05-22 | AI_Health_Score + NextStep updated (health: 0.5) | `pipeline-scan` |
+| 2026-05-26 | NextStep + AI_Health (health: 0.5) updated | `calendar` |
 
 ## Red Flags
 
 Multiple MEDDPICC gaps below stage minimum (M, EB, DC, DP, Pain, Ch, Co)
 
-[Source: SF write log, weekly sync 2026-05-24]
+[Source: SF write 006VT00000oNKakYAG, run 2026-05-31]
