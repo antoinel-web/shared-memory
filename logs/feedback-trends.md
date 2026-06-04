@@ -162,3 +162,38 @@ trends:
     whenever an inbound signal is present. Forge v2 should weight down direct CTAs
     when recent inbound activity is detected in the same thread."
 ---
+
+---
+period: 2026-05-20 to 2026-05-21
+total_deltas: 4
+breakdown:
+  Utilisé: 1
+  Modifié: 2
+  Remplacé: 0
+  Ignoré: 1
+top_categories:
+  - Contexte client ajouté (3 occurrences)
+  - CTA changé (2 occurrences)
+  - Structure modifiée (2 occurrences)
+  - Contenu supprimé (1 occurrence)
+  - Autre (1 occurrence)
+trends:
+  - "Meeting Echo (May 20-21): Contexte client ajouté is dominant (3/4 entries)
+    — Antoine consistently enriched follow-ups with client-specific data
+    unavailable at draft generation time (coaching-brief transformation for BNP
+    Paribas BCEF, IBAN evidence detail walkthrough for BNP Paribas Fortis,
+    activity timeline enrichment for Intesa Sanpaolo). Meeting Echo performs
+    structurally well but lacks real-time post-meeting context at generation time."
+  - "Meeting Echo (May 21): Intesa Sanpaolo produced the fastest dispatch of any
+    observed entry in the sliding window — sent 6 minutes post-draft, resulting
+    in Utilisé classification (~80% content similarity). Rapid dispatch strongly
+    correlates with high content fidelity: Antoine adopts drafts more faithfully
+    when acting within minutes of meeting end, before reflective post-processing
+    introduces additional context or restructuring."
+  - "Meeting Echo (May 20): CA/LCL Ignoré — the only undelivered draft in this
+    window. Post-call recap generated at 13:10 CEST; Gmail draft confirmed
+    never dispatched through May 22. The CA/LCL account appears to require a
+    longer deliberation window than Meeting Echo's same-day draft cadence
+    accommodates; the June 18 follow-up meeting proceeded without the post-session
+    recap having reached the counterpart."
+---
