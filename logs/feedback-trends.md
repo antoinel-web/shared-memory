@@ -197,3 +197,38 @@ trends:
     accommodates; the June 18 follow-up meeting proceeded without the post-session
     recap having reached the counterpart."
 ---
+
+---
+period: 2026-05-22 to 2026-05-22
+total_deltas: 10
+breakdown:
+  Utilisé: 0
+  Modifié: 0
+  Remplacé: 1
+  Ignoré: 9
+top_categories:
+  - Autre (10 occurrences)
+  - CTA changé (1 occurrence)
+trends:
+  - "Forge v2 (May 22): Ignoré rate of 90% (9/10 drafts never sent) — tied
+    for the highest observed rate alongside the May 15 OOO batch. Unlike May 15,
+    no OOO signal was present on May 22; Antoine was actively sending (one email
+    dispatched at 09:12 CEST). The 9 unsent drafts span Italian and French
+    mid-market banking prospects, suggesting Antoine deliberately deprioritised
+    a broad cohort in favour of a single high-intensity engagement, rather than
+    a workflow disruption."
+  - "Forge v2 (May 22): The sole Remplacé entry illustrates a recurring
+    constraint-override pattern — the agent had internally marked a specific
+    outreach angle as unsuitable after prior rejections, yet Antoine deployed
+    exactly that angle and received engagement. This is the second observed
+    instance of Antoine overriding an agent-derived constraint rule. The agent's
+    self-limiting logic does not track Antoine's evolving read on counterpart
+    receptivity; constraint rules should decay or be flagged for review after
+    30+ days of no new signal."
+  - "Forge v2 (May 22): The 9 bulk-Ignoré drafts all carry category 'Autre'
+    with no actionable delta — they were simply not deployed. This pattern
+    recurs across May 15 and May 22. A per-account silence-tolerance model
+    (e.g., suppress draft generation if the last outbound was < N days ago and
+    no inbound was received) would reduce waste in batches where Antoine is
+    clearly holding fire on multiple accounts simultaneously."
+---
