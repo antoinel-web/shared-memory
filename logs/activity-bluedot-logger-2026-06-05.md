@@ -1,14 +1,11 @@
-# Bluedot Logger — 2026-06-05 10:01
+# Bluedot Logger — 2026-06-05 15:30
 
 ## Call processed
-- Title: (17) CUBE AI <> BPER - Mule accounts detection & Fraud prevention
-- Client: BPER Banca
-- File: 2026-06-05_17-cube-ai-bper-mule-accounts-detection-fraud-prevention.txt
-- Status: classified
+- Title: (17) CUBE AI <> SWAN - Comptes Mules: 2eme restitution
+- Client: Swan
+- File: 2026-06-05_cube-ai-swan-comptes-mules-2eme-restitution.txt
+- Drive folder: Swan/calls/ (1D7_YC5eEBTgq6R-8ihFKmi27BKBzmubV)
+- Status: classified ✅
 
 ## Unknowns
 none
-
-## Notes
-- Attendees list was empty in the webhook payload; client was identified from the meeting title ("BPER")
-- File uploaded to Google Drive: https://drive.google.com/file/d/1YKP7A2mhogFg048x1SO_aciQRj6KliEb/view
