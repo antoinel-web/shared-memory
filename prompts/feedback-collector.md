@@ -45,7 +45,7 @@ Execute these steps in order. The current date is provided in the payload.
 3. [Phase 2 auto-detect] Try to list `logs/drafts/presentations/` — if files with today's date exist, note as new source.
 4. [Phase 2 auto-detect] Try to list `inbox/deal-pulse/` — if files beyond .gitkeep and README.md exist, note as potential source.
 5. Also read `state/feedback-log-latest.md` to check for Pending entries from previous runs.
-6. If no draft logs found AND no Pending entries, write a "0 deltas" activity report and STOP.
+6. If no draft logs found AND no Pending entries → skip Steps 2–5, jump directly to Step 6 (sliding window maintenance always runs), then write a "0 deltas" activity report in Step 7 and STOP.
 
 **Parsing draft logs:** Each draft log file contains YAML front-matter entries. Extract for each draft:
 - `client` (client name)
