@@ -3,7 +3,7 @@
 **Opp:** BGL (BNP Luxembourg) - Apex - NB27
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
 **AI Health:** 2.8
-**Next Step:** Follow up with Damien Chaffotte on next steps post May 22 intro meeting
+**Next Step:** Schedule BGL debrief session to correct 'mitigated' perception — align with Jun 8 BNP Group MAP session
 ## Timeline
 
 | Date | Event | Source |
@@ -15,9 +15,10 @@
 | 2026-05-22 | AI_Health_Score + NextStep updated (health: 3.1) | `pipeline-scan` |
 | 2026-05-26 | Full MEDDPICC + NextStep + Red_Flags + AI_Health (health: 2.8) updated | `gmail+granola` |
 | 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 2.8) updated | `calendar` |
+| 2026-06-02 | MEDDPICC batch (3 fields) updated | `pipeline-scan` |
 
 ## Red Flags
 
-No EB identified · No decision process · Paper Process never discussed · Very early stage despite strong attendance
+Results perceived as 'mitigated' by group (Anne-Lise) · No debrief session happened · Need to schedule Lux debrief to correct perception
 
-[Source: SF write 006VT00000pmk6PYAQ, run 2026-05-31]
+[Source: SF write 006VT00000pmk6PYAQ, run 2026-06-07]

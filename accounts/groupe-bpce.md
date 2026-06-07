@@ -2,8 +2,8 @@
 
 **Opp:** BPCE - Apex - 2026
 **Stage:** Technical Validation / POC · POV | **Close:** 2026-12-31
-**AI Health:** 3.2 | **Competitor:** MISP
-**Next Step:** Jun 19 — Follow-up meeting on FNC-RF complementarity analysis + Panorama access
+**AI Health:** 3.7 | **Competitor:** MISP
+**Next Step:** Jun 19 — BPCE analysis review meeting (IBANs externes compromis)
 ## Timeline
 
 | Date | Event | Source |
@@ -16,9 +16,10 @@
 | 2026-05-22 | AI_Health_Score + NextStep + Red_Flags updated (health: 3.2) | `pipeline-scan` |
 | 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 3.2) updated | `gmail` |
 | 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 3.2) updated | `drive+gmail` |
+| 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 3.7) | `pipeline-scan-2026-06-05` |
 
 ## Red Flags
 
-No EB identified · Corinne on leave · 4-week slip (May 20→Jun 19) · No procurement discussion
+No EB identified · Paper process never discussed · BFT team not yet engaged · 27k analysis pending
 
-[Source: SF write 006VT00000obYKTYA2, run 2026-05-31]
+[Source: SF write 006VT00000obYKTYA2, run 2026-06-07]

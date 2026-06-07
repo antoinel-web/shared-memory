@@ -16,9 +16,10 @@
 | 2026-05-22 | AI_Health_Score + NextStep + Red_Flags updated (health: 4.7) | `pipeline-scan` |
 | 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 4.5) updated | `calendar+gmail` |
 | 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 4.5) updated | `gmail` |
+| 2026-06-02 | Red_Flags updated | `pipeline-scan` |
 
 ## Red Flags
 
-Manuel silent 16d+ · Procurement stalled — no contact from portal · 500 PT accounts analysis still pending · Pricing: board focused on raw 6-figure number
+No recent activity in 7d · Negotiating stage but no procurement evidence
 
-[Source: SF write 006VT00000o6Ul2YAE, run 2026-05-31]
+[Source: SF write 006VT00000o6Ul2YAE, run 2026-06-07]

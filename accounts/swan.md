@@ -2,8 +2,8 @@
 
 **Opp:** Swan - Apex - 2026
 **Stage:** Technical Validation / POC · POV | **Close:** 2026-09-30
-**AI Health:** 3.0
-**Next Step:** Week of Jun 1 — Swan confirmed they will do analysis themselves; 2nd restitution call TBD
+**AI Health:** 2.6
+**Next Step:** Jun 5 — Swan 2eme restitution comptes mules (today 3pm)
 ## Timeline
 
 | Date | Event | Source |
@@ -18,9 +18,11 @@
 | 2026-05-19 | NextStep, Next_Step_Date, Red_Flags, AI_Health updated | `calendar+gmail:128epeud0j1fe4p4mfj0eiar43` |
 | 2026-05-22 | AI_Health_Score + NextStep updated (health: 3.0) | `pipeline-scan` |
 | 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 3.0) updated | `gmail` |
+| 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 2.6) | `pipeline-scan-2026-06-05` |
+| 2026-06-02 | MEDDPICC batch (5 fields) updated | `pipeline-scan` |
 
 ## Red Flags
 
-Analysis delayed (May was busy) · Omnibus account challenge (Wise IBANs) · No EB · No budget owner
+No EB identified · Paper process never discussed · No confirmed champion · Quantitative results pending
 
-[Source: SF write 006VT00000nNzg7YAC, run 2026-05-31]
+[Source: SF write 006VT00000nNzg7YAC, run 2026-06-07]
