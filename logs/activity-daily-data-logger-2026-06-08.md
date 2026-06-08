@@ -6,7 +6,7 @@ sources_read:
   - gmail: 8 emails traités (sur ~27 threads scannés)
   - bluedot: via webhook temps réel (hors scope logger nocturne)
 outputs_written:
-  - drive_files: 8 fichiers écrits
+  - drive_files: 9 fichiers écrits (8 aujourd'hui + 1 rétroactif pending 2026-05-27)
   - classification_emails: 0 emails envoyés
   - mapping_log_appends: 0 règles ajoutées
 pending_classifications: 0 domaines en attente
@@ -20,6 +20,7 @@ duration_estimate: medium
 - `2026-06-08_presentazione-cube-ai-a-iccrea.txt` — Paolo Battiston → ICCREA team (inbound, 16:20 UTC)
 - `2026-06-08_r-presentazione-cube-ai-a-iccrea_1536.txt` — ACoppini@iccrea.bcc.it → Paolo + Antoine (inbound, 15:36 UTC)
 - `2026-06-08_r-presentazione-cube-ai-a-iccrea_1625.txt` — Paolo follow-up après réponse Coppini (inbound, 16:25 UTC)
+- `2026-05-27_presentazione-cube-ai-a-iccrea.txt` — 🔁 Rétroactif (pending depuis 2026-05-27, classifié par Antoine le 2026-05-28)
 
 ### Poste Italiane (`Clients/Poste Italiane/emails/`)
 - `2026-06-08_proposta-per-meeting-con-jonathan-anastasia-president-cube-ai-a-roma.txt` — Paolo Battiston → Giorgio Pulino + Maurizio Varano, cc Antoine + Jonathan (inbound, 12:00 UTC). Objet : meeting Jonathan à Rome le 24 juin + relance test données.
@@ -38,3 +39,4 @@ duration_estimate: medium
 - bnpparibas.com classé sous NL BNP Paribas IT conformément au domain-mapping.txt. Note : les contacts (Anne-Lise Escoffre, Nicolas Fangouse, Jérôme Palin) semblent être l'équipe BNP France — possible erreur de mapping à vérifier avec Antoine.
 - Bluedot calls (BNP Group 40min, SSP Demo 27min) hors scope — traités par le webhook handler en temps réel.
 - Domaine `eneba.com` (classification ouverte depuis 01/06) : présent dans domain-mapping.txt, considéré résolu. Pas de relance envoyée.
+- Fichier pending 2026-05-27 ICCREA Banca traité et uploadé (classification reçue 2026-05-28).
