@@ -232,3 +232,28 @@ trends:
     no inbound was received) would reduce waste in batches where Antoine is
     clearly holding fire on multiple accounts simultaneously."
 ---
+
+---
+period: 2026-05-26 to 2026-05-26
+total_deltas: 2
+breakdown:
+  Utilisé: 0
+  Modifié: 0
+  Remplacé: 0
+  Ignoré: 2
+top_categories:
+  - Autre (2 occurrences)
+trends:
+  - "Forge v2 (May 26): Both drafts expired as Ignoré — neither was dispatched
+    despite time-sensitive angles (ACPR regulatory pressure for one account,
+    post-sample silence follow-up for another). Both accounts appear to have been
+    deprioritised on this date with no inbound signals explaining the halt. The
+    regulatory-pressure angle in particular had a concrete compliance hook that
+    went undeployed."
+  - "Forge v2 (May 26): This is the third batch (after May 15 and May 22) where
+    multiple drafts in a single day expired as Ignoré with no intervening
+    client-side signal. The pattern suggests Forge v2 continues to generate
+    drafts for accounts Antoine has placed on informal hold. A deal-stage or
+    last-outbound recency gate before draft generation would reduce noise across
+    all three of these observed batches."
+---
