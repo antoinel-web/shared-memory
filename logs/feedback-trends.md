@@ -257,3 +257,36 @@ trends:
     last-outbound recency gate before draft generation would reduce noise across
     all three of these observed batches."
 ---
+
+---
+period: 2026-05-27 to 2026-05-27
+total_deltas: 6
+breakdown:
+  Utilisé: 0
+  Modifié: 3
+  Remplacé: 3
+  Ignoré: 0
+top_categories:
+  - Contenu supprimé (5 occurrences)
+  - CTA changé (5 occurrences)
+  - Contexte client ajouté (3 occurrences)
+  - Ton ajusté (2 occurrences)
+  - Structure modifiée (2 occurrences)
+trends:
+  - "Forge v2 (May 27): 'Contenu supprimé' and 'CTA changé' each appear in 5 of 6
+    entries — the two most dominant categories across this batch. Antoine systematically
+    removes the agent's structured framing and replaces multi-step CTAs with simpler,
+    more direct asks. Forge v2 should default to single-action CTAs and avoid building
+    elaborate multi-step sequences."
+  - "Forge v2 (May 27): All 3 Remplacé entries (BPCE, La Banque Postale, Intesa Sanpaolo)
+    were entirely replaced by different content — Antoine deployed a competitive
+    positioning document (FNC-RF complementarity) or a scheduling adjustment instead of
+    the drafted follow-up. Forge v2 lacks visibility into Antoine's real-time strategic
+    pivots; consider a lightweight signal to check for pending strategic material before
+    generating a follow-up draft."
+  - "Forge v2 (May 27): Both Modifié entries with clear matching (Dukascopy, Treezor)
+    show CTA softening — specific call dates and escalation framing were replaced by
+    open-ended in-person meeting proposals or soft permission-to-disengage closings. A
+    recurring pattern across all observed batches: Forge v2 CTAs consistently overshoot
+    Antoine's preferred directness level for this stage of the sales cycle."
+---
