@@ -290,3 +290,41 @@ trends:
     recurring pattern across all observed batches: Forge v2 CTAs consistently overshoot
     Antoine's preferred directness level for this stage of the sales cycle."
 ---
+
+---
+period: 2026-05-29 to 2026-05-29
+total_deltas: 6
+breakdown:
+  Utilisé: 0
+  Modifié: 0
+  Remplacé: 0
+  Ignoré: 6
+top_categories:
+  - Autre (6 occurrences)
+trends:
+  - "Forge v2 (May 29): 100% Ignoré rate (6/6 drafts never sent) — the fourth
+    consecutive high-Ignoré batch after May 15 (OOO), May 22 (selective focus),
+    and May 26 (account hold). May 29 featured time-sensitive hooks across all 6
+    drafts: pre-Money2020 CA/LCL outreach, pre-June2-meeting Bunq follow-up,
+    pre-June4-AVT Intesa Sanpaolo brief, pre-June5-discovery BPER context, BGL
+    AVT kickoff prep, and BNP Paribas CyberMonitoring bridge. All went undeployed
+    despite concrete deadlines (June 1 group proposal, June 2-3 Bunq call, June 4
+    AVT review, June 5 discovery meeting). Unlike May 15 (OOO) and May 22
+    (deliberate cohort hold), no single explanatory factor is evident — Antoine
+    may have been managing a high-priority inbound or strategic reprioritization
+    not visible to the agent."
+  - "Forge v2 (May 29): The BNP Paribas group accounts for 2 of 6 Ignoré entries
+    (BNP Paribas + BGL BNP Paribas), both carrying time-critical messaging around
+    AVT kickoffs and group-level proposals. The group-level proposal deadline (June 1)
+    passed without the bridge email being sent. This is a recurring pattern: Forge v2
+    generates group-level coordination drafts that Antoine doesn't deploy, suggesting
+    group-account coordination emails require a manual trigger rather than automated
+    draft generation."
+  - "Forge v2 (May 29 — cross-batch synthesis): Six consecutive Forge v2 batches
+    (Apr 29 through May 29) show Ignoré rates of 30%, 40%, 78%, 90%, 100%, 100%.
+    The trend is worsening. No batch has achieved a 0% Ignoré rate. The agent
+    consistently over-generates relative to Antoine's deployment rate. A hard cap
+    on daily draft volume (max 3–4 per batch) combined with a deal-activity recency
+    gate and an inbound-activity check before generation would materially reduce
+    the noise-to-signal ratio across all observed periods."
+---
