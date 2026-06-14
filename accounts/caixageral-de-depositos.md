@@ -1,8 +1,8 @@
 # CaixaGeral de Depositos
 
 **Opp:** CGD - Apex - 2026
-**Stage:** Negotiating | **Close:** 2026-09-30
-**AI Health:** 4.5 | **Competitor:** MISP
+**Stage:** Navigating / MAP | **Close:** 2026-09-30
+**AI Health:** — | **Competitor:** MISP
 **Next Step:** Chase Manuel Soares for procurement status + 500 PT accounts analysis update
 ## Timeline
 
@@ -17,9 +17,10 @@
 | 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 4.5) updated | `calendar+gmail` |
 | 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 4.5) updated | `gmail` |
 | 2026-06-02 | Red_Flags updated | `pipeline-scan` |
+| 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 
 ## Red Flags
 
 No recent activity in 7d · Negotiating stage but no procurement evidence
 
-[Source: SF write 006VT00000o6Ul2YAE, run 2026-06-07]
+[Source: SF write 006VT00000o6Ul2YAE, run 2026-06-14]

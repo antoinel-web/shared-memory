@@ -1,9 +1,9 @@
 # Swan
 
 **Opp:** Swan - Apex - 2026
-**Stage:** Technical Validation / POC · POV | **Close:** 2026-09-30
-**AI Health:** 2.6
-**Next Step:** Jun 5 — Swan 2eme restitution comptes mules (today 3pm)
+**Stage:** Navigating / MAP | **Close:** 2026-09-30
+**AI Health:** —
+**Next Step:** Jun 19 — Present finalized business case with 10x+ ROI to Swan
 ## Timeline
 
 | Date | Event | Source |
@@ -20,9 +20,11 @@
 | 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 3.0) updated | `gmail` |
 | 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 2.6) | `pipeline-scan-2026-06-05` |
 | 2026-06-02 | MEDDPICC batch (5 fields) updated | `pipeline-scan` |
+| 2026-06-09 | Full MEDDPICC + NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
+| 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
 
 ## Red Flags
 
 No EB identified · Paper process never discussed · No confirmed champion · Quantitative results pending
 
-[Source: SF write 006VT00000nNzg7YAC, run 2026-06-07]
+[Source: SF write 006VT00000nNzg7YAC, run 2026-06-14]

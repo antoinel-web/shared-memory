@@ -2,8 +2,8 @@
 
 **Opp:** BNP Paribas FRANCE - Apex - 2026
 **Stage:** Navigating / MAP | **Close:** 2026-12-31
-**AI Health:** 5.5 | **Competitor:** MISP
-**Next Step:** Jun 8 — BNP Group meeting with Anne-Lise Escoffre (group fraud lead)
+**AI Health:** — | **Competitor:** MISP
+**Next Step:** Jun 23 — In-person presentation at BDDF Paris with 12 BNP stakeholders
 ## Timeline
 
 | Date | Event | Source |
@@ -22,9 +22,11 @@
 | 2026-05-29 | MEDDPICC(DP,EB) + NextStep + Red_Flags + AI_Health (health: 6.5) updated | `calendar+gmail+slack` |
 | 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 5.5) | `pipeline-scan-2026-06-05` |
 | 2026-06-02 | MEDDPICC batch (19 fields) updated | `pipeline-scan` |
+| 2026-06-09 | Full MEDDPICC + NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
+| 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
 
 ## Red Flags
 
 Paper process never discussed · No confirmed EB with budget authority · Group-level champion (Luisa) not yet engaged
 
-[Source: SF write 006VT00000nNpjzYAC, run 2026-06-07]
+[Source: SF write 006VT00000nNpjzYAC, run 2026-06-14]

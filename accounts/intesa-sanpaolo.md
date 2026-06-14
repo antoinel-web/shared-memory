@@ -2,8 +2,8 @@
 
 **Opp:** Intesa Sanpaolo - Apex - NB 2026
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
-**AI Health:** 2.1
-**Next Step:** Jun 11 — Intesa Sanpaolo Mule Intelligence meeting
+**AI Health:** —
+**Next Step:** Jun 16 — Intesa Sanpaolo follow-up meeting with Gianluca Chiusano
 ## Timeline
 
 | Date | Event | Source |
@@ -17,9 +17,11 @@
 | 2026-05-26 | Full MEDDPICC + NextStep + Red_Flags + AI_Health (health: 3.3) updated | `calendar+granola` |
 | 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 3.3) updated | `granola+slack` |
 | 2026-06-02 | MEDDPICC batch (9 fields) updated | `pipeline-scan` |
+| 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
+| 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
 
 ## Red Flags
 
 No recent email activity · EB not identified · Early stage
 
-[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-07]
+[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-14]
