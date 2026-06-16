@@ -1,226 +1,136 @@
 ---
 published_by: deal-pulse
-published_at: "2026-06-16T07:39:52.131332+02:00"
+published_at: 2026-06-16T13:08:29.797001+00:00
 source_freshness:
-  salesforce: "2026-06-16T07:39:52.131332+02:00"
-  google_calendar: "2026-06-16T07:39:52.131332+02:00"
-  granola: "2026-06-16T07:39:52.131332+02:00"
+  salesforce: 2026-06-16T13:08:29.797001+00:00
+  google_calendar: 2026-06-16T13:08:29.797001+00:00
+  granola: 2026-06-16T13:08:29.797001+00:00
 schema_version: "2.0"
 ---
 
-# Deal Pulse — Pipeline State
+# Deal Pulse — Pipeline State (2026-06-16)
 
-> Generated: June 16, 2026 at 07:39 CET | 22 deals | 🔥 3 HOT · ⚡ 10 MED · ❄️ 9 COLD
-
----
+> **22** deals | 🔥 **3** HOT | ⚡ **7** MED | ❄️ **12** COLD
 
 ## 🔥 Hot Deals
 
-### 🔥 Swan — Swan - Apex - 2026
-
-| Field | Value |
-|-------|-------|
-| Stage | Navigating / MAP |
-| Amount | $30,000 |
-| Close Date | 2026-09-30 |
-| MEDDPICC | 30.4/80 |
-| AI Health | 3.8 |
-| RAG | 🔴 red |
-| Trend | 📈 up (+6.5) — AI Health +0.8 · Stage: Technical Validation / POC · POV → Navigating / MAP · MEDDPICC +6.5 · 1 upcoming meeting(s) |
-
-**⚠️ Red Flags:** CRO (Stéphane) not met · PSD2 = no urgency (PSD3 is lever) · PP never discussed
+### Swan - Apex - 2026
+**Account:** Swan | **Stage:** Navigating / MAP | **Amount:** €30,000 | **Prob:** 60.0%
+**AI Health:** 3.8 | **MEDDPICC:** 30.4/80 | 🔴 RED
+**Trend:** 📈 up (Δ+6.5) — MEDDPICC +6.5 · AI Health +0.8 · Stage: Technical Validation / POC · POV → Navigating / MAP · 1 upcoming meeting(s)
 
 **Actions:**
+- [PREPARE] Prepare business case & pricing for Jun 19 call with Martin & Luc
+- [QUALIFY] Map Economic Buyer — CRO Stéphane not met, EB score 2/10, ask Luc for intro
+- [ADVANCE] Draft Paper Process timeline — score 0/10, raise procurement topic Jun 19
 
-- 📋 `prepare` Prepare business case for Jun 19 call — quantify 87 detected mules into ROI for Stéphane
-- 🔍 `qualify` Map path to CRO Stéphane — ask Martin/Luc for intro before pricing discussion
-- 🚀 `advance` Draft paper process timeline with Swan — NDA→POC→proposal, address PSD3 urgency lever
+**Upcoming meetings:**
+- CUBE AI <> SWAN - business case & pricing (2026-06-19)
 
-**📅 Upcoming:** CUBE AI <> SWAN - business case & pricing (2026-06-19)
+**Red flags:** EB not identified · Paper process not discussed · Competition landscape unknown
 
-**📝 Recent:** CUBE AI <> SWAN - business case & pricing
-
----
-
-### 🔥 BNP Paribas — BNP Paribas FRANCE - Apex - 2026
-
-| Field | Value |
-|-------|-------|
-| Stage | Navigating / MAP |
-| Amount | $200,000 |
-| Close Date | 2026-12-31 |
-| MEDDPICC | 39.9/80 |
-| AI Health | 5.0 |
-| RAG | 🟡 amber |
-| Trend | ➡️ stable (-1.8) — AI Health -1.5 · MEDDPICC -1.8 · 1 upcoming meeting(s) · 4 recent meetings |
-
-**⚠️ Red Flags:** EB (acheteur) not confirmed · Group RFP risk (6-9mo delay) · PP timeline unknown · Anne-Lise felt bypassed by bilateral POCs
+### BNP Paribas FRANCE - Apex - 2026
+**Account:** BNP Paribas (Main account) | **Stage:** Navigating / MAP | **Amount:** €200,000 | **Prob:** 50.0%
+**AI Health:** 5.0 | **MEDDPICC:** 39.9/80 | 🟡 AMBER
+**Trend:** → stable (Δ-1.8) — MEDDPICC -1.8 · AI Health -1.5 · 1 upcoming meeting(s) · 4 recent meetings
 
 **Actions:**
+- [PREPARE] Prepare Jun 23 in-person with Cizeau — group pricing & POC roadmap deck
+- [QUALIFY] Get Anne-Lise to confirm NDA timeline — Paper Process at 1.3/10
+- [ADVANCE] Prepare competitive positioning for RFP — Competition score 4.4/10
 
-- 📋 `prepare` Prepare Jun 23 in-person with Cizeau — bring group-wide fraud metrics (2000+ mules/yr)
-- ⚠️ `risk` Align with Anne-Lise pre-meeting — resolve bypass concern, confirm NDA next steps
-- 🚀 `advance` Propose flat per-account pricing model to pre-empt RFP and accelerate group decision
+**Upcoming meetings:**
+- Présentation de la solution CUBE AI (2026-06-23)
 
-**📅 Upcoming:** Présentation de la solution CUBE AI (2026-06-23)
+**Red flags:** EB not yet met directly · Paper process discussed at high level only · Need C-level sponsor beyond fraud team
 
-**📝 Recent:** CUBE AI <> BNP Group, CUBE AI <> BNP Paribas Fortis - Mule Intelligence, CUBE AI <> BNPP : Mule Accounts
-
----
-
-### 🔥 bunq — Bunq - Apex - 2026
-
-| Field | Value |
-|-------|-------|
-| Stage | Technical Validation / POC · POV |
-| Amount | $100,000 |
-| Close Date | 2026-09-30 |
-| MEDDPICC | 36.1/80 |
-| AI Health | 4.8 |
-| RAG | 🟡 amber |
-| Trend | ➡️ stable (+0.0) — No significant changes |
-
-**⚠️ Red Flags:** No recent activity detected in 7d scan
+### Bunq - Apex - 2026
+**Account:** bunq | **Stage:** Technical Validation / POC · POV | **Amount:** €100,000 | **Prob:** 40.0%
+**AI Health:** 4.8 | **MEDDPICC:** 36.1/80 | 🟡 AMBER
+**Trend:** → stable (Δ+0.0) — No significant changes
 
 **Actions:**
+- [RISK] Follow up with Stephanie on EU IBAN sample delivery — no activity in 40d
+- [QUALIFY] Qualify EB path — Stephanie must write proposal for CEO, EB score 3.3/10
+- [ADVANCE] Send broader EU coverage data to unlock 'bigger snack' decision criteria
 
-- 🚀 `advance` Follow up with Stephanie on EU IBAN sample delivery — needed for her CEO proposal
-- 🔍 `qualify` Prepare competitive positioning vs bunq's internal detection — highlight 60% early detection
-- ⚠️ `risk` Schedule check-in call this week — no activity detected in 7+ days, deal at risk of stalling
-
----
+**Red flags:** No recent activity detected in 7d scan
 
 ## ⚡ Active Deals
 
-### Poste Italiane — Poste Italiane - Apex - NB27
+### Intesa Sanpaolo - Apex - NB 2026
+**Account:** Intesa Sanpaolo | **Stage:** Account Validation Test (AVT) | **Amount:** €200,000
+**AI Health:** 1.7 | **MEDDPICC:** 13.9/80 | 🔴 | → stable
+- [PREPARE] Prepare 20 IBANs delivery before Jun 22 meeting with Gianluca
 
-Stage: Qualifying | Amount: $200,000 | MEDDPICC: 0/80 | AI: None | 🔴 | ➡️ stable
+### Isabel - Apex - NB 26
+**Account:** Isabel | **Stage:** Qualifying | **Amount:** €200,000
+**AI Health:** 0.6 | **MEDDPICC:** 5.0/80 | 🔴 | 🆕 new
+- [NURTURE] Send Belgian fraud landscape content to maintain momentum until Aug 28
 
-⚠️ Italian legal constraints on account blocking (police report required) · Only 5-10% victims report · Limited to blacklist/AML flagging
+### La Banque Postale - Apex - 2026
+**Account:** La Banque Postale | **Stage:** Account Validation Test (AVT) | **Amount:** €200,000
+**AI Health:** 1.2 | **MEDDPICC:** 9.9/80 | 🔴 | 📉 down
+- [NURTURE] Re-engage contact — no response since Apr 29, send updated test results
 
-- 📋 Prepare ICCREA presentation Jun 19 — focus on AML blacklist use case given Italian legal limits
+### BPCE - Apex - 2026
+**Account:** Groupe BPCE | **Stage:** Technical Validation / POC · POV | **Amount:** €200,000
+**AI Health:** 3.3 | **MEDDPICC:** 26.3/80 | 🔴 | → stable
+- [PREPARE] Prepare Jun 19 IBAN analysis readout — get EB access via T FACTORY/Bibi
 
-📅 Next: Presentazione Cube AI a ICCREA (2026-06-19)
+### Banca Profilo - Apex - NB 27
+**Account:** Banca Profilo | **Stage:** Account Validation Test (AVT) | **Amount:** €50,000
+**AI Health:** 1.9 | **MEDDPICC:** 15.0/80 | 🔴 | 📈 up
+- [PREPARE] Prepare 2nd analysis readout for Jun 19 — address Antonio's cancellations
 
-### Intesa Sanpaolo — Intesa Sanpaolo - Apex - NB 2026
+### CGD - Apex - 2026
+**Account:** CaixaGeral de Depositos | **Stage:** Navigating / MAP | **Amount:** €150,000
+**AI Health:** 4.5 | **MEDDPICC:** 40.2/80 | 🟡 | → stable
+- [ADVANCE] Chase Manuel Soares for procurement status + 500 PT accounts analysis update
 
-Stage: Account Validation Test (AVT) | Amount: $200,000 | MEDDPICC: 13.9/80 | AI: 1.7 | 🔴 | ➡️ stable
-
-⚠️ EB not identified · DC not documented · Co not mapped
-
-- 🔍 Map BPER's existing fraud IBAN provider — position Apex as complementary for 2027 budget
-
-📅 Next: Intesa Sanpaolo <> CUBE AI - Mule Intelligence (2026-06-16)
-
-### Credem Banca — Credem Banca - Apex - NB 26
-
-Stage: Account Validation Test (AVT) | Amount: $100,000 | MEDDPICC: 6.3/80 | AI: 0.8 | 🔴 | 📈 up
-
-⚠️ No EB · No metrics captured · Very early stage · All MEDDPICC dimensions below minimums
-
-- 🚀 Prepare for CUBE AI <> Banca Profilo - 2nd analysis readout (Jun 19)
-
-📅 Next: CUBE AI <> Banca Profilo - 2nd analysis readout (2026-06-19)
-
-### La Banque Postale — La Banque Postale - Apex - 2026
-
-Stage: Account Validation Test (AVT) | Amount: $200,000 | MEDDPICC: 9.9/80 | AI: 1.2 | 🔴 | 📉 down
-
-⚠️ No response since Apr 29 · EB not identified · Pain not quantified · Long silence
-
-- 🚀 Deal at risk — review champion strategy
-
-### Groupe BPCE — BPCE - Apex - 2026
-
-Stage: Technical Validation / POC · POV | Amount: $200,000 | MEDDPICC: 26.3/80 | AI: 3.3 | 🔴 | ➡️ stable
-
-⚠️ EB not identified · PP not discussed · Sarah Guigny OOO until Jun 15 · Co not mapped
-
-- 📋 Prepare Jun 19 IBAN analysis review with BPCE — identify EB during deep-dive session
-
-📅 Next: CUBE <> BPCE: Analyse IBANs externes compromis (2026-06-19)
-
-### Banca Profilo — Banca Profilo - Apex - NB 27
-
-Stage: Account Validation Test (AVT) | Amount: $50,000 | MEDDPICC: 15.0/80 | AI: 1.9 | 🔴 | 📈 up
-
-⚠️ EB not identified · Antonio repeatedly cancels meetings · Internal review = potential stall · DC not documented
-
-- ⚠️ Confirm Jun 19 readout with Antonio — he cancels often, prep backup async delivery
-
-📅 Next: CUBE AI <> Banca Profilo - 2nd analysis readout (2026-06-19)
-
-### BPER Banca — BPER Banca - Apex - NB 26
-
-Stage: Account Validation Test (AVT) | Amount: $100,000 | MEDDPICC: 21.0/80 | AI: 2.6 | 🔴 | 📈 up
-
-⚠️ No EB (CISO not named) · Existing contract with fraud IBAN provider · Budget 2027 not 2026 · Long cycle
-
-- 📋 Prepare for today's Intesa Mule Intelligence call — demo Italian IBAN detection results
-
-📅 Next: CUBE AI <> Banca Profilo - 2nd analysis readout (2026-06-19)
-
-### Banca Sella — Banca Sella - Apex - NB 2027
-
-Stage: Technical Validation / POC · POV | Amount: $50,000 | MEDDPICC: 20.5/80 | AI: 2.6 | 🔴 | 📉 down
-
-⚠️ No EB identified · Legal/GDPR review pending · PP not discussed
-
-- 🚀 Prepare for CUBE AI <> Banca Profilo - 2nd analysis readout (Jun 19)
-
-📅 Next: CUBE AI <> Banca Profilo - 2nd analysis readout (2026-06-19)
-
-### CaixaGeral de Depositos — CGD - Apex - 2026
-
-Stage: Navigating / MAP | Amount: $150,000 | MEDDPICC: 40.2/80 | AI: 4.5 | 🟡 | ➡️ stable
-
-⚠️ No recent activity in 7d · Negotiating stage but no procurement evidence · Antoine at GASA — opportunity to reconnect
-
-- 🔍 Confirm Gil's budget authority before Jul 31 deadline — clarify EB for contract sign-off
-
-### ssp — Score & Secure Payment - Apex - 2026
-
-Stage: Negotiating | Amount: $18,000 | MEDDPICC: 32.7/80 | AI: 4.1 | 🟡 | ➡️ stable
-
-⚠️ EB not confirmed (Gil = LCB-FT head, may not be budget holder) · PP not discussed · Jul 31 offer deadline approaching
-
-- 🚀 Await Gil Dupont response on 50-account sample analysis. Offer extended to Jul 31.
+### Score & Secure Payment - Apex - 2026
+**Account:** ssp | **Stage:** Negotiating | **Amount:** €18,000
+**AI Health:** 4.1 | **MEDDPICC:** 32.7/80 | 🟡 | → stable
+- [QUALIFY] Reach partner president before Jul 31 budget deadline — EB not met yet
 
 ## ❄️ Cold Deals
 
-- **Isabel** — Isabel - Apex - NB 26 | Qualification | $200,000 | 🔴 | Deal at risk — review champion strategy
-- **Societe Generale** — Société Générale - Apex - NB 26 | Account Validation Test (AVT) | $200,000 | 🔴 | Deal at risk — review champion strategy
-- **Deblock** — Deblock - Apex - NB 26 | Account Validation Test (AVT) | $100,000 | 🔴 | Deal at risk — review champion strategy
-- **Incore** — Incore - Apex - 2026 | Account Validation Test (AVT) | $30,000 | 🔴 | Deal at risk — review champion strategy
-- **Credit Agricole** — Credit Agricole - Apex - 2026 | Qualifying | $200,000 | 🔴 | Deal at risk — review champion strategy
-- **Qonto** — Qonto - Apex - 2026 | Pre-Opportunity | $50,000 | 🔴 | Deal at risk — review champion strategy
-- **UniCredit** — UniCredit - Apex - NB 2026 | Account Validation Test (AVT) | $200,000 | 🔴 | Deal at risk — review champion strategy
-- **Lydia** — Lydia - Apex - 2026 | Technical Validation / POC · POV | $57,000 | 🔴 | Deal at risk — review champion strategy
-- **Dukascopy Bank SA** — Dukascopy - Apex - 2026 | Account Validation Test (AVT) | $50,000 | 🔴 | Deal at risk — review champion strategy
+- **Poste Italiane - Apex - NB27** (Poste Italiane) — Qualifying — €200,000 — Deal at risk — review champion strategy
+- **Société Générale - Apex - NB 26** (Societe Generale) — Account Validation Test (AVT) — €200,000 — Deal at risk — review champion strategy
+- **Deblock - Apex - NB 26** (Deblock) — Account Validation Test (AVT) — €100,000 — Deal at risk — review champion strategy
+- **Credem Banca - Apex - NB 26** (Credem Banca) — Account Validation Test (AVT) — €100,000 — Deal at risk — review champion strategy
+- **Incore - Apex - 2026** (Incore) — Account Validation Test (AVT) — €30,000 — Deal at risk — review champion strategy
+- **Credit Agricole - Apex - 2026** (Groupe Credit Agricole (Main account)) — Qualifying — €200,000 — Deal at risk — review champion strategy
+- **Qonto - Apex - 2026** (Qonto) — Pre-Opportunity — €50,000 — Deal at risk — review champion strategy
+- **UniCredit - Apex - NB 2026** (UniCredit) — Account Validation Test (AVT) — €200,000 — Deal at risk — review champion strategy
+- **BPER Banca - Apex - NB 26** (BPER Banca) — Account Validation Test (AVT) — €100,000 — Deal at risk — review champion strategy
+- **Banca Sella - Apex - NB 2027** (Banca Sella) — Technical Validation / POC · POV — €50,000 — Deal at risk — review champion strategy
+- **Lydia - Apex - 2026** (Lydia) — Technical Validation / POC · POV — €57,000 — Deal at risk — review champion strategy
+- **Dukascopy - Apex - 2026** (Dukascopy Bank SA) — Account Validation Test (AVT) — €50,000 — Deal at risk — review champion strategy
 
 ## 📊 Full Pipeline
 
-| # | Account | Deal | Stage | Amount | MEDDPICC | AI | RAG | Momentum | Trend |
-|---|---------|------|-------|--------|----------|-----|-----|----------|-------|
-| 1 | Poste Italiane | Poste Italiane - Apex - NB27 | Qualifying | $200,000 | 0 | None | 🔴 | ⚡ | ➡️ |
-| 2 | Isabel | Isabel - Apex - NB 26 | Qualification | $200,000 | 0 | None | 🔴 | ❄️ | 🆕 |
-| 3 | Intesa Sanpaolo | Intesa Sanpaolo - Apex - NB 20 | Account Validation T | $200,000 | 13.9 | 1.7 | 🔴 | ⚡ | ➡️ |
-| 4 | Credem Banca | Credem Banca - Apex - NB 26 | Account Validation T | $100,000 | 6.3 | 0.8 | 🔴 | ⚡ | 📈 |
-| 5 | La Banque Postale | La Banque Postale - Apex - 202 | Account Validation T | $200,000 | 9.9 | 1.2 | 🔴 | ⚡ | 📉 |
-| 6 | Societe Generale | Société Générale - Apex - NB 2 | Account Validation T | $200,000 | 3.8 | 1.2 | 🔴 | ❄️ | ➡️ |
-| 7 | Deblock | Deblock - Apex - NB 26 | Account Validation T | $100,000 | 2.0 | 0.3 | 🔴 | ❄️ | ➡️ |
-| 8 | Groupe BPCE | BPCE - Apex - 2026 | Technical Validation | $200,000 | 26.3 | 3.3 | 🔴 | ⚡ | ➡️ |
-| 9 | Banca Profilo | Banca Profilo - Apex - NB 27 | Account Validation T | $50,000 | 15.0 | 1.9 | 🔴 | ⚡ | 📈 |
-| 10 | BPER Banca | BPER Banca - Apex - NB 26 | Account Validation T | $100,000 | 21.0 | 2.6 | 🔴 | ⚡ | 📈 |
-| 11 | Incore | Incore - Apex - 2026 | Account Validation T | $30,000 | 2.0 | 0.5 | 🔴 | ❄️ | ➡️ |
-| 12 | Credit Agricole | Credit Agricole - Apex - 2026 | Qualifying | $200,000 | 12.0 | 2.5 | 🔴 | ❄️ | ➡️ |
-| 13 | Banca Sella | Banca Sella - Apex - NB 2027 | Technical Validation | $50,000 | 20.5 | 2.6 | 🔴 | ⚡ | 📉 |
-| 14 | Qonto | Qonto - Apex - 2026 | Pre-Opportunity | $50,000 | 9.0 | 1.2 | 🔴 | ❄️ | ➡️ |
-| 15 | UniCredit | UniCredit - Apex - NB 2026 | Account Validation T | $200,000 | 24.6 | 3.3 | 🔴 | ❄️ | ➡️ |
-| 16 | Lydia | Lydia - Apex - 2026 | Technical Validation | $57,000 | 26.0 | 3.3 | 🔴 | ❄️ | ➡️ |
-| 17 | Swan | Swan - Apex - 2026 | Navigating / MAP | $30,000 | 30.4 | 3.8 | 🔴 | 🔥 | 📈 |
-| 18 | Dukascopy Bank SA | Dukascopy - Apex - 2026 | Account Validation T | $50,000 | 33.0 | 2.6 | 🔴 | ❄️ | ➡️ |
-| 19 | BNP Paribas | BNP Paribas FRANCE - Apex - 20 | Navigating / MAP | $200,000 | 39.9 | 5.0 | 🟡 | 🔥 | ➡️ |
-| 20 | CaixaGeral de Depositos | CGD - Apex - 2026 | Navigating / MAP | $150,000 | 40.2 | 4.5 | 🟡 | ⚡ | ➡️ |
-| 21 | bunq | Bunq - Apex - 2026 | Technical Validation | $100,000 | 36.1 | 4.8 | 🟡 | 🔥 | ➡️ |
-| 22 | ssp | Score & Secure Payment - Apex  | Negotiating | $18,000 | 32.7 | 4.1 | 🟡 | ⚡ | ➡️ |
+| # | Deal | Account | Stage | €Amount | MEDDPICC | AI | RAG | Momentum | Trend |
+|---|------|---------|-------|---------|----------|----|-----|----------|-------|
+| 1 | Poste Italiane - Apex - NB27 | Poste Italiane | Qualifying | €200,000 | 0/80 | None | 🔴 | ❄️ | → |
+| 2 | Intesa Sanpaolo - Apex - NB 20 | Intesa Sanpaolo | Account Validation Test ( | €200,000 | 13.9/80 | 1.7 | 🔴 | ⚡ | → |
+| 3 | Isabel - Apex - NB 26 | Isabel | Qualifying | €200,000 | 5.0/80 | 0.6 | 🔴 | ⚡ | 🆕 |
+| 4 | La Banque Postale - Apex - 202 | La Banque Postale | Account Validation Test ( | €200,000 | 9.9/80 | 1.2 | 🔴 | ⚡ | 📉 |
+| 5 | Société Générale - Apex - NB 2 | Societe Generale | Account Validation Test ( | €200,000 | 3.8/80 | 1.2 | 🔴 | ❄️ | → |
+| 6 | Deblock - Apex - NB 26 | Deblock | Account Validation Test ( | €100,000 | 2.0/80 | 0.3 | 🔴 | ❄️ | → |
+| 7 | BPCE - Apex - 2026 | Groupe BPCE | Technical Validation / PO | €200,000 | 26.3/80 | 3.3 | 🔴 | ⚡ | → |
+| 8 | Banca Profilo - Apex - NB 27 | Banca Profilo | Account Validation Test ( | €50,000 | 15.0/80 | 1.9 | 🔴 | ⚡ | 📈 |
+| 9 | Credem Banca - Apex - NB 26 | Credem Banca | Account Validation Test ( | €100,000 | 7.8/80 | 1.0 | 🔴 | ❄️ | 📈 |
+| 10 | Incore - Apex - 2026 | Incore | Account Validation Test ( | €30,000 | 2.0/80 | 0.5 | 🔴 | ❄️ | → |
+| 11 | Credit Agricole - Apex - 2026 | Groupe Credit Agrico | Qualifying | €200,000 | 12.0/80 | 2.5 | 🔴 | ❄️ | → |
+| 12 | Qonto - Apex - 2026 | Qonto | Pre-Opportunity | €50,000 | 9.0/80 | 1.2 | 🔴 | ❄️ | → |
+| 13 | UniCredit - Apex - NB 2026 | UniCredit | Account Validation Test ( | €200,000 | 24.6/80 | 3.3 | 🔴 | ❄️ | → |
+| 14 | BPER Banca - Apex - NB 26 | BPER Banca | Account Validation Test ( | €100,000 | 21.0/80 | 2.6 | 🔴 | ❄️ | 📈 |
+| 15 | Banca Sella - Apex - NB 2027 | Banca Sella | Technical Validation / PO | €50,000 | 20.5/80 | 2.6 | 🔴 | ❄️ | 📉 |
+| 16 | Lydia - Apex - 2026 | Lydia | Technical Validation / PO | €57,000 | 26.0/80 | 3.3 | 🔴 | ❄️ | → |
+| 17 | Swan - Apex - 2026 | Swan | Navigating / MAP | €30,000 | 30.4/80 | 3.8 | 🔴 | 🔥 | 📈 |
+| 18 | Dukascopy - Apex - 2026 | Dukascopy Bank SA | Account Validation Test ( | €50,000 | 33.0/80 | 2.6 | 🔴 | ❄️ | → |
+| 19 | BNP Paribas FRANCE - Apex - 20 | BNP Paribas (Main ac | Navigating / MAP | €200,000 | 39.9/80 | 5.0 | 🟡 | 🔥 | → |
+| 20 | CGD - Apex - 2026 | CaixaGeral de Deposi | Navigating / MAP | €150,000 | 40.2/80 | 4.5 | 🟡 | ⚡ | → |
+| 21 | Bunq - Apex - 2026 | bunq | Technical Validation / PO | €100,000 | 36.1/80 | 4.8 | 🟡 | 🔥 | → |
+| 22 | Score & Secure Payment - Apex  | ssp | Negotiating | €18,000 | 32.7/80 | 4.1 | 🟡 | ⚡ | → |
