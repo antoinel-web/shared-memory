@@ -1,0 +1,16 @@
+---
+agent: meeting-echo
+run_at: 2026-06-19T16:58:00+02:00
+status: success
+sources_read:
+  - granola: FAILED (no meeting found for this client)
+  - gmail: 20 threads found, Bluedot recap used as transcript source
+  - slack: 0 canaux trouvés pour ce client
+  - drive: 4 fichiers trouvés
+  - calendar: 1 événement trouvé
+  - bigquery: NOT_USED
+outputs_written:
+  - gmail_draft: "Xpollens — Compte-rendu & prochaines étapes"
+errors: Granola — aucun transcript trouvé pour ce client (fallback Bluedot utilisé)
+duration_estimate: medium
+---
