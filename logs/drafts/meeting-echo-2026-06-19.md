@@ -23,3 +23,16 @@ content_summary: >-
   croiser avec les données internes ICCREA. CTA : confirme le meeting en présentiel avec
   Jonathan Anastasia (Président Cube AI) le mercredi 24 juin à 11h dans les bureaux ICCREA Rome.
 ---
+---
+agent: meeting-echo
+timestamp: 2026-06-19T21:00:00+02:00
+recipient: sarah.guigny@bpce.fr
+subject: "RE: Analyse comptes mules BPCE"
+meeting_source: "Bluedot recap — (18) CUBE <> BPCE: Analyse IBANs externes compromis — 2026-06-19"
+content_summary: >-
+  Email de suivi post-réunion POC avec l'équipe fraude BPCE (Stade 2). Récapitule
+  les résultats chiffrés de l'analyse sur les 20 000 IBAN (9/20 confirmés frauduleux,
+  179 retours de fraude, ~190k€, 100% post-détection Cube AI). Définit les actions
+  de chaque partie avant le 6 juillet, avec ownership explicite. CTA : point tripartite
+  fixé au lundi 6 juillet à 15h30 via Teams.
+---

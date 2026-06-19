@@ -30,3 +30,19 @@ outputs_written:
 errors: Granola — no transcript found for ICCREA (fallback: Drive Bluedot recap + Gmail context)
 duration_estimate: medium
 ---
+---
+agent: meeting-echo
+run_at: 2026-06-19T21:00:00+02:00
+status: success
+sources_read:
+  - granola: FAILED (no meeting found for BPCE)
+  - gmail: 20 threads found, Bluedot recap used as transcript source
+  - slack: 0 canaux trouvés pour ce client
+  - drive: 50 fichiers trouvés (logs emails, présentations, données POC)
+  - calendar: 1 événement trouvé
+  - bigquery: NOT_USED
+outputs_written:
+  - gmail_draft: "RE: Analyse comptes mules BPCE"
+errors: Granola — aucun transcript trouvé pour BPCE (fallback Bluedot utilisé)
+duration_estimate: medium
+---
