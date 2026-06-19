@@ -14,3 +14,19 @@ outputs_written:
 errors: Granola — aucun transcript trouvé pour ce client (fallback Bluedot utilisé)
 duration_estimate: medium
 ---
+---
+agent: meeting-echo
+run_at: 2026-06-19T19:00:00+02:00
+status: success
+sources_read:
+  - granola: FAILED (no meeting found for ICCREA)
+  - gmail: 19 threads
+  - slack: NOT_FOUND
+  - drive: 13 fichiers trouvés
+  - calendar: 1 événement trouvé
+  - bigquery: NOT_USED
+outputs_written:
+  - gmail_draft: "ICCREA Banca — Intro & next steps"
+errors: Granola — no transcript found for ICCREA (fallback: Drive Bluedot recap + Gmail context)
+duration_estimate: medium
+---
