@@ -2,8 +2,8 @@
 
 **Opp:** BPCE - Apex - 2026
 **Stage:** Technical Validation / POC · POV | **Close:** 2026-12-31
-**AI Health:** — | **Competitor:** MISP
-**Next Step:** Jun 19 — BPCE external IBAN analysis review meeting (8+ attendees)
+**AI Health:** 3.3 | **Competitor:** MISP
+**Next Step:** Jun 19 — Review external compromised IBANs analysis with BPCE team (Olivier Irisson, Florent Grail, Sacha Bergeon). Xpollens subsidiary: test data sent, debrief Jul 2.
 ## Timeline
 
 | Date | Event | Source |
@@ -19,9 +19,10 @@
 | 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 3.7) | `pipeline-scan-2026-06-05` |
 | 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 | 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
+| 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 3.3) | `pipeline-scan` |
 
 ## Red Flags
 
-No EB identified · Paper process never discussed · BFT team not yet engaged · 27k analysis pending
+EB not identified · PP score 0 — procurement never discussed · Xpollens subsidiary running parallel test (may help or complicate) · Competitive landscape unclear
 
-[Source: SF write 006VT00000obYKTYA2, run 2026-06-14]
+[Source: SF write 006VT00000obYKTYA2, run 2026-06-21]

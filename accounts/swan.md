@@ -2,8 +2,8 @@
 
 **Opp:** Swan - Apex - 2026
 **Stage:** Navigating / MAP | **Close:** 2026-09-30
-**AI Health:** —
-**Next Step:** Jun 19 — Present finalized business case with 10x+ ROI to Swan
+**AI Health:** 3.8
+**Next Step:** Jun 24 — Present business case & pricing to Swan (Martin Miguel + Luc Drye). Key argument: PSD3 liability shift = 10x ROI. Escalate to Stephane (CRO) if approved.
 ## Timeline
 
 | Date | Event | Source |
@@ -22,9 +22,10 @@
 | 2026-06-02 | MEDDPICC batch (5 fields) updated | `pipeline-scan` |
 | 2026-06-09 | Full MEDDPICC + NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 | 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
+| 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 3.8) | `pipeline-scan` |
 
 ## Red Flags
 
-No EB identified · Paper process never discussed · No confirmed champion · Quantitative results pending
+EB not met (Stephane CRO = target) · PP score 0 — procurement never discussed · PSD3 timeline dependency · Must prove ROI > 10x for internal approval
 
-[Source: SF write 006VT00000nNzg7YAC, run 2026-06-14]
+[Source: SF write 006VT00000nNzg7YAC, run 2026-06-21]

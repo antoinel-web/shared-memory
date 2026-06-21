@@ -2,8 +2,8 @@
 
 **Opp:** Banca Profilo - Apex - NB 27
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
-**AI Health:** —
-**Next Step:** Jun 19 — 2nd analysis readout with Banca Profilo (Antonio Gravetti)
+**AI Health:** 1.9
+**Next Step:** Jun 19 — 2nd analysis readout with Antonio Gravetti (Banca Profilo). Present updated mule detection results.
 ## Timeline
 
 | Date | Event | Source |
@@ -17,9 +17,10 @@
 | 2026-06-02 | MEDDPICC batch (5 fields) updated | `pipeline-scan` |
 | 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 | 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
+| 2026-06-19 | NextStep + Next_Step_Date updated (health: 1.9) | `pipeline-scan` |
 
 ## Red Flags
 
-EB not identified · No recent email activity
+EB not identified · Antonio repeatedly cancels meetings · Internal review = potential stall · DC not documented
 
-[Source: SF write 006VT00000pmi1OYAQ, run 2026-06-14]
+[Source: SF write 006VT00000pmi1OYAQ, run 2026-06-21]

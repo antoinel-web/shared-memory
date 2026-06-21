@@ -2,8 +2,8 @@
 
 **Opp:** Intesa Sanpaolo - Apex - NB 2026
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
-**AI Health:** —
-**Next Step:** Jun 16 — Intesa Sanpaolo follow-up meeting with Gianluca Chiusano
+**AI Health:** 1.7
+**Next Step:** Jun 22 — Mule Intelligence meeting with Gianluca Chiusano (Intesa Sanpaolo). Deliver overdue 20 IBANs analysis.
 ## Timeline
 
 | Date | Event | Source |
@@ -19,9 +19,10 @@
 | 2026-06-02 | MEDDPICC batch (9 fields) updated | `pipeline-scan` |
 | 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 | 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
+| 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 1.7) | `pipeline-scan` |
 
 ## Red Flags
 
-No recent email activity · EB not identified · Early stage
+Gianluca declined Jun 16 meeting · 20 IBANs overdue since May 21 · Previously stalled — must demonstrate value in Jun 22 call
 
-[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-14]
+[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-21]

@@ -3,7 +3,7 @@
 **Opp:** UniCredit - Apex - NB 2026
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
 **AI Health:** 3.3 | **Competitor:** CertFin;Internal monitoring
-**Next Step:** Await DPO team position on expanded evaluation (follow-up email drafted Jun 4)
+**Next Step:** Panorama access being set up for Giuseppe Sollazzo. Need more evidence to proceed — client wants additional proof.
 ## Timeline
 
 | Date | Event | Source |
@@ -20,9 +20,10 @@
 | 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 3.7) updated | `drive+slack` |
 | 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 3.3) | `pipeline-scan-2026-06-05` |
 | 2026-06-02 | MEDDPICC batch (7 fields) updated | `pipeline-scan` |
+| 2026-06-19 | NextStep + Next_Step_Date updated (health: 3.3) | `pipeline-scan` |
 
 ## Red Flags
 
 DPO approval blocking expansion · No EB identified · Paper process not started · No compelling event
 
-[Source: SF write 006VT00000pCwqrYAC, run 2026-06-07]
+[Source: SF write 006VT00000pCwqrYAC, run 2026-06-21]
