@@ -395,3 +395,7 @@ Ne logger que les sessions avec un signal utile. Pas les runs routiniers sans an
 ## 2026-06-20
 
 [OBSERVE] date: 2026-06-20 | task: daily evening sync 19h | outcome: success | detail: run de sync quotidien 19h — inbox vide (for-tasklet-2026-04-01 déjà [DONE]), 0 observations/amendments SQL du jour, aucune nouvelle entrée Claude depuis 2026-04-01, système stable en mode routine
+
+## 2026-06-21
+
+[OBSERVE] date: 2026-06-21 | task: daily evening sync 19h | outcome: success | detail: run de sync quotidien 19h — inbox vide (for-tasklet-2026-04-01 déjà [DONE]), 0 observations/amendments SQL du jour, aucune nouvelle entrée Claude depuis 2026-04-01, système stable en mode routine
