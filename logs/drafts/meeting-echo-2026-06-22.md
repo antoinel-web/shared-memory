@@ -12,3 +12,16 @@ content_summary: >-
   croisement stratégies internes). CTA : prochain point tripartite lundi 6
   juillet à 15h30.
 ---
+---
+agent: meeting-echo
+timestamp: 2026-06-22T18:28:00+02:00
+recipient: bart@deblock.com
+subject: Deblock — Intro & next steps
+meeting_source: Bluedot — Appointment with Bart Forster (June 22, 2026)
+content_summary: >-
+  First real meeting with new Deblock contacts (Strategy + Finance). Demo
+  delivered — detection rates and lead time advantage confirmed. Agreed on Q1
+  mule data sample to be sent same day. Next step: side-by-side analysis before
+  follow-up call next week. Two open technical items flagged (API network
+  linkages, crypto risk scoring).
+---
