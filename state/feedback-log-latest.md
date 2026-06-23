@@ -35,3 +35,15 @@ delta_summary: >-
   anglais (vs. draft orienté FR), changé le sujet en "Deblock x Cube AI",
   et inclus un second destinataire absent du draft.
 ---
+---
+date: 2026-06-23
+agent: forge-v2
+client: La Banque Postale
+draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
+status: Pending
+confidence: low
+categories: []
+delta_summary: >-
+  Aucun email envoyé ce jour ne correspond à ce brouillon (destinataire LBP non trouvé dans Gmail sent du 23/06).
+  Le brouillon a moins de 48h — sera réévalué lors du prochain run.
+---
