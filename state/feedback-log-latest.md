@@ -40,10 +40,27 @@ date: 2026-06-23
 agent: forge-v2
 client: La Banque Postale
 draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
-status: Pending
+status: Ignoré
 confidence: low
+categories:
+  - Autre
+delta_summary: >-
+  Réévalué après 48h : aucun email envoyé à La Banque Postale détecté dans Gmail
+  sent entre le 23 et le 25 juin. Recherche ciblée sur domaine labanquepostale.fr
+  également négative. Draft classé Ignoré — aucune action de suivi n'a été
+  déclenchée sur cette opportunité dans la fenêtre d'évaluation.
+---
+---
+date: 2026-06-25
+agent: meeting-echo
+client: Intesa Sanpaolo
+draft_subject: "Re: Intesa Sanpaolo <> CUBE AI - Mule Intelligence"
+status: Pending
+confidence: medium
 categories: []
 delta_summary: >-
-  Aucun email envoyé ce jour ne correspond à ce brouillon (destinataire LBP non trouvé dans Gmail sent du 23/06).
-  Le brouillon a moins de 48h — sera réévalué lors du prochain run.
+  Draft de suivi post-réunion POC généré à 17h28. Un brouillon Gmail correspondant
+  a été détecté dans le même thread (même destinataire, 7 minutes après la
+  génération du draft), mais le message n'a pas encore été dispatché à l'heure
+  de ce run. Sera réévalué lors du prochain run.
 ---
