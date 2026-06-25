@@ -416,3 +416,4 @@ Ne logger que les sessions avec un signal utile. Pas les runs routiniers sans an
 ## 2026-06-25
 
 [OBSERVE] date: 2026-06-25 | task: morning memory sync 06h00 | outcome: success | detail: run matinal 06h00 — inbox vide (for-tasklet-2026-04-01 déjà [DONE]), 0 nouvelles observations Claude depuis 2026-04-01, 2 entrées Tasklet du 2026-06-24 incluses dans digest, système stable en mode routine
+[OBSERVE] date: 2026-06-25 | task: daily evening sync 19h | outcome: partial | detail: run de sync quotidien 19h — inbox vide (for-tasklet-2026-04-01 déjà [DONE]), SQL agent-db indisponible (erreurs internes persistantes sur toutes les requêtes), aucune nouvelle entrée Claude depuis 2026-04-01, système en mode routine mais DB inaccessible
