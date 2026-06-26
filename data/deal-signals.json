@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T09:00:00+02:00",
+  "generated_at": "2026-06-26T09:00:00+02:00",
   "agent": "pipeline-scan",
   "schema_version": "1.0",
   "deals": {
@@ -7,45 +7,45 @@
       "account_name": "BNP Paribas",
       "opportunity_name": "BNP Paribas FRANCE - Apex - 2026",
       "stage": "Navigating / MAP",
-      "ai_health_score": 5.0,
+      "ai_health_score": 5.8,
       "meddpicc_scores": {
-        "metrics": 7.3,
+        "metrics": 8.0,
         "economic_buyer": 3.3,
-        "decision_criteria": 5.3,
-        "decision_process": 6.0,
-        "paper_process": 1.3,
-        "pain": 7.3,
+        "decision_criteria": 6.0,
+        "decision_process": 6.7,
+        "paper_process": 3.3,
+        "pain": 7.7,
         "champion": 5.0,
-        "competition": 4.4
+        "competition": 5.0
       },
       "signals": {
         "deal_velocity": "Accelerating",
         "champion_engagement": "Active",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 1,
-        "engagement_30d": 5,
-        "score_wow_delta": 0.0
+        "metrics_validation": "Full_Analysis",
+        "procurement_status": "Discussed",
+        "client_timeline": "\"RFP being launched\" (BNP, Slack #internal-bnp-paribas, 2026-06-22)",
+        "engagement_7d": 15,
+        "engagement_30d": 30,
+        "score_wow_delta": 0.8
       },
-      "next_step": "Jun 23 — In-person BDDF presentation to 10+ BNP fraud/AML stakeholders. Lock eval criteria. Follow-up TBD post-meeting.",
-      "next_step_date": "2026-06-23",
-      "red_flags": "RFP may commoditize evaluation · EB at BDDF not identified · PP unclear · Must lock criteria before procurement writes comparison"
+      "next_step": "Send eval criteria doc to RFP owner + deliver BNP Group intelligence briefing",
+      "next_step_date": "2026-07-02",
+      "red_flags": "RFP may commoditize evaluation \u00b7 EB at BDDF not identified \u00b7 Must lock criteria before procurement"
     },
     "006VT00000obYKTYA2": {
-      "account_name": "Groupe BPCE",
+      "account_name": "BPCE / Natixis",
       "opportunity_name": "BPCE - Apex - 2026",
-      "stage": "Technical Validation / POC · POV",
-      "ai_health_score": 3.3,
+      "stage": "Technical Validation / POC \u00b7 POV",
+      "ai_health_score": 3.7,
       "meddpicc_scores": {
-        "metrics": 4.7,
+        "metrics": 5.3,
         "economic_buyer": 2.0,
         "decision_criteria": 3.3,
         "decision_process": 4.0,
         "paper_process": 0.0,
-        "pain": 5.3,
-        "champion": 4.2,
+        "pain": 5.7,
+        "champion": 5.0,
         "competition": 2.8
       },
       "signals": {
@@ -54,14 +54,74 @@
         "economic_buyer_status": "Unknown",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 6,
-        "score_wow_delta": 0.0
+        "client_timeline": "\"Follow-up on 6 Jul at 3:30pm\" (BPCE, Slack, 2026-06-22)",
+        "engagement_7d": 5,
+        "engagement_30d": 15,
+        "score_wow_delta": 0.4
       },
-      "next_step": "Jul 6 — BPCE <> CUBE AI follow-up with Sarah Guigny, Louis Murat (Natixis). Review external compromised IBANs analysis results.",
+      "next_step": "Jul 6 \u2014 BPCE follow-up with Sarah Guigny, Louis Murat + Katerina",
       "next_step_date": "2026-07-06",
-      "red_flags": "EB not identified · PP=0 — procurement never discussed · Competitive landscape unclear · Jun 19 meeting had low BPCE attendance"
+      "red_flags": "EB not identified \u00b7 PP=0 \u00b7 False positives unresolved"
+    },
+    "006VT00000sYP05YAG": {
+      "account_name": "BCC Banca Iccrea",
+      "opportunity_name": "Banca ICCREA - Apex - NB27",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 1.4,
+      "meddpicc_scores": {
+        "metrics": 1.3,
+        "economic_buyer": 0.7,
+        "decision_criteria": 0.0,
+        "decision_process": 2.0,
+        "paper_process": 0.0,
+        "pain": 1.3,
+        "champion": 5.8,
+        "competition": 0.6
+      },
+      "signals": {
+        "deal_velocity": "Accelerating",
+        "champion_engagement": "Active_Internal_Selling",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Pitch_Only",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 3,
+        "engagement_30d": 5,
+        "score_wow_delta": 0.8
+      },
+      "next_step": "Prepare company presentation for Giuseppe's internal business case",
+      "next_step_date": "2026-07-03",
+      "red_flags": "EB not identified \u00b7 Need company presentation for internal approval"
+    },
+    "006VT00000p5U4vYAE": {
+      "account_name": "Deblock",
+      "opportunity_name": "Deblock - Apex - NB 26",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 1.6,
+      "meddpicc_scores": {
+        "metrics": 3.3,
+        "economic_buyer": 0.0,
+        "decision_criteria": 0.0,
+        "decision_process": 2.0,
+        "paper_process": 0.0,
+        "pain": 2.0,
+        "champion": 3.3,
+        "competition": 1.7
+      },
+      "signals": {
+        "deal_velocity": "Accelerating",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Pitch_Only",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"Jun 29 follow-up confirmed\" (Deblock, Slack, 2026-06-22)",
+        "engagement_7d": 4,
+        "engagement_30d": 6,
+        "score_wow_delta": 0.8
+      },
+      "next_step": "Jun 29 \u2014 Deblock follow-up with Bart + Aaron. Review Q1 mule data comparison.",
+      "next_step_date": "2026-06-29",
+      "red_flags": "Aaron rejected \u20ac100K anchor \u00b7 Cyclicality objection \u00b7 Crypto/on-chain gap"
     },
     "006VT00000nNzg7YAC": {
       "account_name": "Swan",
@@ -84,140 +144,20 @@
         "economic_buyer_status": "Identified",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 4,
+        "client_timeline": "\"Jul 2 business case & commercial alignment\" (Calendar, 2026-06-26)",
+        "engagement_7d": 2,
+        "engagement_30d": 8,
         "score_wow_delta": 0.0
       },
-      "next_step": "Jun 24 — Present business case & pricing to Swan (Martin Miguel + Luc Drye). Key: PSD3 ROI argument, 87 accounts matched, €900K avoided.",
-      "next_step_date": "2026-06-24",
-      "red_flags": "EB not met (Stephane CRO = target) · PP=0 — procurement never discussed · PSD3 timeline dependency · Must prove ROI > 10x"
-    },
-    "006VT00000sYPGDYA4": {
-      "account_name": "XPollens",
-      "opportunity_name": "XPollens - Apex - NB 26",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 0.9,
-      "meddpicc_scores": {
-        "metrics": 1.3,
-        "economic_buyer": 0.0,
-        "decision_criteria": 0.7,
-        "decision_process": 0.7,
-        "paper_process": 0.0,
-        "pain": 1.3,
-        "champion": 1.7,
-        "competition": 0.6
-      },
-      "signals": {
-        "deal_velocity": "Accelerating",
-        "champion_engagement": "Identified_Only",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 2,
-        "score_wow_delta": 0
-      },
-      "next_step": "Jul 2 — Xpollens debrief: review 50 test IBANs results with Thomas Schloesing + Thibaut Philippe.",
+      "next_step": "Jul 2 \u2014 CUBE AI <> Swan business case & commercial alignment",
       "next_step_date": "2026-07-02",
-      "red_flags": "Very early stage · BPCE subsidiary — may complicate procurement · All MEDDPICC dimensions at zero"
-    },
-    "006VT00000sYP05YAG": {
-      "account_name": "Banca ICCREA",
-      "opportunity_name": "Banca ICCREA - Apex - NB27",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 0.6,
-      "meddpicc_scores": {
-        "metrics": 1.3,
-        "economic_buyer": 0.0,
-        "decision_criteria": 0.0,
-        "decision_process": 0.7,
-        "paper_process": 0.0,
-        "pain": 1.3,
-        "champion": 0.8,
-        "competition": 0.6
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Identified_Only",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 2,
-        "score_wow_delta": 0
-      },
-      "next_step": "Await ICCREA team response to Jun 22 follow-up email. Schedule next meeting for account validation test.",
-      "next_step_date": "2026-07-03",
-      "red_flags": "Very early stage · First presentation Jun 19 · No follow-up meeting scheduled yet · All MEDDPICC dimensions at zero"
-    },
-    "006VT00000p5U4vYAE": {
-      "account_name": "Deblock",
-      "opportunity_name": "Deblock - Apex - NB 26",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 0.8,
-      "meddpicc_scores": {
-        "metrics": 2.0,
-        "economic_buyer": 0.0,
-        "decision_criteria": 0.0,
-        "decision_process": 0.7,
-        "paper_process": 0.0,
-        "pain": 1.0,
-        "champion": 1.7,
-        "competition": 0.6
-      },
-      "signals": {
-        "deal_velocity": "Accelerating",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 3,
-        "engagement_30d": 3,
-        "score_wow_delta": 0.5
-      },
-      "next_step": "Jun 29 — CUBE AI <> Deblock follow-up with Bart Forster + Aaron. Review 100-150 flagged accounts data and 10k+ EU IBANs dataset.",
-      "next_step_date": "2026-06-29",
-      "red_flags": "Very early stage — first real meeting Jun 22 · Small fintech — revenue potential TBD · All MEDDPICC near zero"
-    },
-    "006VT00000pmi1OYAQ": {
-      "account_name": "Banca Profilo",
-      "opportunity_name": "Banca Profilo - Apex - NB 27",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 2.1,
-      "meddpicc_scores": {
-        "metrics": 3.3,
-        "economic_buyer": 0.7,
-        "decision_criteria": 1.3,
-        "decision_process": 2.0,
-        "paper_process": 0.0,
-        "pain": 1.7,
-        "champion": 3.3,
-        "competition": 1.1
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 1,
-        "engagement_30d": 3,
-        "score_wow_delta": 0.2
-      },
-      "next_step": "~Jul 3 — Follow-up with Antonio Gravetti on 20k external IBAN analysis results. Manuel coordinating timeline.",
-      "next_step_date": "2026-07-03",
-      "red_flags": "EB not identified · Antonio schedules unreliable (past cancellations) · 2/10 accounts unblocked due to insufficient evidence · DC not documented"
+      "red_flags": "EB not met \u00b7 PP=0 \u00b7 PSD3 dependency"
     },
     "006VT00000pcfuPYAQ": {
       "account_name": "Intesa Sanpaolo",
       "opportunity_name": "Intesa Sanpaolo - Apex - NB 2026",
       "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 1.7,
+      "ai_health_score": 1.9,
       "meddpicc_scores": {
         "metrics": 2.0,
         "economic_buyer": 0.7,
@@ -235,163 +175,43 @@
         "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 1,
-        "score_wow_delta": 0.0
+        "engagement_7d": 1,
+        "engagement_30d": 4,
+        "score_wow_delta": 0.2
       },
-      "next_step": "Jun 24 — Intesa Sanpaolo <> CUBE AI Mule Intelligence meeting with Gianluca Chiusano. Deliver 20 IBANs analysis (overdue).",
-      "next_step_date": "2026-06-24",
-      "red_flags": "20 IBANs analysis overdue since May 21 · Gianluca declined Jun 16 meeting · Must demonstrate value in Jun 24 call · Slowing velocity"
+      "next_step": "Panorama access being set up for Gianluca. Await engagement.",
+      "next_step_date": "2026-07-03",
+      "red_flags": "20 IBANs overdue \u00b7 Gianluca declined Jun 16 \u00b7 Slowing velocity"
     },
-    "006VT00000pCwqrYAC": {
-      "account_name": "UniCredit",
-      "opportunity_name": "UniCredit - Apex - NB 2026",
+    "006VT00000sYPGDYA4": {
+      "account_name": "Xpollens",
+      "opportunity_name": "XPollens - Apex - NB 26",
       "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 3.3,
+      "ai_health_score": 0.9,
       "meddpicc_scores": {
-        "metrics": 4.0,
-        "economic_buyer": 2.0,
-        "decision_criteria": 4.0,
-        "decision_process": 3.3,
+        "metrics": 1.3,
+        "economic_buyer": 0.0,
+        "decision_criteria": 0.7,
+        "decision_process": 0.7,
         "paper_process": 0.0,
-        "pain": 4.3,
-        "champion": 4.2,
-        "competition": 2.8
+        "pain": 1.3,
+        "champion": 1.7,
+        "competition": 0.6
       },
       "signals": {
         "deal_velocity": "Steady",
-        "champion_engagement": "Active",
+        "champion_engagement": "Identified_Only",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
+        "metrics_validation": "None",
         "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
+        "client_timeline": "\"Jul 2 debrief\" (Calendar, 2026-06-26)",
+        "engagement_7d": 1,
+        "engagement_30d": 2,
         "score_wow_delta": 0.0
       },
-      "next_step": "",
-      "next_step_date": "",
-      "red_flags": ""
-    },
-    "006VT00000nO7SLYA0": {
-      "account_name": "Score & Secure Payment",
-      "opportunity_name": "Score & Secure Payment - Apex - 2026",
-      "stage": "Technical Validation / POC · POV",
-      "ai_health_score": 4.1,
-      "meddpicc_scores": {
-        "metrics": 6.0,
-        "economic_buyer": 2.7,
-        "decision_criteria": 4.7,
-        "decision_process": 4.0,
-        "paper_process": 0.0,
-        "pain": 7.0,
-        "champion": 5.0,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "",
-      "next_step_date": "",
-      "red_flags": ""
-    },
-    "006VT00000o6Ul2YAE": {
-      "account_name": "CGD",
-      "opportunity_name": "CGD - Apex - 2026",
-      "stage": "Navigating / MAP",
-      "ai_health_score": 4.5,
-      "meddpicc_scores": {
-        "metrics": 6.0,
-        "economic_buyer": 3.3,
-        "decision_criteria": 4.7,
-        "decision_process": 4.7,
-        "paper_process": 4.4,
-        "pain": 6.0,
-        "champion": 6.7,
-        "competition": 4.4
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "",
-      "next_step_date": "",
-      "red_flags": ""
-    },
-    "006VT00000nO53xYAC": {
-      "account_name": "Bunq",
-      "opportunity_name": "Bunq - Apex - 2026",
-      "stage": "Technical Validation / POC · POV",
-      "ai_health_score": 4.8,
-      "meddpicc_scores": {
-        "metrics": 5.3,
-        "economic_buyer": 3.3,
-        "decision_criteria": 4.0,
-        "decision_process": 4.0,
-        "paper_process": 4.4,
-        "pain": 6.0,
-        "champion": 5.8,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "",
-      "next_step_date": "",
-      "red_flags": ""
-    },
-    "006VT00000nNrU2YAK": {
-      "account_name": "Lydia",
-      "opportunity_name": "Lydia - Apex - 2026",
-      "stage": "Technical Validation / POC · POV",
-      "ai_health_score": 3.3,
-      "meddpicc_scores": {
-        "metrics": 6.0,
-        "economic_buyer": 3.0,
-        "decision_criteria": 2.0,
-        "decision_process": 3.0,
-        "paper_process": 0.0,
-        "pain": 5.0,
-        "champion": 2.0,
-        "competition": 5.0
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "",
-      "next_step_date": "",
-      "red_flags": ""
+      "next_step": "Jul 2 \u2014 Xpollens debrief: review 50 test IBANs results",
+      "next_step_date": "2026-07-02",
+      "red_flags": "Very early \u00b7 BPCE subsidiary complicates procurement \u00b7 All MEDDPICC near zero"
     }
   }
 }
