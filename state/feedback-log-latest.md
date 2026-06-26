@@ -55,12 +55,59 @@ date: 2026-06-25
 agent: meeting-echo
 client: Intesa Sanpaolo
 draft_subject: "Re: Intesa Sanpaolo <> CUBE AI - Mule Intelligence"
+status: Modifié
+confidence: medium
+categories:
+  - Contexte client ajouté
+  - Structure modifiée
+delta_summary: >-
+  Réévalué (était Pending au run du 25 juin). Email envoyé le 26 juin à 12h09
+  au même destinataire dans le même thread. Antoine a structuré le message en
+  trois blocs distincts (What we covered / Next steps / Next meeting) et a intégré
+  des données quantitatives précises issues de la réunion (répartition risk-tier
+  du sample en 3 niveaux, livrables nommés, date et composition de la prochaine
+  réunion). Ces détails opérationnels ne figuraient pas dans le draft initial.
+---
+---
+date: 2026-06-26
+agent: meeting-echo
+client: BIL
+draft_subject: "BIL - Intro & next steps"
+status: Modifié
+confidence: high
+categories:
+  - Contenu supprimé
+  - Contexte client ajouté
+delta_summary: >-
+  Email envoyé le 26 juin à 08h07, sujet identique au draft. Les points-clés
+  du draft sont présents (présentation de l'approche, démonstration d'un compte
+  détecté, livraison d'échantillon IBAN, débrief le 3 juillet à 15h). La section
+  sur la comparaison avec un concurrent a été retirée. Un second destinataire
+  absent du draft (florent.fm.mathon@bil.com) et un CC interne ont été ajoutés.
+  Une étape conditionnelle supplémentaire a été intégrée (second appel avec
+  l'équipe fraude au complet si les résultats sont positifs).
+---
+---
+date: 2026-06-26
+agent: forge-v2
+client: Swan
+draft_subject: "Re: Swan — Intro & next steps"
 status: Pending
 confidence: medium
 categories: []
 delta_summary: >-
-  Draft de suivi post-réunion POC généré à 17h28. Un brouillon Gmail correspondant
-  a été détecté dans le même thread (même destinataire, 7 minutes après la
-  génération du draft), mais le message n'a pas encore été dispatché à l'heure
-  de ce run. Sera réévalué lors du prochain run.
+  Draft généré à 08h05, aucun email envoyé à luc.drye@swan.io détecté dans
+  Gmail sent le 26 juin. Draft < 48h — sera réévalué lors du prochain run.
+---
+---
+date: 2026-06-26
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft généré à 10h05, aucun email envoyé à srios@bunq.com détecté dans
+  Gmail sent le 26 juin. Draft < 48h — sera réévalué lors du prochain run.
 ---
