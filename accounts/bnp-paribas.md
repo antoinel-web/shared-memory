@@ -2,8 +2,9 @@
 
 **Opp:** BNP Paribas FRANCE - Apex - 2026
 **Stage:** Navigating / MAP | **Close:** 2026-12-31
-**AI Health:** 5.0 | **Competitor:** MISP
-**Next Step:** Jun 23 — In-person BDDF presentation to 10+ BNP fraud/AML stakeholders (Paris). Lock eval criteria before RFP formalizes.
+**AI Health:** 5.8 | **Competitor:** MISP
+**Next Step:** Send eval criteria doc to RFP owner + deliver BNP Group intelligence briefing
+
 ## Timeline
 
 | Date | Event | Source |
@@ -25,9 +26,11 @@
 | 2026-06-09 | Full MEDDPICC + NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 | 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
 | 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 5.0) | `pipeline-scan` |
+| 2026-06-23 | NextStep + RedFlags updated post-BDDF presentation | `calendar:bnp_bddf_jun23` |
+| 2026-06-26 | MEDDPICC batch (16 fields) updated (health: 5.8) | `pipeline-scan-2026-06-26` |
 
 ## Red Flags
 
-RFP may commoditize evaluation to lowest-common-denominator · EB at BDDF level not yet identified · PP unclear in RFP context · Must lock criteria before procurement writes comparison
+RFP may commoditize evaluation · EB at BDDF not identified · Must lock criteria before procurement
 
-[Source: SF write 006VT00000nNpjzYAC, run 2026-06-21]
+[Source: SF write 006VT00000nNpjzYAC, run 2026-06-28]

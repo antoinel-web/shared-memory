@@ -2,8 +2,9 @@
 
 **Opp:** Intesa Sanpaolo - Apex - NB 2026
 **Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
-**AI Health:** 1.7
-**Next Step:** Jun 22 — Mule Intelligence meeting with Gianluca Chiusano (Intesa Sanpaolo). Deliver overdue 20 IBANs analysis.
+**AI Health:** 1.9
+**Next Step:** Panorama access being set up for Gianluca Chiusano. Await engagement.
+
 ## Timeline
 
 | Date | Event | Source |
@@ -20,9 +21,11 @@
 | 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
 | 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
 | 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 1.7) | `pipeline-scan` |
+| 2026-06-23 | NextStep + RedFlags updated | `calendar:7vdn3vn8nsqjvmpu05n096fljp` |
+| 2026-06-26 | NextStep batch (5 fields) updated (health: 1.9) | `pipeline-scan-2026-06-26` |
 
 ## Red Flags
 
-Gianluca declined Jun 16 meeting · 20 IBANs overdue since May 21 · Previously stalled — must demonstrate value in Jun 22 call
+20 IBANs overdue · Gianluca declined Jun 16 meeting · Slowing velocity · Panorama access pending
 
-[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-21]
+[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-28]
