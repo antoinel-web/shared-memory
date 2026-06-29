@@ -88,26 +88,32 @@ delta_summary: >-
   l'équipe fraude au complet si les résultats sont positifs).
 ---
 ---
-date: 2026-06-26
+date: 2026-06-29
 agent: forge-v2
 client: Swan
 draft_subject: "Re: Swan — Intro & next steps"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Draft généré à 08h05, aucun email envoyé à luc.drye@swan.io détecté dans
-  Gmail sent le 26 juin. Draft < 48h — sera réévalué lors du prochain run.
+  Réévalué après 72h (était Pending depuis le 26 juin) : aucun email envoyé à
+  luc.drye@swan.io détecté dans Gmail sent entre le 26 et le 29 juin. Recherche
+  directe sur destinataire sans résultat. Draft classé Ignoré — aucun suivi
+  envoyé dans la fenêtre d'évaluation.
 ---
 ---
-date: 2026-06-26
+date: 2026-06-29
 agent: forge-v2
 client: Bunq
 draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Draft généré à 10h05, aucun email envoyé à srios@bunq.com détecté dans
-  Gmail sent le 26 juin. Draft < 48h — sera réévalué lors du prochain run.
+  Réévalué après 72h (était Pending depuis le 26 juin) : aucun email envoyé à
+  srios@bunq.com détecté dans Gmail sent entre le 26 et le 29 juin. Recherche
+  directe sur destinataire sans résultat. Draft classé Ignoré — aucun suivi
+  envoyé dans la fenêtre d'évaluation.
 ---
