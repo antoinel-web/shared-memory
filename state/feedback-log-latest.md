@@ -117,3 +117,73 @@ delta_summary: >-
   directe sur destinataire sans résultat. Draft classé Ignoré — aucun suivi
   envoyé dans la fenêtre d'évaluation.
 ---
+---
+date: 2026-06-30
+agent: forge-v2
+client: BPCE
+draft_subject: "RE: Analyse comptes mules BPCE"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft créé le 2026-06-30 à 08h11 (pré-call July 6 checkpoint, faux positifs
+  WISE/Revolut, ancrage sur 179 cas confirmés). Aucun email envoyé à
+  sarah.guigny@bpce.fr détecté aujourd'hui. Draft < 48h — réévaluation au
+  prochain run.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: Banca ICCREA
+draft_subject: "Cube AI × Iccrea Banca — company presentation"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft créé le 2026-06-30 à 08h11 (suivi post-F2F Rome du 24 juin, envoi
+  présentation avant le 2 juillet, métriques scale + partenariat OpenAI).
+  Aucun email envoyé à gscampone@iccrea.bcc.it détecté aujourd'hui.
+  Draft < 48h — réévaluation au prochain run.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: CGD
+draft_subject: "Re: CUBE AI - Prevenção de fraude precoce com IA"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft créé le 2026-06-30 à 08h11 (micro-nudge J+11, nouveau batch comptes
+  portugais cycle juin, CTA calibré sur avancement revue interne MAP). Aucun
+  email envoyé à manuel.soares@cgd.pt détecté aujourd'hui. Draft < 48h —
+  réévaluation au prochain run.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Nouveau draft créé le 2026-06-30 à 08h11 ciblant srios@bunq.com (même
+  destinataire que l'entrée Ignoré du 2026-06-29). Question calibrée Voss sur
+  seuil décisionnel CEO, liste EU IBAN juin 2026 prête, fenêtre juillet.
+  Aucun email envoyé aujourd'hui. Draft < 48h — réévaluation au prochain run.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: Score & Secure Payment
+draft_subject: "RE: Cube3 <> SSP: revue analyse comptes mules"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft créé le 2026-06-30 à 08h11 (micro-nudge J+13 après refus prix du 17
+  juin, rappel deadline 31 juillet, proposition 15min pour évaluer disponibilité
+  décisionnelle). Aucun email envoyé à gil.dupont@sspayment.com détecté
+  aujourd'hui. Draft < 48h — réévaluation au prochain run.
+---
