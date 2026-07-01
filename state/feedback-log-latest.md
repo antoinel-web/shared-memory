@@ -128,22 +128,30 @@ categories: []
 delta_summary: >-
   Draft créé le 2026-06-30 à 08h11 (pré-call July 6 checkpoint, faux positifs
   WISE/Revolut, ancrage sur 179 cas confirmés). Aucun email envoyé à
-  sarah.guigny@bpce.fr détecté aujourd'hui. Draft < 48h — réévaluation au
-  prochain run.
+  sarah.guigny@bpce.fr détecté aujourd'hui ni le 01/07. Draft < 48h —
+  réévaluation au prochain run.
 ---
 ---
-date: 2026-06-30
+date: 2026-07-01
 agent: forge-v2
 client: Banca ICCREA
 draft_subject: "Cube AI × Iccrea Banca — company presentation"
-status: Pending
+status: Modifié
 confidence: medium
-categories: []
+categories:
+  - CTA changé
+  - Structure modifiée
+  - Contenu supprimé
 delta_summary: >-
-  Draft créé le 2026-06-30 à 08h11 (suivi post-F2F Rome du 24 juin, envoi
-  présentation avant le 2 juillet, métriques scale + partenariat OpenAI).
-  Aucun email envoyé à gscampone@iccrea.bcc.it détecté aujourd'hui.
-  Draft < 48h — réévaluation au prochain run.
+  Réévalué (était Pending au run du 30 juin). Email envoyé le 1er juillet à
+  gscampone@iccrea.bcc.it en réponse directe à la demande de call de Giuseppe
+  (suite au follow-up de Jonathan du 29 juin). Antoine a substitué l'envoi de
+  présentation entreprise planifié par un court message de scheduling avec lien
+  Calendly. Les métriques scale et la référence au partenariat OpenAI mentionnés
+  dans le draft ont été supprimés. Le CTA initial (envoi de présentation avant
+  le 2 juillet) a été transformé en invitation à réserver un créneau en
+  autonomie. Sujet de l'envoi différent du draft (réponse dans thread existant
+  vs. nouvel email de présentation).
 ---
 ---
 date: 2026-06-30
@@ -156,8 +164,8 @@ categories: []
 delta_summary: >-
   Draft créé le 2026-06-30 à 08h11 (micro-nudge J+11, nouveau batch comptes
   portugais cycle juin, CTA calibré sur avancement revue interne MAP). Aucun
-  email envoyé à manuel.soares@cgd.pt détecté aujourd'hui. Draft < 48h —
-  réévaluation au prochain run.
+  email envoyé à manuel.soares@cgd.pt détecté aujourd'hui ni le 01/07.
+  Draft < 48h — réévaluation au prochain run.
 ---
 ---
 date: 2026-06-30
@@ -171,7 +179,8 @@ delta_summary: >-
   Nouveau draft créé le 2026-06-30 à 08h11 ciblant srios@bunq.com (même
   destinataire que l'entrée Ignoré du 2026-06-29). Question calibrée Voss sur
   seuil décisionnel CEO, liste EU IBAN juin 2026 prête, fenêtre juillet.
-  Aucun email envoyé aujourd'hui. Draft < 48h — réévaluation au prochain run.
+  Aucun email envoyé à srios@bunq.com détecté aujourd'hui ni le 01/07.
+  Draft < 48h — réévaluation au prochain run.
 ---
 ---
 date: 2026-06-30
@@ -185,5 +194,5 @@ delta_summary: >-
   Draft créé le 2026-06-30 à 08h11 (micro-nudge J+13 après refus prix du 17
   juin, rappel deadline 31 juillet, proposition 15min pour évaluer disponibilité
   décisionnelle). Aucun email envoyé à gil.dupont@sspayment.com détecté
-  aujourd'hui. Draft < 48h — réévaluation au prochain run.
+  aujourd'hui ni le 01/07. Draft < 48h — réévaluation au prochain run.
 ---
