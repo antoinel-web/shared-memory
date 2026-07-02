@@ -122,14 +122,69 @@ date: 2026-06-30
 agent: forge-v2
 client: BPCE
 draft_subject: "RE: Analyse comptes mules BPCE"
-status: Pending
+status: Remplacé
 confidence: medium
-categories: []
+categories:
+  - CTA changé
+  - Contenu supprimé
+  - Contexte client ajouté
 delta_summary: >-
-  Draft créé le 2026-06-30 à 08h11 (pré-call July 6 checkpoint, faux positifs
-  WISE/Revolut, ancrage sur 179 cas confirmés). Aucun email envoyé à
-  sarah.guigny@bpce.fr détecté aujourd'hui ni le 01/07. Draft < 48h —
-  réévaluation au prochain run.
+  Réévalué après 48h. Email envoyé à sarah.guigny@bpce.fr le 2 juillet à 16h18
+  dans le même thread, mais avec un objectif entièrement différent du draft :
+  Antoine a répondu à une demande de report de réunion de Sarah, proposé un
+  créneau via Calendly et signalé son absence pour voyage de noces du 20 juillet.
+  Le draft ciblait un checkpoint analytique pré-call du 6 juillet (faux positifs
+  WISE/Revolut, ancrage 179 cas). Aucun élément analytique du draft n'a été
+  repris. Le CTA proactif de préparation du call J+6 a été remplacé par un lien
+  de planification autonome. Une information client ponctuelle (IBAN partagé en
+  temps réel) a été ajoutée spontanément.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: CGD
+draft_subject: "Re: CUBE AI - Prevenção de fraude precoce com IA"
+status: Ignoré
+confidence: medium
+categories:
+  - Autre
+delta_summary: >-
+  Réévalué après 48h : aucun email envoyé à manuel.soares@cgd.pt détecté dans
+  Gmail sent entre le 30 juin et le 2 juillet. Le draft (micro-nudge J+11,
+  nouveau batch comptes portugais cycle juin, CTA calibré sur avancement revue
+  interne MAP) n'a pas été utilisé. Draft classé Ignoré — aucune action de suivi
+  envoyée dans la fenêtre d'évaluation.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Ignoré
+confidence: medium
+categories:
+  - Autre
+delta_summary: >-
+  Réévalué après 48h : aucun email envoyé à srios@bunq.com détecté dans Gmail
+  sent entre le 30 juin et le 2 juillet. Le draft (question calibrée Voss sur
+  seuil décisionnel CEO, liste EU IBAN juin 2026 prête, fenêtre juillet) n'a pas
+  été utilisé. Draft classé Ignoré — deuxième tentative consécutive sans suite
+  sur cette opportunité.
+---
+---
+date: 2026-06-30
+agent: forge-v2
+client: Score & Secure Payment
+draft_subject: "RE: Cube3 <> SSP: revue analyse comptes mules"
+status: Ignoré
+confidence: medium
+categories:
+  - Autre
+delta_summary: >-
+  Réévalué après 48h : aucun email envoyé à gil.dupont@sspayment.com détecté
+  dans Gmail sent entre le 30 juin et le 2 juillet. Le draft (micro-nudge J+13
+  après refus prix du 17 juin, rappel deadline 31 juillet, proposition 15min
+  évaluation décisionnelle) n'a pas été utilisé. Draft classé Ignoré.
 ---
 ---
 date: 2026-07-01
@@ -152,47 +207,4 @@ delta_summary: >-
   le 2 juillet) a été transformé en invitation à réserver un créneau en
   autonomie. Sujet de l'envoi différent du draft (réponse dans thread existant
   vs. nouvel email de présentation).
----
----
-date: 2026-06-30
-agent: forge-v2
-client: CGD
-draft_subject: "Re: CUBE AI - Prevenção de fraude precoce com IA"
-status: Pending
-confidence: medium
-categories: []
-delta_summary: >-
-  Draft créé le 2026-06-30 à 08h11 (micro-nudge J+11, nouveau batch comptes
-  portugais cycle juin, CTA calibré sur avancement revue interne MAP). Aucun
-  email envoyé à manuel.soares@cgd.pt détecté aujourd'hui ni le 01/07.
-  Draft < 48h — réévaluation au prochain run.
----
----
-date: 2026-06-30
-agent: forge-v2
-client: Bunq
-draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Pending
-confidence: medium
-categories: []
-delta_summary: >-
-  Nouveau draft créé le 2026-06-30 à 08h11 ciblant srios@bunq.com (même
-  destinataire que l'entrée Ignoré du 2026-06-29). Question calibrée Voss sur
-  seuil décisionnel CEO, liste EU IBAN juin 2026 prête, fenêtre juillet.
-  Aucun email envoyé à srios@bunq.com détecté aujourd'hui ni le 01/07.
-  Draft < 48h — réévaluation au prochain run.
----
----
-date: 2026-06-30
-agent: forge-v2
-client: Score & Secure Payment
-draft_subject: "RE: Cube3 <> SSP: revue analyse comptes mules"
-status: Pending
-confidence: medium
-categories: []
-delta_summary: >-
-  Draft créé le 2026-06-30 à 08h11 (micro-nudge J+13 après refus prix du 17
-  juin, rappel deadline 31 juillet, proposition 15min pour évaluer disponibilité
-  décisionnelle). Aucun email envoyé à gil.dupont@sspayment.com détecté
-  aujourd'hui ni le 01/07. Draft < 48h — réévaluation au prochain run.
 ---
