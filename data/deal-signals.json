@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-06-30T09:00:00+02:00",
+  "generated_at": "2026-07-03T09:00:00+02:00",
   "agent": "pipeline-scan",
   "schema_version": "1.0",
   "deals": {
-    "006VT00000p5U4vYAE": {
-      "account_name": "Deblock",
-      "opportunity_name": "Deblock - Apex - NB 26",
+    "006VT00000sv8JVYAY": {
+      "account_name": "Banque Internationale \u00e0 Luxembourg (BIL)",
+      "opportunity_name": "BIL - Apex - NB 26",
       "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 1.6,
+      "ai_health_score": 0,
       "meddpicc_scores": {
-        "metrics": 3.3,
+        "metrics": 0,
         "economic_buyer": 0,
         "decision_criteria": 0,
-        "decision_process": 2.0,
+        "decision_process": 0,
         "paper_process": 0,
-        "pain": 2.0,
-        "champion": 3.3,
-        "competition": 1.7
+        "pain": 0,
+        "champion": 0,
+        "competition": 0
       },
       "signals": {
         "deal_velocity": "Steady",
-        "champion_engagement": "Passive",
+        "champion_engagement": "None",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
+        "metrics_validation": "None",
         "procurement_status": "Not_Started",
         "client_timeline": null,
-        "engagement_7d": 3,
-        "engagement_30d": 6,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
         "score_wow_delta": 0
       },
-      "next_step": "Jun 29 3pm \u2014 Deblock follow-up with Bart + Aaron. Review Q1 mule data comparison. Prep: crypto, API, pricing, cyclicality.",
-      "next_step_date": "2026-06-29",
-      "red_flags": "Aaron rejected 100K anchor \u00b7 Cyclicality objection \u00b7 Crypto/on-chain attribution gap \u00b7 API capabilities unclear"
+      "next_step": null,
+      "next_step_date": null,
+      "red_flags": null
     },
     "006VT00000nNzg7YAC": {
       "account_name": "Swan",
@@ -54,44 +54,44 @@
         "economic_buyer_status": "Identified",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"Jul 2 business case & commercial alignment\" (Calendar, confirmed)",
-        "engagement_7d": 3,
-        "engagement_30d": 10,
-        "score_wow_delta": 0
+        "client_timeline": "\"CEO priority: prevent Swan from being bank of fraudsters\" (Slack #internal-swan, 2026-07-01)",
+        "engagement_7d": 2,
+        "engagement_30d": 6,
+        "score_wow_delta": 0.0
       },
-      "next_step": "Jul 2 4:30pm \u2014 CUBE AI <> Swan business case & commercial alignment with Anthony Wilkewicz, Martin Miguel, Luc Drye.",
-      "next_step_date": "2026-07-02",
-      "red_flags": "EB not met (target: CRO) \u00b7 PP=0 \u2014 procurement never discussed \u00b7 PSD3 timeline dependency \u00b7 Must prove ROI > 10x"
+      "next_step": "Jul 7 \u2014 Follow up on Swan business case presentation outcome (Jul 2 call with Anthony Wilkewicz, Martin Miguel, Luc Drye). Confirm pricing acceptance at \u20ac59K/yr.",
+      "next_step_date": "2026-07-07",
+      "red_flags": "EB not met (target: CRO) \u00b7 PP=0 \u2014 procurement never discussed \u00b7 Pricing sensitivity unknown (\u20ac59K/yr) \u00b7 Must prove ROI > 10x on \u20ac2.6M exposure"
     },
-    "006VT00000sYPGDYA4": {
-      "account_name": "Xpollens",
-      "opportunity_name": "XPollens - Apex - NB 26",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 0.9,
+    "006VT00000p5U4vYAE": {
+      "account_name": "Deblock",
+      "opportunity_name": "Deblock - Apex - NB 26",
+      "stage": "Technical Validation / POC \u00b7 POV",
+      "ai_health_score": 2.6,
       "meddpicc_scores": {
-        "metrics": 1.3,
-        "economic_buyer": 0,
-        "decision_criteria": 0.7,
-        "decision_process": 0.7,
-        "paper_process": 0,
-        "pain": 1.3,
-        "champion": 1.7,
-        "competition": 0.6
+        "metrics": 4.0,
+        "economic_buyer": 2.0,
+        "decision_criteria": 1.3,
+        "decision_process": 3.3,
+        "paper_process": 0.0,
+        "pain": 3.3,
+        "champion": 3.3,
+        "competition": 2.2
       },
       "signals": {
         "deal_velocity": "Steady",
-        "champion_engagement": "Identified_Only",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "champion_engagement": "Passive",
+        "economic_buyer_status": "Met",
+        "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"Jul 2 debrief: 50 IBANs results with Thomas + Thibaut\" (Calendar, confirmed)",
-        "engagement_7d": 1,
-        "engagement_30d": 3,
-        "score_wow_delta": 0
+        "client_timeline": "\"Same day if priced right\" \u2014 Aaron, July decision (Slack debrief, 2026-06-30)",
+        "engagement_7d": 3,
+        "engagement_30d": 9,
+        "score_wow_delta": 1.0
       },
-      "next_step": "Jul 2 3pm \u2014 Xpollens debrief: review 50 test IBANs results with Thomas Schloesing + Thibaut Philippe.",
-      "next_step_date": "2026-07-02",
-      "red_flags": "Very early stage \u00b7 BPCE subsidiary \u2014 may complicate procurement \u00b7 All MEDDPICC dimensions at zero"
+      "next_step": "Jul 7 \u2014 Send reframed AML-regulatory proposal to Aaron (Deblock). Pivot from fraud detection to AML exposure/regulatory risk. Target: $45K/yr.",
+      "next_step_date": "2026-07-07",
+      "red_flags": "No EB beyond Aaron (sole decision-maker) \u00b7 100K pricing rejected \u2014 must defend $45K \u00b7 Deblock dismantled fraud team \u00b7 EMI+MiCA regulatory angle untested"
     },
     "006VT00000pcfuPYAQ": {
       "account_name": "Intesa Sanpaolo",
@@ -109,19 +109,79 @@
         "competition": 1.7
       },
       "signals": {
-        "deal_velocity": "Slowing",
-        "champion_engagement": "Identified_Only",
+        "deal_velocity": "Steady",
+        "champion_engagement": "Passive",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
-        "engagement_7d": 1,
-        "engagement_30d": 3,
-        "score_wow_delta": 0
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0.0
       },
-      "next_step": "Panorama access being set up for Gianluca Chiusano (gianluca.chiusano@intesasanpaolo.com). Full picture access enabled. Await Gianluca engagement.",
-      "next_step_date": "2026-07-03",
-      "red_flags": "20 IBANs analysis overdue since May 21 \u00b7 Gianluca declined Jun 16 meeting \u00b7 Panorama access being set up \u00b7 Must demonstrate value quickly"
+      "next_step": "Jun 25 meeting with Gianluca Chiusano completed. Panorama access + full picture access enabled. Await Gianluca engagement on data analysis. Jira DEV-4645 raised to populate Intesa tenant data.",
+      "next_step_date": "2026-07-09",
+      "red_flags": "20 IBANs analysis overdue since May 21 \u00b7 Gianluca re-engaged Jun 25 but track record unreliable \u00b7 Must demonstrate value quickly to maintain momentum"
+    },
+    "006VT00000nO7SLYA0": {
+      "account_name": "ssp",
+      "opportunity_name": "Score & Secure Payment - Apex - 2026",
+      "stage": "Technical Validation / POC \u00b7 POV",
+      "ai_health_score": 4.1,
+      "meddpicc_scores": {
+        "metrics": 6.0,
+        "economic_buyer": 2.7,
+        "decision_criteria": 4.7,
+        "decision_process": 4.0,
+        "paper_process": 0,
+        "pain": 7.0,
+        "champion": 5.0,
+        "competition": 3.3
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0.0
+      },
+      "next_step": "Pricing rejected by partner president (Jun 17). Gil agreed to 15min call. Antoine relancing Jun 30 re Jul 31 budget hard deadline. Need alternative commercial approach.",
+      "next_step_date": "2026-07-07",
+      "red_flags": "Pricing rejected by partner president \u00b7 EB not met (partner president = decision-maker) \u00b7 Jul 31 budget hard deadline \u00b7 No active procurement"
+    },
+    "006VT00000sYPGDYA4": {
+      "account_name": "Xpollens",
+      "opportunity_name": "XPollens - Apex - NB 26",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 2.0,
+      "meddpicc_scores": {
+        "metrics": 4.0,
+        "economic_buyer": 0.7,
+        "decision_criteria": 2.0,
+        "decision_process": 1.3,
+        "paper_process": 0.0,
+        "pain": 2.7,
+        "champion": 1.7,
+        "competition": 2.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Identified_Only",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "\"POC review Aug 27, then group discussions Sep+\" (Xpollens, Bluedot call summary, 2026-07-02)",
+        "engagement_7d": 3,
+        "engagement_30d": 9,
+        "score_wow_delta": 1.1
+      },
+      "next_step": "Aug 27 3pm \u2014 Final POC review with Thomas Schloesing + Thibaut Philippe (Xpollens). Before then: consolidate BPCE PS + Xpollens results for group presentation.",
+      "next_step_date": "2026-08-27",
+      "red_flags": "No EB identified at Xpollens or BPCE PS \u00b7 PP never discussed \u00b7 Value perceived as marginal at Xpollens level (12/3000 accounts) \u00b7 Risk of post-summer deprioritization"
     },
     "006VT00000sYP05YAG": {
       "account_name": "BCC Banca Iccrea",
@@ -140,18 +200,18 @@
       },
       "signals": {
         "deal_velocity": "Steady",
-        "champion_engagement": "Active_Internal_Selling",
+        "champion_engagement": "Active",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
-        "score_wow_delta": 0
+        "engagement_7d": 2,
+        "engagement_30d": 6,
+        "score_wow_delta": 0.0
       },
-      "next_step": "Prepare company presentation with facts/figures for Giuseppe's internal business case. POC validation with Carolina Tuccino (t010212@iccrea.bcc.it).",
-      "next_step_date": "2026-07-03",
-      "red_flags": "EB not identified \u00b7 Need company presentation for internal approval \u00b7 BCC cooperative structure complicates decisions \u00b7 POC validation pending"
+      "next_step": "Jul 10 \u2014 Send company presentation to Giuseppe Scampone for his internal business case. F2F meeting being coordinated (emails from Giuseppe + Paolo Battiston). Tenant data being populated (DEV-4642).",
+      "next_step_date": "2026-07-10",
+      "red_flags": "No EB identified \u00b7 DC not validated \u00b7 PP never discussed \u00b7 Giuseppe championing but no budget authority confirmed"
     },
     "006VT00000obYKTYA2": {
       "account_name": "Groupe BPCE (main)",
@@ -169,19 +229,19 @@
         "competition": 2.8
       },
       "signals": {
-        "deal_velocity": "Steady",
+        "deal_velocity": "Slowing",
         "champion_engagement": "Active",
         "economic_buyer_status": "Identified",
-        "metrics_validation": "Pitch_Only",
+        "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"Jul 6 follow-up with Sarah Guigny + Louis Murat + Katerina\" (Calendar, confirmed)",
+        "client_timeline": "\"BPCE pushed to week of Jul 27\" (Slack #internal-bpce, 2026-07-02)",
         "engagement_7d": 2,
-        "engagement_30d": 8,
-        "score_wow_delta": 0
+        "engagement_30d": 6,
+        "score_wow_delta": 0.0
       },
-      "next_step": "Jul 6 3:30pm \u2014 BPCE <> CUBE AI follow-up with Sarah Guigny, Louis Murat + Katerina. Discuss operationalization + refined analysis.",
-      "next_step_date": "2026-07-06",
-      "red_flags": "EB not identified \u00b7 PP=0 \u2014 procurement never discussed \u00b7 False positives = main operational blocker \u00b7 WISE ref account exclusion needed"
+      "next_step": "Week of Jul 27 \u2014 BPCE follow-up with Sarah Guigny + Louis Murat (BPCE unavailable next week, Antoine unavailable week of Jul 27). Jonathan/Ugo may cover. If not, push to August.",
+      "next_step_date": "2026-07-27",
+      "red_flags": "Meeting delayed 3+ weeks \u00b7 EB unknown (Thomas Roth COO = target) \u00b7 PP=0 \u2014 procurement never discussed \u00b7 Summer risk \u2014 momentum may stall \u00b7 Xpollens POC shows marginal value at entity level"
     },
     "006VT00000nNpjzYAC": {
       "account_name": "BNP Paribas (Main account)",
@@ -202,16 +262,16 @@
         "deal_velocity": "Accelerating",
         "champion_engagement": "Active",
         "economic_buyer_status": "Identified",
-        "metrics_validation": "Partial",
+        "metrics_validation": "Full_Analysis",
         "procurement_status": "Discussed",
-        "client_timeline": null,
-        "engagement_7d": 5,
-        "engagement_30d": 15,
+        "client_timeline": "\"RFP being launched \u2014 lock eval criteria before procurement writes it\" (pipeline-scan, 2026-06-30)",
+        "engagement_7d": 2,
+        "engagement_30d": 6,
         "score_wow_delta": 0.0
       },
-      "next_step": "Send eval criteria doc to RFP owner + deliver BNP Group intelligence briefing. Tenant access for Julien Goulian due Jul 2.",
-      "next_step_date": "2026-07-02",
-      "red_flags": "RFP may commoditize evaluation \u00b7 EB at BDDF not identified \u00b7 Must lock pass/fail criteria before procurement writes RFP \u00b7 Intelligence briefing still being refined"
+      "next_step": "Jul 7 \u2014 Deliver BNP Group intelligence briefing + respond to BGL BNP Paribas Luxembourg (Damien Chaffotte). Tenant data being enriched (DEV-4644). Lock eval criteria before RFP commoditizes.",
+      "next_step_date": "2026-07-07",
+      "red_flags": "EB at BDDF not identified \u00b7 RFP may commoditize evaluation \u00b7 BGL Luxembourg is subsidiary \u2014 align with main BNP track"
     },
     "006VT00000pmi1OYAQ": {
       "account_name": "Banca Profilo",
@@ -237,7 +297,7 @@
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "~Jul 3 \u2014 Follow-up with Antonio Gravetti on 20k external IBAN analysis results. Manuel coordinating.",
       "next_step_date": "2026-07-03",
@@ -260,48 +320,18 @@
       },
       "signals": {
         "deal_velocity": "Slowing",
-        "champion_engagement": "Passive",
-        "economic_buyer_status": "Identified",
-        "metrics_validation": "Pitch_Only",
-        "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 0,
-        "engagement_30d": 0,
-        "score_wow_delta": 0
-      },
-      "next_step": "Panorama access being set up for Giuseppe Sollazzo (giuseppe.sollazzo@unicredit.eu). Need more evidence to proceed \u2014 client wants additional proof.",
-      "next_step_date": "2026-06-25",
-      "red_flags": "DPO approval blocking expansion \u00b7 No EB identified \u00b7 Paper process not started \u00b7 No compelling event"
-    },
-    "006VT00000nO7SLYA0": {
-      "account_name": "ssp",
-      "opportunity_name": "Score & Secure Payment - Apex - 2026",
-      "stage": "Technical Validation / POC \u00b7 POV",
-      "ai_health_score": 4.1,
-      "meddpicc_scores": {
-        "metrics": 6.0,
-        "economic_buyer": 2.7,
-        "decision_criteria": 4.7,
-        "decision_process": 4.0,
-        "paper_process": 0,
-        "pain": 7.0,
-        "champion": 5.0,
-        "competition": 3.3
-      },
-      "signals": {
-        "deal_velocity": "Slowing",
         "champion_engagement": "Active",
         "economic_buyer_status": "Identified",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"Jul 31 budget hard deadline\" (Gil Dupont email, Jun 12)",
-        "engagement_7d": 1,
-        "engagement_30d": 4,
-        "score_wow_delta": 0
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 0,
+        "score_wow_delta": 0.0
       },
-      "next_step": "Await Gil ROI analysis on 50 high-risk accounts \u00b7 Partner president absent 2 wks \u00b7 Jul 31 budget deadline",
-      "next_step_date": "2026-06-30",
-      "red_flags": "EB not met (partner president = decision-maker, absent 2 wks) \u00b7 Paper process not discussed \u00b7 Jul 31 budget hard deadline"
+      "next_step": "Panorama access being set up for Giuseppe Sollazzo (giuseppe.sollazzo@unicredit.eu). Need more evidence to proceed \u2014 client wants additional proof.",
+      "next_step_date": "2026-06-25",
+      "red_flags": "DPO approval blocking expansion \u00b7 No EB identified \u00b7 Paper process not started \u00b7 No compelling event"
     },
     "006VT00000s5QnZYAU": {
       "account_name": "Isabel",
@@ -319,15 +349,15 @@
         "competition": 0.6
       },
       "signals": {
-        "deal_velocity": "Slowing",
+        "deal_velocity": "Stalled",
         "champion_engagement": "None",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Aug 28 \u2014 Follow-up call with Tim Van der Wee (CTO) on Belgium anti-fraud initiative",
       "next_step_date": "2026-08-28",
@@ -349,15 +379,15 @@
         "competition": 4.4
       },
       "signals": {
-        "deal_velocity": "Slowing",
+        "deal_velocity": "Stalled",
         "champion_engagement": "Active",
         "economic_buyer_status": "Identified",
         "metrics_validation": "Partial",
-        "procurement_status": "Discussed",
+        "procurement_status": "Active",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Chase Manuel Soares for procurement status + 500 PT accounts analysis update",
       "next_step_date": "2026-06-12",
@@ -379,15 +409,15 @@
         "competition": 0.6
       },
       "signals": {
-        "deal_velocity": "Slowing",
-        "champion_engagement": "Identified_Only",
+        "deal_velocity": "Stalled",
+        "champion_engagement": "Passive",
         "economic_buyer_status": "Unknown",
         "metrics_validation": "None",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Follow up Massimiliano Baldoni on money mule + investment fraud use case mapping (email sent Jun 12)",
       "next_step_date": "2026-06-20",
@@ -412,12 +442,12 @@
         "deal_velocity": "Stalled",
         "champion_engagement": "Identified_Only",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Await La Banque Postale response on Panorama access and schedule next review.",
       "next_step_date": "2026-06-20",
@@ -441,13 +471,13 @@
       "signals": {
         "deal_velocity": "Stalled",
         "champion_engagement": "Passive",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Schedule follow-up meeting with Roberto to review full analysis and expand POC scope.",
       "next_step_date": "2026-06-20",
@@ -470,14 +500,14 @@
       },
       "signals": {
         "deal_velocity": "Stalled",
-        "champion_engagement": "Identified_Only",
+        "champion_engagement": "Passive",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
+        "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Prepare and send budgetary proposal with ROI calculations and competitive comparison. Target CISO meeting Sep 2026.",
       "next_step_date": "2026-06-30",
@@ -499,15 +529,15 @@
         "competition": 3.3
       },
       "signals": {
-        "deal_velocity": "Stalled",
+        "deal_velocity": "Dark",
         "champion_engagement": "Active",
         "economic_buyer_status": "Identified",
-        "metrics_validation": "Pitch_Only",
-        "procurement_status": "Discussed",
+        "metrics_validation": "Partial",
+        "procurement_status": "Active",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Send EU IBAN compromised list to Stephanie + await her CEO proposal (1-2 months)",
       "next_step_date": "2026-06-15",
@@ -529,15 +559,15 @@
         "competition": 6.0
       },
       "signals": {
-        "deal_velocity": "Stalled",
-        "champion_engagement": "Passive",
-        "economic_buyer_status": "Identified",
-        "metrics_validation": "Pitch_Only",
+        "deal_velocity": "Dark",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Met",
+        "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Next week \u2014 Call with Claude (Dukascopy) when his committee is done. Antoine + Jonathan + Ugo to clarify confusing email.",
       "next_step_date": "2026-05-05",
@@ -560,14 +590,14 @@
       },
       "signals": {
         "deal_velocity": "Dark",
-        "champion_engagement": "Identified_Only",
+        "champion_engagement": "Passive",
         "economic_buyer_status": "Identified",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "URGENT: Broker Cyril Chiche \u2192 Daphne (CFO) intro. Propose free parallel data share vs MISP benchmark.",
       "next_step_date": null,
@@ -597,7 +627,7 @@
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Reschedule Incore catch-up \u2014 Thomas Glaus has increased workload",
       "next_step_date": "2026-06-12",
@@ -622,12 +652,12 @@
         "deal_velocity": "Dark",
         "champion_engagement": "Passive",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Send Money 2020 pre-event email to Sebastien + request BIC/SWIFT and CAPS/BforBank feedback",
       "next_step_date": "2026-06-02",
@@ -652,12 +682,12 @@
         "deal_velocity": "Dark",
         "champion_engagement": "None",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "Await Eric Leboeuf analysis of sample data (1-2 weeks)",
       "next_step_date": "2026-06-10",
@@ -712,12 +742,12 @@
         "deal_velocity": "Dark",
         "champion_engagement": "None",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "None",
+        "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
         "client_timeline": null,
         "engagement_7d": 0,
         "engagement_30d": 0,
-        "score_wow_delta": 0
+        "score_wow_delta": 0.0
       },
       "next_step": "No next step \u2014 reach AML team (Nicolas Gougeon, Alexis d'Avanzo) to reopen via regulatory angle",
       "next_step_date": null,
