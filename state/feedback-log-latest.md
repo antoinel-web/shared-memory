@@ -208,3 +208,18 @@ delta_summary: >-
   autonomie. Sujet de l'envoi différent du draft (réponse dans thread existant
   vs. nouvel email de présentation).
 ---
+---
+date: 2026-07-03
+agent: forge-v2
+client: La Banque Postale
+draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
+status: Pending
+confidence: high
+categories: []
+delta_summary: >-
+  Aucun email envoyé à jean-christophe.bouchez@labanquepostale.fr détecté dans
+  Gmail sent le 3 juillet. Draft créé à 08h09 CEST — moins de 48h. Sera
+  réévalué au prochain run (2026-07-04). Le draft cible une relance de
+  réengagement avec données de détection récentes et CTA sur engagement legal
+  go/no-go annoncé fin mai.
+---
