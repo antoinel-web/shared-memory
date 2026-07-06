@@ -328,3 +328,33 @@ trends:
     gate and an inbound-activity check before generation would materially reduce
     the noise-to-signal ratio across all observed periods."
 ---
+
+---
+period: 2026-06-22 to 2026-06-22
+total_deltas: 2
+breakdown:
+  Utilisé: 0
+  Modifié: 2
+  Remplacé: 0
+  Ignoré: 0
+  Pending: 0
+top_categories:
+  - Contexte client ajouté (2 occurrences)
+  - Structure modifiée (2 occurrences)
+  - Ton ajusté (1 occurrence)
+trends:
+  - "Meeting Echo (Jun 22): Both entries classified Modifié — the BPCE draft
+    was enriched with granular operational metrics absent from the meeting
+    summary (transaction volumes, blocked accounts, internal alert ratio,
+    expanded CC list, English-language confirmation). The Deblock draft was
+    restructured with benchmark client statistics, split into two explicit
+    sections, language switched to English, and a second recipient added.
+    Meeting Echo's structural output is reliably on-topic but systematically
+    under-captures the quantitative and contextual enrichments Antoine adds
+    at send time."
+  - "Meeting Echo (Jun 22): Contexte client ajouté is present in both entries —
+    consistent with every prior Meeting Echo batch. Real-time data points,
+    live recipient additions, and post-meeting framing remain a persistent
+    blind spot at draft generation time. A lightweight post-meeting context
+    capture prompt would address this recurring gap."
+---
