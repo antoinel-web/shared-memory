@@ -187,3 +187,15 @@ delta_summary: >-
   Troisième tentative consécutive sans suite envoyée sur ce compte (runs du
   23 juin, du 3 juillet, et du 6 juillet). Draft classé Ignoré.
 ---
+---
+date: 2026-07-07
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Draft créé le 07/07 à 08h05. Aucun email envoyé à la destination cible détecté
+  dans Gmail sent le 07/07. Draft < 48h — sera réévalué au prochain run.
+---
