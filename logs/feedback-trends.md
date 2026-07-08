@@ -358,3 +358,24 @@ trends:
     blind spot at draft generation time. A lightweight post-meeting context
     capture prompt would address this recurring gap."
 ---
+
+---
+period: 2026-06-23 to 2026-06-23
+total_deltas: 1
+breakdown:
+  Ignoré: 1
+top_categories:
+  - Autre (1 occurrence)
+trends:
+  - "Forge v2 (Jun 23): Single Ignoré entry — La Banque Postale draft went
+    undeployed despite a prior history of positive engagement. Combined with
+    the subsequent Ignoré on Jul 3 for the same account, this marks two
+    consecutive failed attempts spanning three weeks. Notably, Antoine did
+    eventually send a manual recovery email to La Banque Postale on Jul 8
+    ('Vous ai-je perdus ?') — a direct, personal-tone outreach in French,
+    markedly different from the structured Forge v2 follow-up template.
+    Forge v2 appears unable to gauge when an account requires human-toned
+    direct intervention rather than an agent-structured follow-up; the manual
+    recovery pattern suggests Antoine reserves authentically personal messages
+    for accounts he feels are slipping and chooses not to delegate them."
+---

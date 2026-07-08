@@ -1,19 +1,4 @@
 ---
-date: 2026-06-23
-agent: forge-v2
-client: La Banque Postale
-draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
-status: Ignoré
-confidence: low
-categories:
-  - Autre
-delta_summary: >-
-  Réévalué après 48h : aucun email envoyé à La Banque Postale détecté dans Gmail
-  sent entre le 23 et le 25 juin. Recherche ciblée sur domaine labanquepostale.fr
-  également négative. Draft classé Ignoré — aucune action de suivi n'a été
-  déclenchée sur cette opportunité dans la fenêtre d'évaluation.
----
----
 date: 2026-06-25
 agent: meeting-echo
 client: Intesa Sanpaolo
@@ -192,10 +177,20 @@ date: 2026-07-07
 agent: forge-v2
 client: Bunq
 draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Pending
+status: Remplacé
 confidence: medium
-categories: []
+categories:
+  - CTA changé
+  - Contenu supprimé
+  - Contexte client ajouté
 delta_summary: >-
-  Draft créé le 07/07 à 08h05. Aucun email envoyé à la destination cible détecté
-  dans Gmail sent le 07/07. Draft < 48h — sera réévalué au prochain run.
+  Réévalué (était Pending au run du 07 juillet). Email envoyé le 08 juillet à
+  11h15 à srios@bunq.com dans le même thread (First Mule Test 50 Accounts).
+  Le draft annonçait la livraison imminente d'une liste EU IBAN (ciblée au
+  10 juillet) et proposait une session de revue le 14 ou 15 juillet. L'email
+  envoyé est de nature informative : Antoine a partagé un rapport Bunq-spécifique
+  sur les fraud networks, sans mention de la livraison IBAN ni de date de réunion
+  précise. Le CTA structuré (revue du 14/15 juillet) a été remplacé par une
+  proposition optionnelle de suivi avant les congés (retour 13 août). Dates de
+  congés communiquées (départ 17 juillet).
 ---
