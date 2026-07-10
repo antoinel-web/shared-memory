@@ -379,3 +379,27 @@ trends:
     recovery pattern suggests Antoine reserves authentically personal messages
     for accounts he feels are slipping and chooses not to delegate them."
 ---
+
+---
+period: 2026-06-25 to 2026-06-25
+total_deltas: 1
+breakdown:
+  Utilisé: 0
+  Modifié: 1
+  Remplacé: 0
+  Ignoré: 0
+  Pending: 0
+top_categories:
+  - Contexte client ajouté (1 occurrence)
+  - Structure modifiée (1 occurrence)
+trends:
+  - "Meeting Echo (Jun 25 — expiring entry): Single Modifié entry (Intesa Sanpaolo).
+    Initially Pending on Jun 25 and matched to a sent email on Jun 26. Antoine
+    restructured the meeting follow-up into three named sections (What we covered /
+    Next steps / Next meeting) and added granular quantitative data from the session
+    (risk-tier breakdown of sample, named deliverables, confirmed next-meeting date
+    and composition). Consistent with the persistent Meeting Echo pattern: the agent
+    captures meeting substance accurately but under-captures Antoine's preferred
+    structured output format and the quantitative post-meeting context he systematically
+    adds at send time."
+---

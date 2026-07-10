@@ -1,22 +1,4 @@
 ---
-date: 2026-06-25
-agent: meeting-echo
-client: Intesa Sanpaolo
-draft_subject: "Re: Intesa Sanpaolo <> CUBE AI - Mule Intelligence"
-status: Modifié
-confidence: medium
-categories:
-  - Contexte client ajouté
-  - Structure modifiée
-delta_summary: >-
-  Réévalué (était Pending au run du 25 juin). Email envoyé le 26 juin à 12h09
-  au même destinataire dans le même thread. Antoine a structuré le message en
-  trois blocs distincts (What we covered / Next steps / Next meeting) et a intégré
-  des données quantitatives précises issues de la réunion (répartition risk-tier
-  du sample en 3 niveaux, livrables nommés, date et composition de la prochaine
-  réunion). Ces détails opérationnels ne figuraient pas dans le draft initial.
----
----
 date: 2026-06-26
 agent: meeting-echo
 client: BIL
@@ -193,4 +175,47 @@ delta_summary: >-
   précise. Le CTA structuré (revue du 14/15 juillet) a été remplacé par une
   proposition optionnelle de suivi avant les congés (retour 13 août). Dates de
   congés communiquées (départ 17 juillet).
+---
+---
+date: 2026-07-10
+agent: forge-v2
+client: Bunq
+draft_subject: "Re: First Mule Test (50 Accounts)"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Aucun email envoyé à srios@bunq.com détecté le 10 juillet. Draft créé à
+  08h06 (< 48h) — sera réévalué au prochain run. Contenu : annonce de la
+  provision de l'environnement Apex trial bunq avec données en cours de
+  chargement, CTA walkthrough call avant le 15 juillet.
+---
+---
+date: 2026-07-10
+agent: forge-v2
+client: BIL
+draft_subject: "Re: BIL x CUBE AI — Débrief du 3 juillet & prochaines étapes"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Aucun email envoyé à florent.fm.mathon@bil.com détecté le 10 juillet. Draft
+  créé à 08h06 (< 48h) — sera réévalué au prochain run. Contenu : livraison
+  des deux outputs POC engagés, fourchette tarifaire indicative, CTA call
+  11 ou 14 juillet matin pour préparer l'arbitrage budget sep 2027.
+---
+---
+date: 2026-07-10
+agent: forge-v2
+client: Spuerkeess
+draft_subject: "CUBE AI × Spuerkeess — avant notre réunion du 17 juillet"
+status: Pending
+confidence: medium
+categories: []
+delta_summary: >-
+  Aucun email envoyé à g.charlier@spuerkeess.lu détecté le 10 juillet. Draft
+  créé à 08h06 (< 48h) — sera réévalué au prochain run. Contenu : email
+  pré-meeting adressant une objection prix informelle avant la session de
+  démo du 17 juillet, CTA question calibrée sur le volume mensuel de comptes
+  suspects.
 ---
