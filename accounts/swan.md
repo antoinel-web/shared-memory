@@ -1,34 +1,35 @@
 # Swan
 
-**Opp:** Swan - Apex - 2026
-**Stage:** Navigating / MAP | **Close:** 2026-09-30
-**AI Health:** 3.8
-**Next Step:** Jul 2 4:30pm — CUBE AI <> Swan business case & commercial alignment. Focus on PSD3 ROI and 87 matched accounts.
+> **Opp ID:** `006VT00000nNzg7YAC` | **Stage:** Navigating / MAP | **Close Date:** 2026-09-30
+> **AI Health:** 3.8 | **Next Step Date:** 2026-07-14
+> **Competitors:** —
 
-## Timeline
+## Current Next Step
 
-| Date | Event | Source |
-|------|-------|--------|
-| 2026-04-20 | Full MEDDPICC enrichment — Situation, Pain, Impact, Champion, Decision_Maker, Decision, Critical_Event, Competition, NextStep | `granola:ddd90567` |
-| 2026-04-22 | MEDDPICC scores + AI_Health updated | `granola/Swan-Apr13` |
-| 2026-04-24 | NextStep + Next_Step_Date synced from calendar | `calendar` |
-| 2026-04-28 | NextStep updated | `calendar:0l94cgt2` |
-| 2026-05-01 | NextStep updated | `calendar:0l94cgt2` |
-| 2026-05-05 | MEDDPICC(M,I,Ch) + NextStep + AI_Health + RedFlags updated | `granola:30d54bc4` |
-| 2026-05-08 | Full MEDDPICC + NextStep + AI_Health updated (health: 3.0) | `granola:30d54bc4+gmail:19d87715` |
-| 2026-05-19 | NextStep, Next_Step_Date, Red_Flags, AI_Health updated | `calendar+gmail:128epeud0j1fe4p4mfj0eiar43` |
-| 2026-05-22 | AI_Health_Score + NextStep updated (health: 3.0) | `pipeline-scan` |
-| 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 3.0) updated | `gmail` |
-| 2026-06-05 | Full MEDDPICC (21 fields) + AI_Health updated (health: 2.6) | `pipeline-scan-2026-06-05` |
-| 2026-06-02 | MEDDPICC batch (5 fields) updated | `pipeline-scan` |
-| 2026-06-09 | Full MEDDPICC + NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
-| 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
-| 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 3.8) | `pipeline-scan` |
-| 2026-06-23 | NextStep + RedFlags updated | `calendar:128epeud0j1fe4p4mfj0eiar43` |
-| 2026-06-26 | NextStep batch (3 fields) updated | `pipeline-scan-2026-06-26` |
+Await Swan team response to Jul 8 Panorama access invite + business case follow-up with Anthony Wilkewicz. — sf-operator, 2026-07-10, source:pipeline-scan
 
 ## Red Flags
 
-EB not met (Stephane CRO = target) · PP=0 — procurement never discussed · PSD3 timeline dependency · Must prove ROI > 10x
+EB not met (target: CRO) · PP=0 — procurement never discussed · Pricing sensitivity unknown (€59K/yr) · Must prove ROI > 10x on €2.6M exposure
 
-[Source: SF write 006VT00000nNzg7YAC, run 2026-06-28]
+## MEDDPICC Compiled Truth
+
+| Dimension | Summary |
+|-----------|---------|
+| Champion | DEALPAD SCORING (Q34-Q37): 5/12 = 42%. Martin Miguel and Luc Drye engaged, responsive. Luc to send written synthesis. But: not yet advocating internally to CRO. Not tested in a defense scenario. |
+| Pain | DEALPAD SCORING (Q24-Q33): 20/30 = 67%. On-Bank: 14 confirmed fraudulent accounts from 87 detected. Off-Bank: 21K IBANs analyzed. Compelling event: PSD3 (50% client loss coverage). Swan fears becoming |
+| Decision Criteria | DEALPAD SCORING (Q11-Q15): 6/15 = 40%. Swan evaluating based on fraud detection rate and cost-benefit. PSD3 compliance = key criterion. Price range must fit Swan budget. Gap: formal eval criteria not  |
+| Decision Process | DEALPAD SCORING (Q16-Q20): 6/15 = 40%. Jun 19 meeting = present business case → if approved, loop in Stéphane (CRO). Two-step: operational validation → exec sponsor. Gap: no C-level met yet, timeline  |
+| Metrics | DEALPAD SCORING (Q1-Q5): 10/15 = 67%. 21K IBANs analyzed Jan-Apr. 87 Swan accounts interacted, 14 confirmed fraudulent. €900K fraud potentially avoided (one account = €500K). CUBE first in 75% of case |
+| Economic Buyer | DEALPAD SCORING (Q6-Q10): 3/15 = 20%. Stéphane (Chief Risk Officer) identified as target but NOT met. Martin Miguel and Luc Drye are operational contacts. No budget discussion yet. Gap: EB not engaged |
+| Competition | DEALPAD SCORING (Q38-Q43): 5/18 = 28%. Swan has own transactional monitoring (CUBE first in 75%). No named competitor. Early engagement achieved. Gap: competitor landscape unknown, references not shar |
+| Paper Process | DEALPAD SCORING (Q21-Q23): 0/9 = 0%. No procurement/legal/signature process discussed. Not yet captured. |
+
+## Timeline
+
+| Date | Event | Type | Source |
+|------|-------|------|--------|
+| 2026-07-10 | SF fields synced: NextStep+Next_Step_Date | sf-write | [Source: SF write 006VT00000nNzg7YAC, run 2026-07-12] |
+
+---
+*Last synced: 2026-07-12 by sf-operator/gtm-sync*

@@ -1,26 +1,35 @@
 # CaixaGeral de Depositos
 
-**Opp:** CGD - Apex - 2026
-**Stage:** Navigating / MAP | **Close:** 2026-09-30
-**AI Health:** — | **Competitor:** MISP
-**Next Step:** Chase Manuel Soares for procurement status + 500 PT accounts analysis update
-## Timeline
+> **Opp ID:** `006VT00000o6Ul2YAE` | **Stage:** Technical Validation / POC · POV | **Close Date:** 2026-12-31
+> **AI Health:** 4.5 | **Next Step Date:** 2026-07-16
+> **Competitors:** MISP
 
-| Date | Event | Source |
-|------|-------|--------|
-| 2026-04-24 | Full MEDDPICC update + NextStep + RedFlags | `granola:9ddda24e` |
-| 2026-04-28 | NextStep, full MEDDPICC, AI_Health, RedFlags, Competitors updated | `granola:9ddda24e` |
-| 2026-05-01 | NextStep, MEDDPICC(E), MEDDPICC(M), MEDDPICC(Ch), MEDDPICC(DP), AI_Health updated | `granola:f8984974` |
-| 2026-05-05 | Full MEDDPICC + NextStep + AI_Health + RedFlags updated | `granola:f8984974,f7b3051b,email:19d444f9408b0f9c` |
-| 2026-05-08 | Full MEDDPICC + NextStep + AI_Health updated (health: 4.9) | `granola:78cd5bca+gmail:19d444f9` |
-| 2026-05-22 | AI_Health_Score + NextStep + Red_Flags updated (health: 4.7) | `pipeline-scan` |
-| 2026-05-26 | NextStep + Red_Flags + AI_Health (health: 4.5) updated | `calendar+gmail` |
-| 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 4.5) updated | `gmail` |
-| 2026-06-02 | Red_Flags updated | `pipeline-scan` |
-| 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
+## Current Next Step
+
+Jul 16 17:30 — Meeting with Manuel Soares + Neide Ferreira Martins + Carlos Lourenço (CGD). — sf-operator, 2026-07-10, source:pipeline-scan
 
 ## Red Flags
 
-No recent activity in 7d · Negotiating stage but no procurement evidence
+No recent activity in 7d · Negotiating stage but no procurement evidence · Antoine at GASA — opportunity to reconnect
 
-[Source: SF write 006VT00000o6Ul2YAE, run 2026-06-14]
+## MEDDPICC Compiled Truth
+
+| Dimension | Summary |
+|-----------|---------|
+| Champion | DEALPAD SCORING (Q34-Q37): 8/12 = 67% |
+| Pain | DEALPAD SCORING (Q24-Q33): 18/30 = 60% |
+| Decision Criteria | DEALPAD SCORING (Q11-Q15): 7/15 = 47% |
+| Decision Process | DEALPAD SCORING (Q16-Q20): 7/15 = 47% |
+| Metrics | DEALPAD SCORING (Q1-Q5): 9/15 = 60% |
+| Economic Buyer | DEALPAD SCORING (Q6-Q10): 5/15 = 33% |
+| Competition | DEALPAD SCORING (Q38-Q43): 8/18 = 44% |
+| Paper Process | DEALPAD SCORING (Q21-Q23): 4/9 = 44% |
+
+## Timeline
+
+| Date | Event | Type | Source |
+|------|-------|------|--------|
+| 2026-07-10 | SF fields synced: NextStep+Next_Step_Date | sf-write | [Source: SF write 006VT00000o6Ul2YAE, run 2026-07-12] |
+
+---
+*Last synced: 2026-07-12 by sf-operator/gtm-sync*

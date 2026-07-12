@@ -1,31 +1,35 @@
 # Intesa Sanpaolo
 
-**Opp:** Intesa Sanpaolo - Apex - NB 2026
-**Stage:** Account Validation Test (AVT) | **Close:** 2026-12-31
-**AI Health:** 1.9
-**Next Step:** Panorama access being set up for Gianluca Chiusano. Await engagement.
+> **Opp ID:** `006VT00000pcfuPYAQ` | **Stage:** Technical Validation / POC · POV | **Close Date:** 2026-12-31
+> **AI Health:** 1.9 | **Next Step Date:** 2026-07-15
+> **Competitors:** —
 
-## Timeline
+## Current Next Step
 
-| Date | Event | Source |
-|------|-------|--------|
-| 2026-04-22 | MEDDPICC Pain, scores, NextStep, AI_Health updated | `calendar/2026-04-20` |
-| 2026-04-24 | Pain, Champion, RedFlags, NextStep updated — STALLED flag raised | `gmail:19dbb3607e173b31` |
-| 2026-04-28 | NextStep, RedFlags updated | `granola:ef6caced` |
-| 2026-05-08 | NextStep + AI_Health updated (health: 2.0) | `cal:60961gon` |
-| 2026-05-19 | NextStep, Next_Step_Date, AI_Health updated | `calendar:60961gonsucvd0r3v35ok69qn2` |
-| 2026-05-22 | AI_Health_Score + NextStep + Red_Flags + Champion updated (health: 2.8) | `pipeline-scan` |
-| 2026-05-26 | Full MEDDPICC + NextStep + Red_Flags + AI_Health (health: 3.3) updated | `calendar+granola` |
-| 2026-05-29 | MEDDPICC(DP) + NextStep + Red_Flags + AI_Health (health: 3.3) updated | `granola+slack` |
-| 2026-06-02 | MEDDPICC batch (9 fields) updated | `pipeline-scan` |
-| 2026-06-09 | NextStep + AI_Health updated | `pipeline-scan-2026-06-09` |
-| 2026-06-12 | MEDDPICC_all + NextStep + RedFlags updated | `pipeline-scan` |
-| 2026-06-19 | NextStep + Next_Step_Date + Red_Flags updated (health: 1.7) | `pipeline-scan` |
-| 2026-06-23 | NextStep + RedFlags updated | `calendar:7vdn3vn8nsqjvmpu05n096fljp` |
-| 2026-06-26 | NextStep batch (5 fields) updated (health: 1.9) | `pipeline-scan-2026-06-26` |
+Jul 15 — Follow-up meeting with Gianluca Chiusano (Intesa Sanpaolo)
 
 ## Red Flags
 
-20 IBANs overdue · Gianluca declined Jun 16 meeting · Slowing velocity · Panorama access pending
+20 IBANs analysis overdue since May 21 · Gianluca re-engaged Jun 25 but track record unreliable · Must demonstrate value quickly to maintain momentum
 
-[Source: SF write 006VT00000pcfuPYAQ, run 2026-06-28]
+## MEDDPICC Compiled Truth
+
+| Dimension | Summary |
+|-----------|---------|
+| Champion | DEALPAD SCORING (Q34-Q37): 3/12 = 25%. Gianluca engaged, scheduling follow-ups. But: champion influence not validated. |
+| Pain | DEALPAD SCORING (Q24-Q33): 9/30 = 30%. On-Bank: Not yet captured. Off-Bank: Not yet captured. Gap: pain quantification pending. |
+| Decision Criteria | DEALPAD SCORING (Q11-Q15): 2/15 = 13%. Gap: eval criteria not captured from Jun 11 meeting (no Granola notes). |
+| Decision Process | DEALPAD SCORING (Q16-Q20): 4/15 = 27%. Two meetings in 5 days (Jun 11, Jun 16). Momentum building. Gap: no C-level, timeline not explicit. |
+| Metrics | DEALPAD SCORING (Q1-Q5): 3/15 = 20%. Meeting held Jun 11 (36min). Follow-up Jun 16 scheduled. Gap: no quantified metrics yet. |
+| Economic Buyer | DEALPAD SCORING (Q6-Q10): 1/15 = 7%. Gianluca Chiusano is primary contact. No EB identified. Gap: budget holder unknown. |
+| Competition | DEALPAD SCORING (Q38-Q43): 3/18 = 17%. No competitor named. Gap: competitive landscape unknown. |
+| Paper Process | DEALPAD SCORING (Q21-Q23): 0/9 = 0%. Not discussed. |
+
+## Timeline
+
+| Date | Event | Type | Source |
+|------|-------|------|--------|
+| 2026-07-07 | SF fields synced: NextStep+Next_Step_Date | sf-write | [Source: SF write 006VT00000pcfuPYAQ, run 2026-07-12] |
+
+---
+*Last synced: 2026-07-12 by sf-operator/gtm-sync*
