@@ -403,3 +403,30 @@ trends:
     structured output format and the quantitative post-meeting context he systematically
     adds at send time."
 ---
+
+---
+period: 2026-06-26 to 2026-06-29
+total_deltas: 3
+breakdown:
+  Utilisé: 0
+  Modifié: 1
+  Remplacé: 0
+  Ignoré: 2
+top_categories:
+  - Autre (2 occurrences)
+  - Contenu supprimé (1 occurrence)
+  - Contexte client ajouté (1 occurrence)
+trends:
+  - "Meeting Echo (Jun 26, BIL): Single Modifié classified entry in this period.
+    A competitor comparison section was removed by Antoine at send time; a second
+    recipient absent from the draft and a conditional follow-up step (second call
+    with full fraud team if results positive) were added. Consistent with the
+    persistent Meeting Echo pattern: recipient scope and post-meeting strategic
+    enrichments systematically under-captured at draft generation time."
+  - "Forge v2 (Jun 29, Swan + Bunq): Both drafts expired Ignoré — no emails
+    detected to either recipient after 72h. Continues the Forge v2 high-Ignoré
+    trend observed across May batches. Both accounts appear to have been placed
+    on informal hold by Antoine without the agent detecting the status. A
+    deal-activity recency gate before draft generation would reduce noise on
+    silenced accounts."
+---

@@ -1,53 +1,4 @@
 ---
-date: 2026-06-26
-agent: meeting-echo
-client: BIL
-draft_subject: "BIL - Intro & next steps"
-status: Modifié
-confidence: high
-categories:
-  - Contenu supprimé
-  - Contexte client ajouté
-delta_summary: >-
-  Email envoyé le 26 juin à 08h07, sujet identique au draft. Les points-clés
-  du draft sont présents (présentation de l'approche, démonstration d'un compte
-  détecté, livraison d'échantillon IBAN, débrief le 3 juillet à 15h). La section
-  sur la comparaison avec un concurrent a été retirée. Un second destinataire
-  absent du draft (florent.fm.mathon@bil.com) et un CC interne ont été ajoutés.
-  Une étape conditionnelle supplémentaire a été intégrée (second appel avec
-  l'équipe fraude au complet si les résultats sont positifs).
----
----
-date: 2026-06-29
-agent: forge-v2
-client: Swan
-draft_subject: "Re: Swan — Intro & next steps"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  Réévalué après 72h (était Pending depuis le 26 juin) : aucun email envoyé à
-  luc.drye@swan.io détecté dans Gmail sent entre le 26 et le 29 juin. Recherche
-  directe sur destinataire sans résultat. Draft classé Ignoré — aucun suivi
-  envoyé dans la fenêtre d'évaluation.
----
----
-date: 2026-06-29
-agent: forge-v2
-client: Bunq
-draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Ignoré
-confidence: medium
-categories:
-  - Autre
-delta_summary: >-
-  Réévalué après 72h (était Pending depuis le 26 juin) : aucun email envoyé à
-  srios@bunq.com détecté dans Gmail sent entre le 26 et le 29 juin. Recherche
-  directe sur destinataire sans résultat. Draft classé Ignoré — aucun suivi
-  envoyé dans la fenêtre d'évaluation.
----
----
 date: 2026-06-30
 agent: forge-v2
 client: BPCE
@@ -66,8 +17,7 @@ delta_summary: >-
   Le draft ciblait un checkpoint analytique pré-call du 6 juillet (faux positifs
   WISE/Revolut, ancrage 179 cas). Aucun élément analytique du draft n'a été
   repris. Le CTA proactif de préparation du call J+6 a été remplacé par un lien
-  de planification autonome. Une information client ponctuelle (IBAN partagé en
-  temps réel) a été ajoutée spontanément.
+  de planification autonome.
 ---
 ---
 date: 2026-06-30
@@ -177,45 +127,56 @@ delta_summary: >-
   congés communiquées (départ 17 juillet).
 ---
 ---
-date: 2026-07-10
+date: 2026-07-13
 agent: forge-v2
 client: Bunq
 draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Pending
+status: Remplacé
 confidence: medium
-categories: []
+categories:
+  - CTA changé
+  - Contexte client ajouté
 delta_summary: >-
-  Aucun email envoyé à srios@bunq.com détecté le 10 juillet. Draft créé à
-  08h06 (< 48h) — sera réévalué au prochain run. Contenu : annonce de la
-  provision de l'environnement Apex trial bunq avec données en cours de
-  chargement, CTA walkthrough call avant le 15 juillet.
+  Réévalué après 72h (était Pending depuis le 10 juillet). Email envoyé le
+  13 juillet à 14h44 à srios@bunq.com dans le même thread. Le draft annonçait
+  la provision de l'environnement Apex trial avec données en cours de chargement,
+  CTA walkthrough call avant le 15 juillet. L'email envoyé concerne l'accès à
+  la plateforme Panorama (CRM des fraudeurs) avec invitation à une démo. Le CTA
+  structuré (walkthrough technique Apex avant le 15 juillet) a été remplacé par
+  une proposition de démo Panorama. Aucun élément du draft Apex trial n'est
+  repris dans l'envoi.
 ---
 ---
-date: 2026-07-10
+date: 2026-07-13
 agent: forge-v2
 client: BIL
 draft_subject: "Re: BIL x CUBE AI — Débrief du 3 juillet & prochaines étapes"
-status: Pending
-confidence: medium
-categories: []
+status: Ignoré
+confidence: high
+categories:
+  - Autre
 delta_summary: >-
-  Aucun email envoyé à florent.fm.mathon@bil.com détecté le 10 juillet. Draft
-  créé à 08h06 (< 48h) — sera réévalué au prochain run. Contenu : livraison
-  des deux outputs POC engagés, fourchette tarifaire indicative, CTA call
-  11 ou 14 juillet matin pour préparer l'arbitrage budget sep 2027.
+  Réévalué après 72h (était Pending depuis le 10 juillet). Aucun email envoyé
+  à florent.fm.mathon@bil.com détecté dans Gmail sent entre le 10 et le 13
+  juillet. Le draft (livraison des deux outputs POC engagés, fourchette tarifaire
+  indicative, CTA call 11 ou 14 juillet matin pour préparer l'arbitrage budget
+  sep 2027) n'a pas été utilisé. Draft classé Ignoré — aucun suivi envoyé dans
+  la fenêtre d'évaluation.
 ---
 ---
-date: 2026-07-10
+date: 2026-07-13
 agent: forge-v2
 client: Spuerkeess
 draft_subject: "CUBE AI × Spuerkeess — avant notre réunion du 17 juillet"
-status: Pending
+status: Ignoré
 confidence: medium
-categories: []
+categories:
+  - Autre
 delta_summary: >-
-  Aucun email envoyé à g.charlier@spuerkeess.lu détecté le 10 juillet. Draft
-  créé à 08h06 (< 48h) — sera réévalué au prochain run. Contenu : email
-  pré-meeting adressant une objection prix informelle avant la session de
-  démo du 17 juillet, CTA question calibrée sur le volume mensuel de comptes
-  suspects.
+  Réévalué après 72h (était Pending depuis le 10 juillet). Aucun email envoyé
+  à g.charlier@spuerkeess.lu détecté dans Gmail sent entre le 10 et le 13
+  juillet. Le draft (email pré-meeting du 17 juillet adressant une objection
+  prix informelle, CTA question calibrée sur volume mensuel de comptes suspects)
+  n'a pas été utilisé. Draft classé Ignoré — réunion du 17 juillet sans
+  préparation email envoyée.
 ---
