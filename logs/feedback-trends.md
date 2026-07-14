@@ -430,3 +430,42 @@ trends:
     deal-activity recency gate before draft generation would reduce noise on
     silenced accounts."
 ---
+
+---
+period: 2026-06-30 to 2026-06-30
+total_deltas: 4
+breakdown:
+  Utilisé: 0
+  Modifié: 0
+  Remplacé: 1
+  Ignoré: 3
+top_categories:
+  - Autre (3 occurrences)
+  - CTA changé (1 occurrence)
+  - Contenu supprimé (1 occurrence)
+  - Contexte client ajouté (1 occurrence)
+trends:
+  - "Forge v2 (Jun 30): 75% Ignoré rate (3/4 drafts never sent — CGD, Bunq,
+    Score & Secure Payment). All three accounts appear to have been placed on
+    hold without the agent detecting the status. For Bunq, this is the second
+    consecutive Ignoré batch (after Jun 29), marking a sustained hold before
+    Antoine's eventual reactive follow-up on Jul 8. The pattern reinforces the
+    need for a per-account silence-tolerance gate before draft generation —
+    accounts with a prior Ignoré within 7 days should be suppressed."
+  - "Forge v2 (Jun 30, BPCE): Sole Remplacé entry — a strategic analytical
+    follow-up draft was rendered obsolete by an inbound meeting-reschedule
+    request from the client. Antoine responded reactively with a Calendly
+    scheduling link, entirely replacing the planned analytical content. This is
+    the fourth observed instance where an inbound client signal made an outbound
+    draft immediately obsolete (after May 15 Bunq/Deblock, May 27 Remplacé
+    batch). Forge v2 systematically lacks an inbound-activity gate; without it,
+    outbound drafts continue to be superseded by reactive scheduling responses."
+  - "Forge v2 (Jun 30 — cross-batch synthesis): The Jun 30 batch confirms a
+    structural per-account over-generation pattern. Bunq received drafts on Jun
+    29, Jun 30, Jul 7, and Jul 10 — three of four classified Ignoré or Remplacé
+    with no direct content reuse. CGD and Score & Secure Payment received
+    repeated drafts despite extended silence. A per-account cooldown of 7–10
+    days after an Ignoré event, combined with an inbound-activity check before
+    each draft generation, would materially reduce noise across all observed
+    active accounts in the Jul 14 sliding window."
+---
