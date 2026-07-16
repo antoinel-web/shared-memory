@@ -469,3 +469,32 @@ trends:
     each draft generation, would materially reduce noise across all observed
     active accounts in the Jul 14 sliding window."
 ---
+
+---
+period: 2026-07-01 to 2026-07-01
+total_deltas: 1
+breakdown:
+  Utilisé: 0
+  Modifié: 1
+  Remplacé: 0
+  Ignoré: 0
+top_categories:
+  - CTA changé (1 occurrence)
+  - Structure modifiée (1 occurrence)
+  - Contenu supprimé (1 occurrence)
+trends:
+  - "Forge v2 (Jul 1, ICCREA Banca): The draft (company presentation to be sent
+    before July 2) was entirely supplanted by a reactive scheduling email driven
+    by an inbound request from Giuseppe Scampone. Antoine replaced the planned
+    content presentation with a Calendly link, removing scale metrics and an
+    OpenAI partnership reference in the process. This is the fifth observed
+    instance where an inbound client signal made the outbound Forge v2 draft
+    immediately obsolete — confirming the systematic absence of an inbound-activity
+    gate before draft generation."
+  - "Forge v2 (Jul 1 — CTA pattern): The CTA transformation (structured
+    presentation-before-deadline → autonomous slot-booking invite) follows the
+    same softening arc observed in May 27 and Jun 30 batches. Forge v2 CTAs
+    consistently overshoot Antoine's preferred directness level when an inbound
+    signal is present. A CTA downgrade rule triggered by recent inbound activity
+    would reduce this systematic mismatch."
+---

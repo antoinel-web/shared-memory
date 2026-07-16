@@ -1,26 +1,4 @@
 ---
-date: 2026-07-01
-agent: forge-v2
-client: Banca ICCREA
-draft_subject: "Cube AI × Iccrea Banca — company presentation"
-status: Modifié
-confidence: medium
-categories:
-  - CTA changé
-  - Structure modifiée
-  - Contenu supprimé
-delta_summary: >-
-  Réévalué (était Pending au run du 30 juin). Email envoyé le 1er juillet à
-  gscampone@iccrea.bcc.it en réponse directe à la demande de call de Giuseppe
-  (suite au follow-up de Jonathan du 29 juin). Antoine a substitué l'envoi de
-  présentation entreprise planifié par un court message de scheduling avec lien
-  Calendly. Les métriques scale et la référence au partenariat OpenAI mentionnés
-  dans le draft ont été supprimés. Le CTA initial (envoi de présentation avant
-  le 2 juillet) a été transformé en invitation à réserver un créneau en
-  autonomie. Sujet de l'envoi différent du draft (réponse dans thread existant
-  vs. nouvel email de présentation).
----
----
 date: 2026-07-03
 agent: forge-v2
 client: La Banque Postale
@@ -110,5 +88,7 @@ delta_summary: >-
   juillet. Le draft (email pré-meeting du 17 juillet adressant une objection
   prix informelle, CTA question calibrée sur volume mensuel de comptes suspects)
   n'a pas été utilisé. Draft classé Ignoré — réunion du 17 juillet sans
-  préparation email envoyée.
+  préparation email envoyée. Confirmation au 16 juillet : aucun email envoyé à
+  @spuerkeess.lu entre le 13 et le 16 juillet inclus. La réunion du 17 juillet
+  (11h00 CEST) se tient sans préparation email côté Antoine.
 ---
