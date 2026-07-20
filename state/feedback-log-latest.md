@@ -1,20 +1,4 @@
 ---
-date: 2026-07-03
-agent: forge-v2
-client: La Banque Postale
-draft_subject: "Re: La Banque Postale — Bilan des 10 comptes & prochaines étapes"
-status: Ignoré
-confidence: high
-categories:
-  - Autre
-delta_summary: >-
-  Réévalué après 72h (était Pending depuis le 3 juillet). Aucun email envoyé à
-  jean-christophe.bouchez@labanquepostale.fr détecté dans Gmail sent entre le 3
-  et le 6 juillet. Recherche directe sur destinataire et domaine sans résultat.
-  Troisième tentative consécutive sans suite envoyée sur ce compte (runs du
-  23 juin, du 3 juillet, et du 6 juillet). Draft classé Ignoré.
----
----
 date: 2026-07-07
 agent: forge-v2
 client: Bunq

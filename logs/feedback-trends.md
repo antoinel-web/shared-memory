@@ -498,3 +498,22 @@ trends:
     signal is present. A CTA downgrade rule triggered by recent inbound activity
     would reduce this systematic mismatch."
 ---
+
+---
+period: 2026-07-03 to 2026-07-03
+total_deltas: 1
+breakdown:
+  Ignoré: 1
+top_categories:
+  - Autre (1 occurrence)
+trends:
+  - "Forge v2 (Jul 3, La Banque Postale): Third consecutive Ignoré for this
+    account across three distinct Forge v2 runs (Jun 23, Jul 3, classified Jul 6).
+    No email detected to the recipient in any evaluation window. Antoine did
+    attempt a manual recovery on Jul 8 ('Vous ai-je perdus ?' — noted in the Jun 23
+    trends block) but this was Antoine acting unilaterally, not a Forge v2 draft.
+    The account appears definitively deprioritised from the agent's pipeline;
+    continued automated draft generation for La Banque Postale should be suppressed
+    until an explicit inbound signal is received or the account is manually
+    reactivated in the system."
+---
