@@ -1,42 +1,192 @@
 {
-  "generated_at": "2026-07-17T09:00:00+02:00",
+  "generated_at": "2026-07-21T09:00:00+02:00",
   "agent": "pipeline-scan",
   "schema_version": "1.0",
   "deals": {
-    "006VT00000p5U4vYAE": {
-      "account_name": "Deblock",
-      "opportunity_name": "Deblock - Apex - NB 26",
+    "006VT00000sYP05YAG": {
+      "account_name": "ICCREA Banca",
+      "opportunity_name": "Banca ICCREA - Apex - NB27",
       "stage": "Navigating / MAP",
-      "ai_health_score": 2.4,
+      "ai_health_score": 3.2,
       "meddpicc_scores": {
-        "metrics": 2.7,
+        "metrics": 6.0,
+        "economic_buyer": 2.0,
+        "decision_criteria": 2.7,
+        "decision_process": 3.3,
+        "paper_process": 3.3,
+        "pain": 3.3,
+        "champion": 4.2,
+        "competition": 0.6
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Active",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": "Giuseppe: 'validation process is long' — no firm date (Slack, 2026-07-14)",
+        "engagement_7d": 4,
+        "engagement_30d": 15,
+        "score_wow_delta": 1.3
+      },
+      "next_step": "Jul 28 — Business case alignment w/ Giuseppe, Dorizio (DPO), Carolina",
+      "next_step_date": "2026-07-28",
+      "red_flags": "No EB identified · Cooperative (140 BCC) decision complex · DPO gate pending · Antoine OOO"
+    },
+    "006VT00000o6Ul2YAE": {
+      "account_name": "Caixa Geral de Depósitos",
+      "opportunity_name": "CGD - Apex - 2026",
+      "stage": "Technical Validation / POC · POV",
+      "ai_health_score": 5.0,
+      "meddpicc_scores": {
+        "metrics": 7.3,
+        "economic_buyer": 3.3,
+        "decision_criteria": 4.7,
+        "decision_process": 5.3,
+        "paper_process": 4.4,
+        "pain": 4.0,
+        "champion": 6.7,
+        "competition": 4.4
+      },
+      "signals": {
+        "deal_velocity": "Accelerating",
+        "champion_engagement": "Active_Internal_Selling",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Partial",
+        "procurement_status": "Discussed",
+        "client_timeline": "Q3 signing target, September business case for board (Slack, 2026-07-20)",
+        "engagement_7d": 5,
+        "engagement_30d": 18,
+        "score_wow_delta": 0.5
+      },
+      "next_step": "Jul 27 — Follow-up call with Manuel, Neide, Carlos (analysis delivery)",
+      "next_step_date": "2026-07-27",
+      "red_flags": "EB not named · Public procurement (state-owned) · Analysis not yet delivered · Antoine OOO"
+    },
+    "006VT00000nNpjzYAC": {
+      "account_name": "BNP Paribas",
+      "opportunity_name": "BNP Paribas FRANCE - Apex - 2026",
+      "stage": "Navigating / MAP",
+      "ai_health_score": 5.5,
+      "meddpicc_scores": {
+        "metrics": 8.0,
+        "economic_buyer": 3.3,
+        "decision_criteria": 6.0,
+        "decision_process": 6.7,
+        "paper_process": 3.3,
+        "pain": 7.7,
+        "champion": 5.8,
+        "competition": 5.0
+      },
+      "signals": {
+        "deal_velocity": "Stalled",
+        "champion_engagement": "Passive",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Full_Analysis",
+        "procurement_status": "Discussed",
+        "client_timeline": null,
+        "engagement_7d": 3,
+        "engagement_30d": 10,
+        "score_wow_delta": -0.2
+      },
+      "next_step": "Aug 11 — Re-engage BNP post-summer (Palin OOO→Aug 10, Lhuillery→Aug 17)",
+      "next_step_date": "2026-08-11",
+      "red_flags": "Key contacts OOO until Aug 10-17 · RFP shaping risk · Dark channel >14d · Antoine OOO"
+    },
+    "006VT00000nNzg7YAC": {
+      "account_name": "Swan",
+      "opportunity_name": "Swan - Apex - 2026",
+      "stage": "Navigating / MAP",
+      "ai_health_score": 3.2,
+      "meddpicc_scores": {
+        "metrics": 6.7,
         "economic_buyer": 2.0,
         "decision_criteria": 2.7,
         "decision_process": 2.0,
         "paper_process": 0.0,
-        "pain": 3.3,
+        "pain": 4.0,
         "champion": 3.3,
         "competition": 1.7
       },
       "signals": {
-        "deal_velocity": "Accelerating",
+        "deal_velocity": "Slowing",
         "champion_engagement": "Active",
-        "economic_buyer_status": "Met",
+        "economic_buyer_status": "Unknown",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 1,
+        "engagement_30d": 8,
+        "score_wow_delta": 0.4
+      },
+      "next_step": "Post-OOO Aug 14 — Follow up on €2.6M/yr one-pager response + fresh July accounts",
+      "next_step_date": "2026-08-14",
+      "red_flags": "No CRO access · Champions too junior · MISP blocker · No response since Jul 15 · Antoine OOO"
+    },
+    "006VT00000ttvfWYAQ": {
+      "account_name": "Spuerkeess",
+      "opportunity_name": "Spuerkeess (BCEE) - Apex - NB 27",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 1.5,
+      "meddpicc_scores": {
+        "metrics": 2.0,
+        "economic_buyer": 0.0,
+        "decision_criteria": 0.0,
+        "decision_process": 1.3,
+        "paper_process": 0.0,
+        "pain": 2.0,
+        "champion": 1.7,
+        "competition": 0.0
+      },
+      "signals": {
+        "deal_velocity": "Steady",
+        "champion_engagement": "Identified_Only",
+        "economic_buyer_status": "Unknown",
         "metrics_validation": "Pitch_Only",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"3-month free trial starting now, first batch next week\" (Bart, email, 2026-07-16)",
-        "engagement_7d": 5,
-        "engagement_30d": 8,
-        "score_wow_delta": -0.2
+        "client_timeline": null,
+        "engagement_7d": 3,
+        "engagement_30d": 3,
+        "score_wow_delta": 0
       },
-      "next_step": "Jul 21 \u2014 deliver first batch of net-new Deblock mule accounts via Slack Connect",
-      "next_step_date": "2026-07-21",
-      "red_flags": "Free trial = no revenue commitment \u00b7 No procurement discussion \u00b7 ROI not quantified"
+      "next_step": "Aug 20 — Follow-up call with Gilles Charlier + Raymond Fantini",
+      "next_step_date": "2026-08-20",
+      "red_flags": "Very early stage · 1 of 3 flagged IBANs invalid · Luxembourg legal framework unclear · Antoine OOO"
+    },
+    "006VT00000nO53xYAC": {
+      "account_name": "bunq",
+      "opportunity_name": "Bunq - Apex - 2026",
+      "stage": "Technical Validation / POC · POV",
+      "ai_health_score": 3.5,
+      "meddpicc_scores": {
+        "metrics": 5.3,
+        "economic_buyer": 2.7,
+        "decision_criteria": 2.0,
+        "decision_process": 2.7,
+        "paper_process": 3.3,
+        "pain": 4.7,
+        "champion": 4.2,
+        "competition": 2.2
+      },
+      "signals": {
+        "deal_velocity": "Slowing",
+        "champion_engagement": "Passive",
+        "economic_buyer_status": "Identified",
+        "metrics_validation": "Partial",
+        "procurement_status": "Not_Started",
+        "client_timeline": null,
+        "engagement_7d": 0,
+        "engagement_30d": 3,
+        "score_wow_delta": 0
+      },
+      "next_step": "Aug 1 — follow up with Stephanie on POC analysis completion and Panorama usage",
+      "next_step_date": "2026-08-01",
+      "red_flags": "Analysis taking >2 months · CEO email incident created friction · No response to recent emails"
     },
     "006VT00000r6m0DYAQ": {
       "account_name": "BPER Banca",
       "opportunity_name": "BPER Banca - Apex - NB 26",
-      "stage": "Technical Validation / POC \u00b7 POV",
+      "stage": "Technical Validation / POC · POV",
       "ai_health_score": 3.1,
       "meddpicc_scores": {
         "metrics": 5.3,
@@ -54,83 +204,23 @@
         "economic_buyer_status": "Unknown",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": "\"Sep 21 F2F in Modena for commercial offer\" (Davide Belloni, email, 2026-07-16)",
-        "engagement_7d": 3,
+        "client_timeline": "F2F confirmed Sep 21 in Modena (Slack, 2026-07-17)",
+        "engagement_7d": 1,
         "engagement_30d": 5,
-        "score_wow_delta": 0.5
+        "score_wow_delta": 0
       },
-      "next_step": "Sep 21 \u2014 F2F meeting at BPER Modena to present commercial offer",
+      "next_step": "Sep 21 — F2F meeting with Davide in Modena",
       "next_step_date": "2026-09-21",
-      "red_flags": "No EB identified \u00b7 Paper process never discussed \u00b7 Long gap to Sep meeting"
+      "red_flags": "No EB identified · Paper process never discussed"
     },
-    "006VT00000nNzg7YAC": {
-      "account_name": "Swan",
-      "opportunity_name": "Swan - Apex - 2026",
+    "006VT00000p5U4vYAE": {
+      "account_name": "Deblock",
+      "opportunity_name": "Deblock - Apex - NB 26",
       "stage": "Navigating / MAP",
-      "ai_health_score": 2.8,
+      "ai_health_score": 2.4,
       "meddpicc_scores": {
-        "metrics": 4.7,
+        "metrics": 2.7,
         "economic_buyer": 2.0,
-        "decision_criteria": 2.7,
-        "decision_process": 2.0,
-        "paper_process": 0.0,
-        "pain": 4.0,
-        "champion": 3.3,
-        "competition": 1.7
-      },
-      "signals": {
-        "deal_velocity": "Slowing",
-        "champion_engagement": "Passive",
-        "economic_buyer_status": "Identified",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": "\"Close by end of July\" (internal target, Granola, 2026-07-15) \u2014 UNREALISTIC",
-        "engagement_7d": 2,
-        "engagement_30d": 4,
-        "score_wow_delta": -1.0
-      },
-      "next_step": "Jul 21 \u2014 send fresh batch of ~50 July accounts with ATO framing",
-      "next_step_date": "2026-07-21",
-      "red_flags": "No CRO access \u00b7 Champions too junior \u00b7 No uplift vs MISP \u00b7 End-July close unrealistic"
-    },
-    "006VT00000nO53xYAC": {
-      "account_name": "bunq",
-      "opportunity_name": "Bunq - Apex - 2026",
-      "stage": "Technical Validation / POC \u00b7 POV",
-      "ai_health_score": 3.5,
-      "meddpicc_scores": {
-        "metrics": 5.3,
-        "economic_buyer": 2.7,
-        "decision_criteria": 2.7,
-        "decision_process": 2.7,
-        "paper_process": 3.3,
-        "pain": 4.7,
-        "champion": 4.2,
-        "competition": 2.2
-      },
-      "signals": {
-        "deal_velocity": "Slowing",
-        "champion_engagement": "Passive",
-        "economic_buyer_status": "Identified",
-        "metrics_validation": "Partial",
-        "procurement_status": "Discussed",
-        "client_timeline": "\"1-2 months for analysis\" (Stephanie, Jun 2026) \u2014 overdue",
-        "engagement_7d": 2,
-        "engagement_30d": 6,
-        "score_wow_delta": 0.0
-      },
-      "next_step": "Aug 1 \u2014 follow up on POC analysis completion and Panorama usage",
-      "next_step_date": "2026-08-01",
-      "red_flags": "Analysis >2 months overdue \u00b7 CEO email friction \u00b7 No response to recent emails"
-    },
-    "006VT00000nO5dRYAS": {
-      "account_name": "Groupe Credit Agricole",
-      "opportunity_name": "Credit Agricole - Apex - 2026",
-      "stage": "Account Validation Test (AVT)",
-      "ai_health_score": 2.3,
-      "meddpicc_scores": {
-        "metrics": 4.0,
-        "economic_buyer": 1.3,
         "decision_criteria": 2.7,
         "decision_process": 2.0,
         "paper_process": 0.0,
@@ -140,78 +230,48 @@
       },
       "signals": {
         "deal_velocity": "Steady",
-        "champion_engagement": "Active",
+        "champion_engagement": "Passive",
         "economic_buyer_status": "Unknown",
-        "metrics_validation": "Partial",
-        "procurement_status": "Not_Started",
-        "client_timeline": "\"Debrief call end of August\" (Granola, 2026-07-15)",
-        "engagement_7d": 2,
-        "engagement_30d": 5,
-        "score_wow_delta": -0.2
-      },
-      "next_step": "Aug 25 \u2014 debrief call with S\u00e9bastien post-summer",
-      "next_step_date": "2026-08-25",
-      "red_flags": "No EB identified \u00b7 Multi-entity complexity \u00b7 Fr\u00e9d\u00e9ric unresponsive \u00b7 OOO gap"
-    },
-    "006VT00000sYP05YAG": {
-      "account_name": "BCC Banca Iccrea",
-      "opportunity_name": "Banca ICCREA - Apex - NB27",
-      "stage": "Navigating / MAP",
-      "ai_health_score": 1.9,
-      "meddpicc_scores": {
-        "metrics": 3.3,
-        "economic_buyer": 2.0,
-        "decision_criteria": 2.7,
-        "decision_process": 2.0,
-        "paper_process": 1.1,
-        "pain": 2.7,
-        "champion": 2.5,
-        "competition": 1.7
-      },
-      "signals": {
-        "deal_velocity": "Steady",
-        "champion_engagement": "Active",
-        "economic_buyer_status": "Unknown",
-        "metrics_validation": "Pitch_Only",
+        "metrics_validation": "None",
         "procurement_status": "Not_Started",
         "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 3,
-        "score_wow_delta": 0.5
+        "engagement_7d": 1,
+        "engagement_30d": 4,
+        "score_wow_delta": 0
       },
-      "next_step": "Aug 4 \u2014 follow up on Dorizio DPO review",
-      "next_step_date": "2026-08-04",
-      "red_flags": "DPO review pending \u00b7 No EB identified \u00b7 Cooperative decision complex"
+      "next_step": "Jul 21 — Deliver first batch net-new mule accounts via Slack Connect (3-month free trial)",
+      "next_step_date": "2026-07-21",
+      "red_flags": "Free trial = no revenue · No procurement · ROI not quantified · Champion disengaged"
     },
-    "006VT00000p0Fo5YAE": {
-      "account_name": "Banca Sella",
-      "opportunity_name": "Banca Sella - Apex - NB 2027",
-      "stage": "Technical Validation / POC \u00b7 POV",
-      "ai_health_score": 2.4,
+    "006VT00000nO5dRYAS": {
+      "account_name": "Credit Agricole",
+      "opportunity_name": "Credit Agricole - Apex - 2026",
+      "stage": "Account Validation Test (AVT)",
+      "ai_health_score": 2.3,
       "meddpicc_scores": {
-        "metrics": 3.3,
+        "metrics": 4.0,
         "economic_buyer": 1.3,
-        "decision_criteria": 2.7,
+        "decision_criteria": 0.7,
         "decision_process": 2.0,
         "paper_process": 0.0,
-        "pain": 2.7,
+        "pain": 3.3,
         "champion": 3.3,
-        "competition": 1.7
+        "competition": 2.0
       },
       "signals": {
-        "deal_velocity": "Steady",
+        "deal_velocity": "Slowing",
         "champion_engagement": "Active",
         "economic_buyer_status": "Unknown",
         "metrics_validation": "Partial",
         "procurement_status": "Not_Started",
-        "client_timeline": null,
-        "engagement_7d": 2,
-        "engagement_30d": 4,
-        "score_wow_delta": 0.3
+        "client_timeline": "End of August debrief call (email, 2026-07-03)",
+        "engagement_7d": 0,
+        "engagement_30d": 3,
+        "score_wow_delta": 0
       },
-      "next_step": "Jul 28 \u2014 follow up with Roberto on echo POC one-pager",
-      "next_step_date": "2026-07-28",
-      "red_flags": "No EB identified \u00b7 Low initial match (20%) \u00b7 No meeting scheduled"
+      "next_step": "End Aug — Debrief call with Sébastien post-summer",
+      "next_step_date": "2026-08-29",
+      "red_flags": "No EB · Multi-entity complex (CAPS+CA-IBS) · OOO gap · No response to last email"
     }
   }
 }
