@@ -1,26 +1,4 @@
 ---
-date: 2026-07-07
-agent: forge-v2
-client: Bunq
-draft_subject: "Re: First Mule Test (50 Accounts)"
-status: Remplacé
-confidence: medium
-categories:
-  - CTA changé
-  - Contenu supprimé
-  - Contexte client ajouté
-delta_summary: >-
-  Réévalué (était Pending au run du 07 juillet). Email envoyé le 08 juillet à
-  11h15 à srios@bunq.com dans le même thread (First Mule Test 50 Accounts).
-  Le draft annonçait la livraison imminente d'une liste EU IBAN (ciblée au
-  10 juillet) et proposait une session de revue le 14 ou 15 juillet. L'email
-  envoyé est de nature informative : Antoine a partagé un rapport Bunq-spécifique
-  sur les fraud networks, sans mention de la livraison IBAN ni de date de réunion
-  précise. Le CTA structuré (revue du 14/15 juillet) a été remplacé par une
-  proposition optionnelle de suivi avant les congés (retour 13 août). Dates de
-  congés communiquées (départ 17 juillet).
----
----
 date: 2026-07-13
 agent: forge-v2
 client: Bunq

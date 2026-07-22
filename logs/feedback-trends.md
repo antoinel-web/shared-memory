@@ -517,3 +517,35 @@ trends:
     until an explicit inbound signal is received or the account is manually
     reactivated in the system."
 ---
+
+---
+period: 2026-07-07 to 2026-07-07
+total_deltas: 1
+breakdown:
+  Utilisé: 0
+  Modifié: 0
+  Remplacé: 1
+  Ignoré: 0
+  Pending: 0
+top_categories:
+  - CTA changé (1 occurrence)
+  - Contenu supprimé (1 occurrence)
+  - Contexte client ajouté (1 occurrence)
+trends:
+  - "Forge v2 (Jul 7, Bunq): Single Remplacé entry. The draft anticipated imminent
+    delivery of an EU IBAN list (targeted Jul 10) with a structured meeting CTA for
+    Jul 14 or 15. Antoine instead sent a reactive informational email sharing a
+    Bunq-specific fraud-network report, without referencing the IBAN delivery or
+    the proposed meeting dates. The structured CTA was replaced with an open-ended
+    pre-holiday follow-up suggestion. Consistent with the recurrent Forge v2
+    pattern: inbound or relationship-maintenance signals override planned
+    transactional content, and multi-step CTAs are systematically softened when
+    a holiday/OOO transition is approaching. Antoine communicated his OOO departure
+    (Jul 17) and return (Aug 13) in this email."
+  - "Forge v2 (Jul 7 — OOO context): This is the last classified Forge v2 entry
+    before Antoine's summer OOO (Jul 17 departure, Aug 13 return). The CTA
+    downgrade from structured follow-up to open optional pre-holiday contact is
+    consistent with Antoine's wind-down behaviour observed in the May 15 pre-OOO
+    batch. Agents should detect calendar proximity to declared OOO windows and
+    suppress structured CTAs that imply action within the absence period."
+---
